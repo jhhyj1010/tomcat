@@ -1,0 +1,140 @@
+Oct 14, 2016 12:00:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 12:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 14, 2016 12:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 14, 2016 12:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 14, 2016 12:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 14, 2016 12:24:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 12:48:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 12:58:51 AM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #53 aborted
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuilder.perform(MultiJobBuilder.java:237)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild$MultiJobRunnerImpl.run(MultiJobBuild.java:134)
+	at hudson.model.Run.execute(Run.java:1718)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild.run(MultiJobBuild.java:73)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Oct 14, 2016 1:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 14, 2016 1:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 14, 2016 1:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 14, 2016 1:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 14, 2016 1:14:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 1:38:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 2:02:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 2:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 14, 2016 2:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 14, 2016 2:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 14, 2016 2:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 14, 2016 2:29:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 2:53:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 3:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 14, 2016 3:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 14, 2016 3:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 14, 2016 3:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 14, 2016 3:17:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 3:18:46 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #73 main build action completed: FAILURE
+Oct 14, 2016 3:40:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 4:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 14, 2016 4:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 14, 2016 4:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 14, 2016 4:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 14, 2016 4:04:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 4:29:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 4:55:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 5:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 14, 2016 5:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 14, 2016 5:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 14, 2016 5:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 14, 2016 5:20:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 5:47:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 6:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 14, 2016 6:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 14, 2016 6:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 14, 2016 6:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 14, 2016 6:05:29 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Oct 14, 2016 6:05:29 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 1 ms
+Oct 14, 2016 6:13:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 6:40:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 7:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 14, 2016 7:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 14, 2016 7:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 14, 2016 7:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 14, 2016 7:07:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 7:15:04 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Oct 14, 2016 7:15:12 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 8,530 ms
+Oct 14, 2016 7:33:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 8:00:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 14, 2016 8:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 14, 2016 8:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 14, 2016 8:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 14, 2016 8:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 14, 2016 8:26:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux

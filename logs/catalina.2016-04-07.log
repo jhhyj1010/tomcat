@@ -1,0 +1,68 @@
+Apr 7, 2016 12:51:07 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Apr 7, 2016 12:51:07 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Apr 7, 2016 12:51:07 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Apr 7, 2016 12:51:07 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Apr 7, 2016 12:54:34 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Apr 7, 2016 12:54:34 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Apr 7, 2016 12:54:34 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Apr 7, 2016 12:54:34 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Apr 7, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Apr 7, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 3 ms
+Apr 7, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Apr 7, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 144 ms
+Apr 7, 2016 7:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Apr 7, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Apr 7, 2016 1:59:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Apr 7, 2016 1:59:48 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,187 ms
+Apr 7, 2016 7:50:23 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Apr 7, 2016 7:50:23 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Apr 7, 2016 7:50:23 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Apr 7, 2016 7:50:23 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Apr 7, 2016 7:52:39 PM hudson.model.Run execute
+INFO: SP304_SRS_WEEKLY_BUILD #1 main build action completed: SUCCESS
+Apr 7, 2016 7:56:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Apr 7, 2016 7:56:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Apr 7, 2016 7:56:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Apr 7, 2016 7:56:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Apr 7, 2016 7:57:40 PM hudson.model.Run execute
+INFO: SP304_SRS_WEEKLY_BUILD #2 main build action completed: FAILURE
+Apr 7, 2016 8:02:00 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Apr 7, 2016 8:02:00 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Apr 7, 2016 8:02:00 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Apr 7, 2016 8:02:00 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Apr 7, 2016 8:03:23 PM hudson.model.Run execute
+INFO: SP304_SRS_WEEKLY_BUILD #3 main build action completed: FAILURE

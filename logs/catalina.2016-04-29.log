@@ -1,0 +1,18 @@
+Apr 29, 2016 2:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Apr 29, 2016 4:07:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Apr 29, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Apr 29, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 3 ms
+Apr 29, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Apr 29, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 152 ms
+Apr 29, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Apr 29, 2016 1:59:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Apr 29, 2016 1:59:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,795 ms

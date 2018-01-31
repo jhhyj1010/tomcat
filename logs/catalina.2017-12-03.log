@@ -1,0 +1,284 @@
+Dec 03, 2017 12:16:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 12:35:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 12:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 12:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 12:55:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 1:15:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 1:35:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 1:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 1:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 1:56:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 2:17:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 2:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 2:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 2:39:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 3:01:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 3:24:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 3:25:20 AM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_INTEGRATION #254 main build action completed: SUCCESS
+Dec 03, 2017 3:33:13 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Dec 03, 2017 3:33:26 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 03, 2017 3:33:28 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 15,285 ms
+Dec 03, 2017 3:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 3:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 3:39:35 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP307 #253 main build action completed: SUCCESS
+Dec 03, 2017 3:39:35 AM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_AND_DROP_TO_ASE #204 main build action completed: SUCCESS
+Dec 03, 2017 3:45:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 4:06:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 4:26:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 4:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 4:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 4:46:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 5:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 5:30:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 5:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 5:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 5:49:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 6:10:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 6:29:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 6:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 6:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 6:47:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 7:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 7:29:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 7:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 7:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 7:49:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 8:11:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 8:34:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 8:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 8:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 8:56:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 9:10:28 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03PL03 #86 main build action completed: FAILURE
+Dec 03, 2017 9:11:35 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03 #350 main build action completed: FAILURE
+Dec 03, 2017 9:17:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 9:26:11 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03PL02 #145 main build action completed: SUCCESS
+Dec 03, 2017 9:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 9:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 9:38:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 10:00:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 10:21:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 10:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 10:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 10:43:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 11:04:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 11:13:27 AM hudson.model.Run execute
+INFO: 160SP03PL04_SRS_DAILY_BUILD_INTEGRATION #28 main build action completed: SUCCESS
+Dec 03, 2017 11:23:42 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL04 #25 main build action completed: SUCCESS
+Dec 03, 2017 11:23:42 AM hudson.model.Run execute
+INFO: 160SP03PL04_SRS_DAILY_BUILD_AND_DROP_TO_ASE #25 main build action completed: SUCCESS
+Dec 03, 2017 11:25:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 11:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 11:37:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 11:47:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 12:08:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 12:30:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 12:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 12:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 12:49:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 1:10:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 1:33:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 1:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 1:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 1:51:44 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Dec 03, 2017 1:51:44 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 1 ms
+Dec 03, 2017 1:52:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 1:58:09 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03PL04 #25 main build action completed: SUCCESS
+Dec 03, 2017 2:13:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 2:32:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 2:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 2:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 2:52:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 3:13:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 3:36:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 3:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 3:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 3:57:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 4:17:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 4:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 4:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 4:38:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 4:59:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 5:21:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 5:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 5:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 5:43:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 6:04:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 6:26:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 6:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 6:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 6:46:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 7:09:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 7:29:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 7:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 7:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 7:49:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 8:10:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 8:31:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 8:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 8:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 8:52:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 9:10:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 9:32:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 9:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 9:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 9:52:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 10:12:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 10:14:45 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Dec 03, 2017 10:14:46 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,001 ms
+Dec 03, 2017 10:32:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 10:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 10:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 10:46:18 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 03, 2017 10:46:18 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Dec 03, 2017 10:46:18 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Dec 03, 2017 10:46:18 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Dec 03, 2017 10:49:24 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 03, 2017 10:55:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 11:13:05 PM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_INTEGRATION #255 main build action completed: SUCCESS
+Dec 03, 2017 11:13:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 11:23:18 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP307 #254 main build action completed: SUCCESS
+Dec 03, 2017 11:23:20 PM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_AND_DROP_TO_ASE #205 main build action completed: SUCCESS
+Dec 03, 2017 11:34:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Dec 03, 2017 11:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Dec 03, 2017 11:37:14 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Dec 03, 2017 11:56:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue

@@ -1,0 +1,48 @@
+Nov 30, 2016 12:03:39 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #87 main build action completed: SUCCESS
+Nov 30, 2016 12:29:54 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #75 main build action completed: SUCCESS
+Nov 30, 2016 12:29:54 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_AND_DROP_TO_ASE #40 main build action completed: SUCCESS
+Nov 30, 2016 12:49:20 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Nov 30, 2016 12:49:20 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 3 ms
+Nov 30, 2016 4:41:14 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Nov 30, 2016 4:41:25 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Nov 30, 2016 4:41:27 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 13,323 ms
+Nov 30, 2016 8:03:49 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #125 main build action completed: FAILURE
+Nov 30, 2016 8:08:44 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #88 main build action completed: SUCCESS
+Nov 30, 2016 8:11:58 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306 #9 main build action completed: SUCCESS
+Nov 30, 2016 8:34:34 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #76 main build action completed: SUCCESS
+Nov 30, 2016 8:34:36 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_AND_DROP_TO_ASE #41 main build action completed: SUCCESS
+Nov 30, 2016 4:37:55 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306 #10 main build action completed: SUCCESS
+Nov 30, 2016 4:48:55 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306 #11 main build action completed: SUCCESS
+Nov 30, 2016 7:00:51 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #155 main build action completed: SUCCESS
+Nov 30, 2016 7:15:57 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #97 main build action completed: FAILURE
+Nov 30, 2016 7:16:09 PM hudson.model.Run execute
+INFO: CREATE_LINK #20 main build action completed: SUCCESS
+Nov 30, 2016 7:16:11 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #111 main build action completed: FAILURE
+Nov 30, 2016 7:20:22 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Nov 30, 2016 7:20:23 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 604 ms
+Nov 30, 2016 8:09:52 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #89 main build action completed: SUCCESS
+Nov 30, 2016 8:35:34 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #77 main build action completed: SUCCESS
+Nov 30, 2016 8:35:37 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_AND_DROP_TO_ASE #42 main build action completed: SUCCESS

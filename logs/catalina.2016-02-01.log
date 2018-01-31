@@ -1,0 +1,24 @@
+Feb 1, 2016 2:06:45 AM hudson.model.Run execute
+INFO: SP303_SRS_WEEKLY_BUILD_LISA #3 main build action completed: SUCCESS
+Feb 1, 2016 2:07:52 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_LISA #5 main build action completed: SUCCESS
+Feb 1, 2016 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Feb 1, 2016 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 3 ms
+Feb 1, 2016 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Feb 1, 2016 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 138 ms
+Feb 1, 2016 12:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Feb 1, 2016 12:59:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Feb 1, 2016 12:59:48 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,450 ms
+Feb 1, 2016 6:37:09 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Feb 1, 2016 9:29:38 PM hudson.model.Run execute
+INFO: SP303_SRS_WEEKLY_BUILD_LISA #4 main build action completed: SUCCESS
+Feb 1, 2016 9:30:40 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_LISA #6 main build action completed: SUCCESS

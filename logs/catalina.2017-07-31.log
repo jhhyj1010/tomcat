@@ -1,0 +1,184 @@
+Jul 31, 2017 12:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 1:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 2:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 3:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 4:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 5:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 6:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 7:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 8:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 9:14:39 AM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_INTEGRATION #145 main build action completed: SUCCESS
+Jul 31, 2017 9:19:36 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03 #226 main build action completed: SUCCESS
+Jul 31, 2017 9:26:02 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03PL02 #7 main build action completed: SUCCESS
+Jul 31, 2017 9:27:51 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP307 #146 main build action completed: SUCCESS
+Jul 31, 2017 9:27:53 AM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_AND_DROP_TO_ASE #97 main build action completed: SUCCESS
+Jul 31, 2017 9:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 10:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 11:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 12:22:09 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL01 #30 main build action completed: SUCCESS
+Jul 31, 2017 12:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 1:34:06 PM hudson.model.Run execute
+INFO: 160SP03_SRS_DAILY_BUILD #130 main build action completed: SUCCESS
+Jul 31, 2017 1:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 1:45:30 PM hudson.model.Run execute
+INFO: SRS_SP03_TEST #116 main build action completed: SUCCESS
+Jul 31, 2017 1:45:44 PM hudson.model.Run execute
+INFO: CREATE_LINK_SP03 #112 main build action completed: SUCCESS
+Jul 31, 2017 1:45:46 PM hudson.model.Run execute
+INFO: SRS_160SP03_SERIAL #118 main build action completed: SUCCESS
+Jul 31, 2017 2:24:00 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 31, 2017 2:24:01 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,188 ms
+Jul 31, 2017 2:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 31, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 0 ms
+Jul 31, 2017 3:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 4:12:51 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 31, 2017 4:13:01 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 31, 2017 4:13:03 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,690 ms
+Jul 31, 2017 4:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 5:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 6:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 7:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 8:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 9:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 10:32:18 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 10:32:18 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jul 31, 2017 10:32:18 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jul 31, 2017 10:32:18 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jul 31, 2017 10:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 11:04:06 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:04:50 PM hudson.node_monitors.AbstractDiskSpaceMonitor markNodeOfflineIfDiskspaceIsTooLow
+WARNING: Making ase_test_txue offline temporarily due to the lack of disk space
+Jul 31, 2017 11:05:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jul 31, 2017 11:07:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jul 31, 2017 11:09:38 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:09:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jul 31, 2017 11:09:53 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Jul 31, 2017 11:09:53 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Jul 31, 2017 11:09:53 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jul 31, 2017 11:09:59 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL02 #1 main build action completed: FAILURE
+Jul 31, 2017 11:10:32 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:10:35 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL02 #2 main build action completed: SUCCESS
+Jul 31, 2017 11:12:51 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:12:53 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL02 #3 main build action completed: SUCCESS
+Jul 31, 2017 11:16:11 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL02 #4 main build action completed: SUCCESS
+Jul 31, 2017 11:16:40 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:16:53 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:17:19 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:17:19 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jul 31, 2017 11:17:19 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jul 31, 2017 11:17:20 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jul 31, 2017 11:18:00 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Jul 31, 2017 11:18:00 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Jul 31, 2017 11:18:00 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Jul 31, 2017 11:18:20 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL02 #5 main build action completed: SUCCESS
+Jul 31, 2017 11:23:20 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_INTEGRATION #15 main build action completed: SUCCESS
+Jul 31, 2017 11:33:09 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:33:09 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jul 31, 2017 11:33:09 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jul 31, 2017 11:33:09 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jul 31, 2017 11:34:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:34:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jul 31, 2017 11:34:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jul 31, 2017 11:34:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jul 31, 2017 11:34:34 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:34:34 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jul 31, 2017 11:34:34 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jul 31, 2017 11:34:34 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jul 31, 2017 11:34:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Jul 31, 2017 11:34:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Jul 31, 2017 11:34:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Jul 31, 2017 11:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 31, 2017 11:39:38 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 31, 2017 11:39:38 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jul 31, 2017 11:39:38 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jul 31, 2017 11:39:38 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jul 31, 2017 11:43:19 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #13 main build action completed: SUCCESS
+Jul 31, 2017 11:43:21 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #15 main build action completed: SUCCESS

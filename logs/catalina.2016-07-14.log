@@ -1,0 +1,16 @@
+Jul 14, 2016 12:58:08 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #14 main build action completed: SUCCESS
+Jul 14, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 14, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 628 ms
+Jul 14, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 14, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 17 ms
+Jul 14, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 14, 2016 9:18:52 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 14, 2016 9:18:54 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 18,780 ms

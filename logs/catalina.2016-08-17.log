@@ -1,0 +1,344 @@
+Aug 17, 2016 12:06:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 12:29:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 12:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 12:52:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 1:12:22 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #16 main build action completed: SUCCESS
+Aug 17, 2016 1:12:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 1:36:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 1:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 1:59:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 2:23:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 2:43:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 2:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 3:03:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 3:03:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 3:03:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 3:03:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 3:05:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 3:12:56 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 3:12:56 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 3:12:56 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 3:12:56 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 3:27:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 3:48:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 3:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 4:08:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 4:30:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 4:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 4:53:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 5:17:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 5:34:22 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Aug 17, 2016 5:34:32 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Aug 17, 2016 5:34:34 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,875 ms
+Aug 17, 2016 5:38:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 5:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 6:00:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 6:24:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 6:45:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 6:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 7:08:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 7:31:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 7:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 7:54:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 8:17:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 8:39:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 8:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 9:02:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 9:23:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 9:45:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 9:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 10:08:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 10:31:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 10:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 10:55:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 11:16:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 11:39:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 11:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 12:02:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 12:25:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 12:48:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 12:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 1:11:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 1:30:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 1:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 1:50:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 2:12:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 2:34:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 2:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 2:55:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 3:15:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 3:33:04 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Aug 17, 2016 3:33:04 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 19 ms
+Aug 17, 2016 3:36:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 3:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 3:59:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 4:04:53 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Aug 17, 2016 4:04:54 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 339 ms
+Aug 17, 2016 4:21:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 4:43:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 4:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 5:06:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 5:27:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 5:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 5:50:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 6:11:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 6:25:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 6:25:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 6:25:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 6:25:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 6:30:10 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 6:30:10 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 6:30:10 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 6:30:10 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 6:30:25 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 6:30:25 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 6:30:25 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 6:30:25 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 6:34:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 6:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 6:55:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 7:18:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 7:41:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 7:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 8:01:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 8:24:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 8:47:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 8:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 9:08:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 9:29:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 9:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 9:51:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 10:10:53 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #1 main build action completed: SUCCESS
+Aug 17, 2016 10:14:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 10:34:05 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 10:34:05 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 10:34:05 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 10:34:05 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 10:34:40 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 10:34:40 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 10:34:40 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 10:34:40 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 10:35:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 10:35:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 10:35:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 10:35:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 10:35:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 10:35:56 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 10:35:56 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 10:35:56 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 10:35:56 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 10:42:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 10:42:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 10:42:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 10:42:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 10:43:20 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 10:43:20 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 10:43:20 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 10:43:20 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 10:43:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 10:43:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 10:43:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 10:43:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 10:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 10:57:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 11:00:10 PM hudson.model.Run execute
+INFO: SP310_SRS_DAILY_BUILD #1 main build action completed: SUCCESS
+Aug 17, 2016 11:17:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 11:27:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 11:27:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 11:27:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 11:27:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 11:27:57 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #2 main build action completed: SUCCESS
+Aug 17, 2016 11:31:14 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 11:31:14 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 11:31:14 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 11:31:14 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 11:32:40 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 11:32:40 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 11:32:40 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 11:32:40 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 11:33:29 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 11:33:29 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 11:33:29 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 11:33:29 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 11:39:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 17, 2016 11:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 17, 2016 11:55:13 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 11:55:13 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 11:55:13 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 11:55:13 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2016 11:55:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2016 11:55:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2016 11:55:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2016 11:55:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider

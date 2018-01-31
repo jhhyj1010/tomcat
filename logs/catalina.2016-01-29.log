@@ -1,0 +1,178 @@
+Jan 29, 2016 12:15:25 AM hudson.model.Run execute
+INFO: SP303_SRS_WEEKLY_BUILD #61 main build action completed: SUCCESS
+Jan 29, 2016 12:15:35 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #3 main build action completed: SUCCESS
+Jan 29, 2016 12:50:44 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #4 main build action completed: SUCCESS
+Jan 29, 2016 12:51:23 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 12:51:29 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #5 main build action completed: SUCCESS
+Jan 29, 2016 12:54:51 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:03:30 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #6 main build action completed: SUCCESS
+Jan 29, 2016 1:35:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:35:27 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #7 main build action completed: SUCCESS
+Jan 29, 2016 1:35:57 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:36:01 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #8 main build action completed: SUCCESS
+Jan 29, 2016 1:36:56 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:39:29 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #9 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Jan 29, 2016 1:39:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:44:59 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:45:08 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #10 main build action completed: SUCCESS
+Jan 29, 2016 1:46:12 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:46:17 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #11 main build action completed: SUCCESS
+Jan 29, 2016 1:47:36 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:47:44 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #12 main build action completed: SUCCESS
+Jan 29, 2016 1:49:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:49:14 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #13 main build action completed: SUCCESS
+Jan 29, 2016 1:50:41 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:50:49 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #14 main build action completed: SUCCESS
+Jan 29, 2016 1:51:33 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:51:41 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #15 main build action completed: SUCCESS
+Jan 29, 2016 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jan 29, 2016 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 2 ms
+Jan 29, 2016 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jan 29, 2016 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 122 ms
+Jan 29, 2016 7:13:20 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:15:58 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:18:19 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:18:29 AM hudson.model.Run execute
+INFO: TEST_PARENT #1 main build action completed: SUCCESS
+Jan 29, 2016 7:18:39 AM hudson.model.Run execute
+INFO: TEST #2 main build action completed: FAILURE
+Jan 29, 2016 7:19:16 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:19:20 AM hudson.model.Run execute
+INFO: TEST #3 main build action completed: FAILURE
+Jan 29, 2016 7:20:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:20:25 AM hudson.model.Run execute
+INFO: TEST #4 main build action completed: FAILURE
+Jan 29, 2016 7:21:02 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:21:06 AM hudson.model.Run execute
+INFO: TEST #5 main build action completed: FAILURE
+Jan 29, 2016 7:28:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:28:33 AM hudson.model.Run execute
+INFO: TEST #6 main build action completed: FAILURE
+Jan 29, 2016 7:33:44 AM hudson.model.Run execute
+INFO: TEST #7 main build action completed: FAILURE
+Jan 29, 2016 7:35:09 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Jan 29, 2016 7:35:09 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Jan 29, 2016 7:35:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 29, 2016 7:35:27 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Jan 29, 2016 7:35:27 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Jan 29, 2016 7:36:26 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:37:09 AM hudson.model.Run execute
+INFO: TEST #8 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Jan 29, 2016 7:42:54 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:43:40 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #16 main build action completed: SUCCESS
+Jan 29, 2016 7:51:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 7:58:59 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 8:04:56 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 8:04:56 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jan 29, 2016 8:04:56 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jan 29, 2016 8:04:56 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jan 29, 2016 8:49:36 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE #17 main build action completed: SUCCESS
+Jan 29, 2016 12:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jan 29, 2016 12:59:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jan 29, 2016 12:59:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,691 ms
+Jan 29, 2016 1:21:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:23:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 29, 2016 1:23:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jan 29, 2016 1:23:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jan 29, 2016 1:23:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jan 29, 2016 4:14:11 PM hudson.model.Run execute
+INFO: SP303_SRS_WEEKLY_BUILD_LISA #2 main build action completed: SUCCESS
+Jan 29, 2016 4:14:21 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_LISA #1 main build action completed: SUCCESS

@@ -1,0 +1,495 @@
+Aug 28, 2016 11:11:52 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 28, 2016 11:11:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:11:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:11:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1238 ms
+Aug 28, 2016 11:11:53 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 28, 2016 11:11:53 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Aug 28, 2016 11:11:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Aug 28, 2016 11:12:04 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Aug 28, 2016 11:12:04 PM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.AWTProblem: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:185)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4994)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5492)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1083)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1879)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+Caused by: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+	at sun.awt.X11GraphicsEnvironment.access$100(X11GraphicsEnvironment.java:62)
+	at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:166)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:142)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:82)
+	at sun.font.FontManager.initSGEnv(FontManager.java:1118)
+	at sun.font.FontManager.findFont2D(FontManager.java:1864)
+	at java.awt.Font.getFont2D(Font.java:473)
+	at java.awt.Font.getFamily(Font.java:1162)
+	at java.awt.Font.getFamily_NoClientCode(Font.java:1136)
+	at java.awt.Font.getFamily(Font.java:1128)
+	at java.awt.Font.toString(Font.java:1625)
+	at hudson.util.ChartUtil.<clinit>(ChartUtil.java:250)
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:184)
+	... 14 more
+Aug 28, 2016 11:12:05 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Aug 28, 2016 11:12:05 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/jenkins] startup failed due to previous errors
+Aug 28, 2016 11:12:05 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.codehaus.groovy.reflection.ClassInfo.ThreadLocalMapHandler] (value [org.codehaus.groovy.reflection.ClassInfo$ThreadLocalMapHandler@2c164804]) and a value of type [java.lang.ref.SoftReference] (value [java.lang.ref.SoftReference@6ad21538]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:12:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 12,031 ms
+Aug 28, 2016 11:12:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Aug 28, 2016 11:12:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 110 ms
+Aug 28, 2016 11:12:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Aug 28, 2016 11:12:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 91 ms
+Aug 28, 2016 11:12:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Aug 28, 2016 11:12:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 2,178 ms
+Aug 28, 2016 11:12:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Aug 28, 2016 11:12:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 137 ms
+Aug 28, 2016 11:12:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Aug 28, 2016 11:12:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 145 ms
+Aug 28, 2016 11:12:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Aug 28, 2016 11:12:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 66 ms
+Aug 28, 2016 11:12:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:12:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:12:08 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14987 ms
+Aug 28, 2016 11:12:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:12:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:12:29 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 28, 2016 11:12:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:12:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:12:29 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:12:29 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:12:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 28, 2016 11:12:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:12:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:12:49 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 783 ms
+Aug 28, 2016 11:12:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 28, 2016 11:12:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Aug 28, 2016 11:12:50 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Aug 28, 2016 11:12:55 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Aug 28, 2016 11:12:56 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 6,246 ms
+Aug 28, 2016 11:12:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Aug 28, 2016 11:12:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 66 ms
+Aug 28, 2016 11:12:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Aug 28, 2016 11:12:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 66 ms
+Aug 28, 2016 11:12:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Aug 28, 2016 11:12:57 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Aug 28, 2016 11:12:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 1,680 ms
+Aug 28, 2016 11:12:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Aug 28, 2016 11:12:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 102 ms
+Aug 28, 2016 11:12:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Aug 28, 2016 11:12:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 106 ms
+Aug 28, 2016 11:12:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Aug 28, 2016 11:12:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 51 ms
+Aug 28, 2016 11:12:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:12:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:12:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8418 ms
+Aug 28, 2016 11:13:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Aug 28, 2016 11:13:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Aug 28, 2016 11:13:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Aug 28, 2016 11:13:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Aug 28, 2016 11:13:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Aug 28, 2016 11:13:39 PM hudson.model.Queue load
+WARNING: Failed to load the queue file /usr/u/lrabld/tomcat/webapps/jenkins/queue.xml
+java.io.IOException: Unable to read /usr/u/lrabld/tomcat/webapps/jenkins/queue.xml
+	at hudson.XmlFile.read(XmlFile.java:144)
+	at hudson.model.Queue.load(Queue.java:370)
+	at hudson.model.Queue.init(Queue.java:2248)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:105)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:903)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+Caused by: com.thoughtworks.xstream.mapper.CannotResolveClassException: hudson.model.Queue$State
+	at com.thoughtworks.xstream.mapper.DefaultMapper.realClass(DefaultMapper.java:79)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.DynamicProxyMapper.realClass(DynamicProxyMapper.java:55)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.PackageAliasingMapper.realClass(PackageAliasingMapper.java:88)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(ClassAliasingMapper.java:79)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.ArrayMapper.realClass(ArrayMapper.java:74)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.SecurityMapper.realClass(SecurityMapper.java:71)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at hudson.util.XStream2$CompatibilityMapper.realClass(XStream2.java:280)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at hudson.util.xstream.MapperDelegate.realClass(MapperDelegate.java:43)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.CachingMapper.realClass(CachingMapper.java:48)
+	at com.thoughtworks.xstream.core.util.HierarchicalStreams.readClassType(HierarchicalStreams.java:29)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:133)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1189)
+	at hudson.util.XStream2.unmarshal(XStream2.java:113)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1173)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1053)
+	at hudson.XmlFile.read(XmlFile.java:142)
+	... 15 more
+Aug 28, 2016 11:13:42 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 46516
+Aug 28, 2016 11:13:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Aug 28, 2016 11:13:42 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Aug 28, 2016 11:13:46 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+Aug 28, 2016 11:13:46 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Aug 28, 2016 11:13:48 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tools.JDKInstaller
+Aug 28, 2016 11:14:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:14:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:14:49 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@575b2f17]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2370bbcf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@447eae5a]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@58e8b9d7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@575b2f17]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2370bbcf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@575b2f17]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@575b2f17]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2370bbcf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@447eae5a]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@1700ffdb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@575b2f17]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2370bbcf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@575b2f17]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2370bbcf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@575b2f17]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2370bbcf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@447eae5a]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@429d8ea9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@575b2f17]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2370bbcf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@575b2f17]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2370bbcf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@447eae5a]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@76011b69]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2370bbcf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:14:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:14:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:14:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:14:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:15:22 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 28, 2016 11:15:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:15:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:15:22 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 787 ms
+Aug 28, 2016 11:15:22 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 28, 2016 11:15:22 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Aug 28, 2016 11:15:22 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Aug 28, 2016 11:15:28 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Aug 28, 2016 11:15:29 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Aug 28, 2016 11:15:38 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [9,187] milliseconds.
+Aug 28, 2016 11:15:38 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 16,412 ms
+Aug 28, 2016 11:15:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Aug 28, 2016 11:15:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 55 ms
+Aug 28, 2016 11:15:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Aug 28, 2016 11:15:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 56 ms
+Aug 28, 2016 11:15:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Aug 28, 2016 11:15:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 1,666 ms
+Aug 28, 2016 11:15:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Aug 28, 2016 11:15:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 115 ms
+Aug 28, 2016 11:15:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Aug 28, 2016 11:15:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 125 ms
+Aug 28, 2016 11:15:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Aug 28, 2016 11:15:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 55 ms
+Aug 28, 2016 11:15:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:15:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:15:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 18623 ms
+Aug 28, 2016 11:16:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Aug 28, 2016 11:16:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Aug 28, 2016 11:16:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Aug 28, 2016 11:16:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Aug 28, 2016 11:16:08 PM jenkins.model.RunIdMigrator migrate
+INFO: Migrating build records in /remote/repqa24/huiji/srs_jenkins/jobs/RS_CI_REG_MATS-rs1571sp310_gzhong1_vu-gzhong/builds
+Aug 28, 2016 11:16:08 PM jenkins.model.RunIdMigrator migrate
+WARNING: Build record migration (https://wiki.jenkins-ci.org/display/JENKINS/JENKINS-24380+Migration) is one-way. If you need to downgrade Jenkins, run: java -classpath "/remote/repeng10/rs_web/tomcat/webapps/jenkins/WEB-INF/lib/jenkins-core-1.597.jar:/remote/repeng10/rs_web/tomcat/webapps/jenkins/WEB-INF/lib/commons-io-2.4.jar:/remote/repeng10/rs_web/tomcat/webapps/jenkins/WEB-INF/lib/stapler-1.234.jar:/remote/repeng10/rs_web/tomcat/webapps/jenkins/WEB-INF/lib/ant-1.8.4.jar:/remote/repeng10/rs_web/tomcat/webapps/jenkins/WEB-INF/lib/commons-lang-2.6.jar" jenkins.model.RunIdMigrator "/remote/repqa24/huiji/srs_jenkins"
+Aug 28, 2016 11:16:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Aug 28, 2016 11:16:09 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 51616
+Aug 28, 2016 11:16:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Aug 28, 2016 11:16:10 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@6d4879f2: display name [Root WebApplicationContext]; startup date [Sun Aug 28 23:16:10 PDT 2016]; root of context hierarchy
+Aug 28, 2016 11:16:10 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@6d4879f2]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7dba1c47
+Aug 28, 2016 11:16:10 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7dba1c47: defining beans [authenticationManager]; root of factory hierarchy
+Aug 28, 2016 11:16:10 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@36d6e0df: display name [Root WebApplicationContext]; startup date [Sun Aug 28 23:16:10 PDT 2016]; root of context hierarchy
+Aug 28, 2016 11:16:10 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@36d6e0df]: org.springframework.beans.factory.support.DefaultListableBeanFactory@50ab9eed
+Aug 28, 2016 11:16:10 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@50ab9eed: defining beans [filter,legacy]; root of factory hierarchy
+Aug 28, 2016 11:16:10 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Aug 28, 2016 11:18:35 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:18:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:18:36 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@19a27795]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@7958e458]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@3af78ba5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@19a27795]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@19a27795]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@19a27795]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@19a27795]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@19a27795]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@19a27795]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@7958e458]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@2d298123]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@19a27795]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7fdd37fe]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Aug 28, 2016 11:18:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:18:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:18:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:18:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:18:58 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 28, 2016 11:18:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:18:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:18:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 788 ms
+Aug 28, 2016 11:18:59 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 28, 2016 11:18:59 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Aug 28, 2016 11:18:59 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Aug 28, 2016 11:19:05 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Aug 28, 2016 11:19:05 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 6,689 ms
+Aug 28, 2016 11:19:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Aug 28, 2016 11:19:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 72 ms
+Aug 28, 2016 11:19:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Aug 28, 2016 11:19:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 74 ms
+Aug 28, 2016 11:19:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Aug 28, 2016 11:19:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Aug 28, 2016 11:19:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 1,792 ms
+Aug 28, 2016 11:19:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Aug 28, 2016 11:19:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 119 ms
+Aug 28, 2016 11:19:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Aug 28, 2016 11:19:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 127 ms
+Aug 28, 2016 11:19:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Aug 28, 2016 11:19:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 55 ms
+Aug 28, 2016 11:19:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Aug 28, 2016 11:19:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Aug 28, 2016 11:19:08 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9070 ms
+Aug 28, 2016 11:19:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Aug 28, 2016 11:19:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Aug 28, 2016 11:19:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Aug 28, 2016 11:19:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Aug 28, 2016 11:19:15 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Aug 28, 2016 11:19:15 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 40510
+Aug 28, 2016 11:19:15 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Aug 28, 2016 11:19:16 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@20a00a4b: display name [Root WebApplicationContext]; startup date [Sun Aug 28 23:19:16 PDT 2016]; root of context hierarchy
+Aug 28, 2016 11:19:16 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@20a00a4b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@67a685ae
+Aug 28, 2016 11:19:16 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@67a685ae: defining beans [authenticationManager]; root of factory hierarchy
+Aug 28, 2016 11:19:16 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@da95a1d: display name [Root WebApplicationContext]; startup date [Sun Aug 28 23:19:16 PDT 2016]; root of context hierarchy
+Aug 28, 2016 11:19:16 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@da95a1d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4b9cee52
+Aug 28, 2016 11:19:16 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b9cee52: defining beans [filter,legacy]; root of factory hierarchy
+Aug 28, 2016 11:19:16 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Aug 28, 2016 11:19:16 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Aug 28, 2016 11:19:16 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running

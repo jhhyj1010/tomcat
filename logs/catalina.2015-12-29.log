@@ -1,0 +1,42 @@
+Dec 29, 2015 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Dec 29, 2015 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 5 ms
+Dec 29, 2015 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Dec 29, 2015 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 35 ms
+Dec 29, 2015 12:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Dec 29, 2015 12:59:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 29, 2015 12:59:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,118 ms
+Dec 29, 2015 5:27:32 PM hudson.model.Run execute
+INFO: SP303_SRS_WEEKLY_BUILD #49 main build action completed: SUCCESS
+Dec 29, 2015 5:38:58 PM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #20 main build action completed: FAILURE
+Dec 29, 2015 9:38:34 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 29, 2015 9:38:34 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.parameterizedtrigger.TriggerBuilder
+Dec 29, 2015 9:38:34 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Dec 29, 2015 9:38:34 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Dec 29, 2015 9:38:34 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Dec 29, 2015 10:13:19 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 29, 2015 10:23:51 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP303 #2 main build action completed: SUCCESS
+Dec 29, 2015 11:13:47 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 29, 2015 11:13:47 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 29, 2015 11:13:47 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 29, 2015 11:13:47 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.AlwaysRun
+Dec 29, 2015 11:13:47 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail

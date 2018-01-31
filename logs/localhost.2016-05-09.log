@@ -1,0 +1,4 @@
+May 9, 2016 12:48:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: While serving http://10.172.104.102:8088/jenkins/computer/(master)/executors/4/yank: hudson.security.AccessDeniedException2: anonymous没有Overall/Administer权限
+May 9, 2016 12:48:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: While serving http://10.172.104.102:8088/jenkins/computer/(master)/executors/4/yank: hudson.security.AccessDeniedException2: anonymous没有Overall/Administer权限

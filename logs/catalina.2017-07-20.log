@@ -1,0 +1,113 @@
+Jul 20, 2017 12:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 1:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 2:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 3:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 4:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 5:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 6:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 7:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 8:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 9:19:27 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03 #215 main build action completed: SUCCESS
+Jul 20, 2017 9:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 10:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 11:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 12:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 12:42:55 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL01 #15 main build action completed: SUCCESS
+Jul 20, 2017 1:01:48 PM hudson.model.Run execute
+INFO: 160SP03_SRS_DAILY_BUILD #117 main build action completed: FAILURE
+Jul 20, 2017 1:02:09 PM hudson.model.Run execute
+INFO: SRS_SP03_TEST #103 main build action completed: FAILURE
+Jul 20, 2017 1:02:21 PM hudson.model.Run execute
+INFO: CREATE_LINK_SP03 #99 main build action completed: SUCCESS
+Jul 20, 2017 1:02:23 PM hudson.model.Run execute
+INFO: SRS_160SP03_SERIAL #103 main build action completed: FAILURE
+Jul 20, 2017 1:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 2:24:00 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 20, 2017 2:24:01 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 928 ms
+Jul 20, 2017 2:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 20, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 1 ms
+Jul 20, 2017 3:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 4:12:51 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 20, 2017 4:13:06 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 20, 2017 4:13:08 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 16,152 ms
+Jul 20, 2017 4:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 5:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 6:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 7:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 8:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 9:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 10:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 11:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 20, 2017 11:44:42 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL01 #16 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy48.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Jul 20, 2017 11:44:42 PM hudson.model.Run execute
+INFO: SRS_160SP03_SERIAL #104 aborted
+java.lang.InterruptedException
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuilder.perform(MultiJobBuilder.java:240)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild$MultiJobRunnerImpl.run(MultiJobBuild.java:134)
+	at hudson.model.Run.execute(Run.java:1718)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild.run(MultiJobBuild.java:73)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Jul 20, 2017 11:50:52 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL01 #17 main build action completed: SUCCESS

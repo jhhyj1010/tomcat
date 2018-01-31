@@ -1,0 +1,52 @@
+Dec 08, 2016 12:56:32 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #163 main build action completed: SUCCESS
+Dec 08, 2016 1:08:35 AM hudson.model.Run execute
+INFO: SRS_SP305_TEST #105 main build action completed: FAILURE
+Dec 08, 2016 1:08:47 AM hudson.model.Run execute
+INFO: CREATE_LINK #27 main build action completed: SUCCESS
+Dec 08, 2016 1:08:49 AM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #119 main build action completed: FAILURE
+Dec 08, 2016 1:12:02 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 08, 2016 1:32:31 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #164 main build action completed: SUCCESS
+Dec 08, 2016 1:44:36 AM hudson.model.Run execute
+INFO: SRS_SP305_TEST #106 main build action completed: SUCCESS
+Dec 08, 2016 1:44:48 AM hudson.model.Run execute
+INFO: CREATE_LINK #28 main build action completed: SUCCESS
+Dec 08, 2016 1:44:50 AM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #120 main build action completed: SUCCESS
+Dec 08, 2016 1:57:15 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 08, 2016 3:48:29 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Dec 08, 2016 3:48:30 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 742 ms
+Dec 08, 2016 8:05:21 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306 #17 main build action completed: FAILURE
+Dec 08, 2016 8:06:27 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #100 main build action completed: SUCCESS
+Dec 08, 2016 8:13:04 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #131 main build action completed: SUCCESS
+Dec 08, 2016 8:33:00 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #90 main build action completed: SUCCESS
+Dec 08, 2016 8:33:01 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_AND_DROP_TO_ASE #53 main build action completed: SUCCESS
+Dec 08, 2016 9:21:02 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Dec 08, 2016 9:21:02 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 0 ms
+Dec 08, 2016 7:12:47 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #165 main build action completed: SUCCESS
+Dec 08, 2016 7:24:53 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #107 main build action completed: SUCCESS
+Dec 08, 2016 7:25:04 PM hudson.model.Run execute
+INFO: CREATE_LINK #29 main build action completed: SUCCESS
+Dec 08, 2016 7:25:06 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #121 main build action completed: SUCCESS
+Dec 08, 2016 10:26:43 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Dec 08, 2016 10:26:54 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 08, 2016 10:26:55 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,892 ms

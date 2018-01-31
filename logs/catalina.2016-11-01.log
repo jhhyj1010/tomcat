@@ -1,0 +1,296 @@
+Nov 01, 2016 12:10:10 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 12:25:47 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 12:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 12:32:11 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #26 main build action completed: SUCCESS
+Nov 01, 2016 1:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 1:36:08 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #34 main build action completed: SUCCESS
+Nov 01, 2016 2:02:05 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #27 main build action completed: SUCCESS
+Nov 01, 2016 2:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 2:37:05 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #28 main build action completed: SUCCESS
+Nov 01, 2016 3:26:19 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #27 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy55.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Nov 01, 2016 3:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 3:30:14 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #28 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy55.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Nov 01, 2016 3:58:04 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #29 main build action completed: SUCCESS
+Nov 01, 2016 4:09:15 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #35 main build action completed: SUCCESS
+Nov 01, 2016 4:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 4:35:34 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #29 main build action completed: SUCCESS
+Nov 01, 2016 5:01:42 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #30 main build action completed: SUCCESS
+Nov 01, 2016 5:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 6:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 7:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 8:11:01 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #92 main build action completed: SUCCESS
+Nov 01, 2016 8:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 9:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 10:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 11:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 11:48:28 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Nov 01, 2016 11:48:28 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 2 ms
+Nov 01, 2016 12:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 1:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 2:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 3:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 4:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 5:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 6:26:34 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 6:40:01 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #31 main build action completed: SUCCESS
+Nov 01, 2016 7:01:58 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #106 main build action completed: SUCCESS
+Nov 01, 2016 7:06:24 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 7:15:31 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #67 main build action completed: SUCCESS
+Nov 01, 2016 7:15:41 PM hudson.model.Run execute
+INFO: CREATE_LINK #7 main build action completed: SUCCESS
+Nov 01, 2016 7:15:42 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #76 main build action completed: SUCCESS
+Nov 01, 2016 7:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 7:39:24 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 7:39:27 PM hudson.model.Run execute
+INFO: CREATE_LINK #8 main build action completed: SUCCESS
+Nov 01, 2016 7:40:50 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 7:40:53 PM hudson.model.Run execute
+INFO: CREATE_LINK #9 main build action completed: SUCCESS
+Nov 01, 2016 7:53:24 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 8:01:23 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Nov 01, 2016 8:01:38 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Nov 01, 2016 8:01:39 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 16,927 ms
+Nov 01, 2016 8:06:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 8:06:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Nov 01, 2016 8:06:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Nov 01, 2016 8:06:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Nov 01, 2016 8:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 8:27:34 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Nov 01, 2016 8:27:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 480 ms
+Nov 01, 2016 9:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 10:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 10:48:53 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 10:48:53 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Nov 01, 2016 10:48:53 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Nov 01, 2016 10:48:53 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Nov 01, 2016 10:58:57 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #107 main build action completed: SUCCESS
+Nov 01, 2016 10:59:37 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #36 main build action completed: SUCCESS
+Nov 01, 2016 11:05:20 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 11:05:20 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Nov 01, 2016 11:05:20 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Nov 01, 2016 11:05:20 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Nov 01, 2016 11:09:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 11:09:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Nov 01, 2016 11:09:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Nov 01, 2016 11:09:45 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Nov 01, 2016 11:10:08 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #32 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy55.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Nov 01, 2016 11:13:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 11:13:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Nov 01, 2016 11:13:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Nov 01, 2016 11:13:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Nov 01, 2016 11:23:24 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 11:23:24 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Nov 01, 2016 11:23:24 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Nov 01, 2016 11:23:24 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Nov 01, 2016 11:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 01, 2016 11:26:28 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #37 main build action completed: SUCCESS
+Nov 01, 2016 11:26:50 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #33 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy55.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Nov 01, 2016 11:35:08 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 11:35:08 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Nov 01, 2016 11:35:08 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Nov 01, 2016 11:35:08 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Nov 01, 2016 11:38:10 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #38 main build action completed: SUCCESS
+Nov 01, 2016 11:38:49 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #34 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy55.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Nov 01, 2016 11:39:39 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 11:39:39 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Nov 01, 2016 11:39:39 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Nov 01, 2016 11:39:39 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Nov 01, 2016 11:43:42 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 01, 2016 11:43:42 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Nov 01, 2016 11:43:42 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Nov 01, 2016 11:43:42 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider

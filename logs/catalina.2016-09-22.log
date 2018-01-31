@@ -1,0 +1,258 @@
+Sep 22, 2016 12:06:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 12:28:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 12:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 12:50:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 12:56:57 AM hudson.model.Run execute
+INFO: SRS_SP305_TEST #32 main build action completed: SUCCESS
+Sep 22, 2016 12:56:58 AM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #38 main build action completed: SUCCESS
+Sep 22, 2016 1:12:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 1:25:10 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 22, 2016 1:34:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 1:38:39 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Sep 22, 2016 1:38:39 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 17 ms
+Sep 22, 2016 1:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 1:56:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 2:17:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 2:37:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 2:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 2:57:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 3:20:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 3:42:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 3:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 4:04:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 4:26:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 4:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 4:50:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 5:12:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 5:34:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 5:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 5:57:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 6:19:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 6:41:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 6:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 7:03:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 7:25:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 7:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 7:48:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 8:10:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 8:14:39 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #56 main build action completed: SUCCESS
+Sep 22, 2016 8:32:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 8:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 8:54:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 9:16:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 9:38:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 9:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 10:00:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 10:23:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 10:45:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 10:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 11:05:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 11:28:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 11:48:08 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 11:50:22 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 12:13:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 12:35:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 12:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 12:57:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 1:20:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 1:27:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Sep 22, 2016 1:27:59 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 759 ms
+Sep 22, 2016 1:42:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 1:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 2:04:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 2:27:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 2:45:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 2:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 3:06:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 3:27:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 3:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 3:49:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 4:11:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 4:32:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 4:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 4:53:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 5:14:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 5:36:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 5:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 5:56:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 6:17:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 6:38:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 6:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 6:59:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 7:12:54 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #58 main build action completed: SUCCESS
+Sep 22, 2016 7:21:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 7:42:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 7:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 8:00:07 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #33 main build action completed: SUCCESS
+Sep 22, 2016 8:00:10 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #39 main build action completed: SUCCESS
+Sep 22, 2016 8:04:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 8:09:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 22, 2016 8:26:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 8:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 8:48:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 9:08:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 9:28:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 9:47:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 9:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 10:07:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 10:07:49 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #21 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy56.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Sep 22, 2016 10:30:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 10:37:13 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #22 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy56.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Sep 22, 2016 10:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 10:52:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 11:14:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 11:34:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 22, 2016 11:39:09 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Sep 22, 2016 11:39:42 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Sep 22, 2016 11:39:44 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 35,341 ms
+Sep 22, 2016 11:48:08 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 22, 2016 11:52:30 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #23 main build action completed: SUCCESS
+Sep 22, 2016 11:56:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux

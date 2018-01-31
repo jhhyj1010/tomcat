@@ -1,0 +1,823 @@
+Oct 12, 2016 3:01:08 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Oct 12, 2016 3:01:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Oct 12, 2016 3:01:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Oct 12, 2016 3:01:09 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1166 ms
+Oct 12, 2016 3:01:09 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 12, 2016 3:01:09 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Oct 12, 2016 3:01:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Oct 12, 2016 3:01:19 AM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.AWTProblem: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:185)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4994)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5492)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1083)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1879)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+	at sun.awt.X11GraphicsEnvironment.access$200(X11GraphicsEnvironment.java:65)
+	at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:110)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:74)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:190)
+	at java.awt.GraphicsEnvironment.createGE(GraphicsEnvironment.java:102)
+	at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:81)
+	at sun.awt.X11FontManager.isHeadless(X11FontManager.java:487)
+	at sun.awt.X11FontManager.getFileNameFromPlatformName(X11FontManager.java:168)
+	at sun.font.SunFontManager.initCompositeFonts(SunFontManager.java:3486)
+	at sun.font.SunFontManager.access$700(SunFontManager.java:64)
+	at sun.font.SunFontManager$2.run(SunFontManager.java:544)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.font.SunFontManager.<init>(SunFontManager.java:375)
+	at sun.awt.X11FontManager.<init>(X11FontManager.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at sun.font.FontManagerFactory$1.run(FontManagerFactory.java:83)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.font.FontManagerFactory.getInstance(FontManagerFactory.java:74)
+	at java.awt.Font.getFont2D(Font.java:490)
+	at java.awt.Font.getFamily(Font.java:1219)
+	at java.awt.Font.getFamily_NoClientCode(Font.java:1193)
+	at java.awt.Font.getFamily(Font.java:1185)
+	at java.awt.Font.toString(Font.java:1682)
+	at hudson.util.ChartUtil.<clinit>(ChartUtil.java:250)
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:184)
+	... 14 more
+
+Oct 12, 2016 3:01:19 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Oct 12, 2016 3:01:19 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/jenkins] startup failed due to previous errors
+Oct 12, 2016 3:01:19 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.codehaus.groovy.reflection.ClassInfo.ThreadLocalMapHandler] (value [org.codehaus.groovy.reflection.ClassInfo$ThreadLocalMapHandler@757d0bff]) and a value of type [java.lang.ref.SoftReference] (value [java.lang.ref.SoftReference@649ece9b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 10,294 ms
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 79 ms
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 57 ms
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 517 ms
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 72 ms
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 73 ms
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 54 ms
+Oct 12, 2016 3:01:20 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Oct 12, 2016 3:01:20 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11335 ms
+Oct 12, 2016 3:01:36 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Oct 12, 2016 3:01:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Oct 12, 2016 3:01:36 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8088"]
+java.net.BindException: Address already in use <null>:8088
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:411)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:398)
+	... 17 more
+
+Oct 12, 2016 3:01:36 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8088]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8088]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:8088
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:411)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:398)
+	... 17 more
+
+Oct 12, 2016 3:01:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Oct 12, 2016 3:01:36 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8109"]
+java.net.BindException: Address already in use <null>:8109
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:411)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:398)
+	... 16 more
+
+Oct 12, 2016 3:01:36 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8109]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8109]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:8109
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:411)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:398)
+	... 16 more
+
+Oct 12, 2016 3:01:36 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 855 ms
+Oct 12, 2016 3:01:36 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 12, 2016 3:01:36 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Oct 12, 2016 3:01:36 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Oct 12, 2016 3:01:42 AM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.AWTProblem: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:185)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4994)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5492)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1083)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1879)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+	at sun.awt.X11GraphicsEnvironment.access$200(X11GraphicsEnvironment.java:65)
+	at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:110)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:74)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:190)
+	at java.awt.GraphicsEnvironment.createGE(GraphicsEnvironment.java:102)
+	at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:81)
+	at sun.awt.X11FontManager.isHeadless(X11FontManager.java:487)
+	at sun.awt.X11FontManager.getFileNameFromPlatformName(X11FontManager.java:168)
+	at sun.font.SunFontManager.initCompositeFonts(SunFontManager.java:3486)
+	at sun.font.SunFontManager.access$700(SunFontManager.java:64)
+	at sun.font.SunFontManager$2.run(SunFontManager.java:544)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.font.SunFontManager.<init>(SunFontManager.java:375)
+	at sun.awt.X11FontManager.<init>(X11FontManager.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at sun.font.FontManagerFactory$1.run(FontManagerFactory.java:83)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.font.FontManagerFactory.getInstance(FontManagerFactory.java:74)
+	at java.awt.Font.getFont2D(Font.java:490)
+	at java.awt.Font.getFamily(Font.java:1219)
+	at java.awt.Font.getFamily_NoClientCode(Font.java:1193)
+	at java.awt.Font.getFamily(Font.java:1185)
+	at java.awt.Font.toString(Font.java:1682)
+	at hudson.util.ChartUtil.<clinit>(ChartUtil.java:250)
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:184)
+	... 14 more
+
+Oct 12, 2016 3:01:42 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Oct 12, 2016 3:01:42 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/jenkins] startup failed due to previous errors
+Oct 12, 2016 3:01:42 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.codehaus.groovy.reflection.ClassInfo.ThreadLocalMapHandler] (value [org.codehaus.groovy.reflection.ClassInfo$ThreadLocalMapHandler@9b0ee03]) and a value of type [java.lang.ref.SoftReference] (value [java.lang.ref.SoftReference@3eda0bed]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Oct 12, 2016 3:01:42 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 5,655 ms
+Oct 12, 2016 3:01:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Oct 12, 2016 3:01:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 79 ms
+Oct 12, 2016 3:01:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Oct 12, 2016 3:01:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 55 ms
+Oct 12, 2016 3:01:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Oct 12, 2016 3:03:39 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Oct 12, 2016 3:03:40 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Oct 12, 2016 3:03:40 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Oct 12, 2016 3:03:40 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 857 ms
+Oct 12, 2016 3:03:40 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 12, 2016 3:03:40 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Oct 12, 2016 3:03:40 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 5,072 ms
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 64 ms
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 60 ms
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 404 ms
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 70 ms
+Oct 12, 2016 3:03:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Oct 12, 2016 3:03:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 117 ms
+Oct 12, 2016 3:03:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Oct 12, 2016 3:03:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 58 ms
+Oct 12, 2016 3:03:46 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Oct 12, 2016 3:03:46 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Oct 12, 2016 3:03:46 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5942 ms
+Oct 12, 2016 3:03:46 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Oct 12, 2016 3:03:48 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Oct 12, 2016 3:03:48 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Oct 12, 2016 3:03:48 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Oct 12, 2016 3:03:48 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Oct 12, 2016 3:03:52 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Oct 12, 2016 3:03:53 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 52740
+Oct 12, 2016 3:03:53 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Oct 12, 2016 3:03:53 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@6fdd9e6e: display name [Root WebApplicationContext]; startup date [Wed Oct 12 03:03:53 PDT 2016]; root of context hierarchy
+Oct 12, 2016 3:03:53 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@6fdd9e6e]: org.springframework.beans.factory.support.DefaultListableBeanFactory@158960a4
+Oct 12, 2016 3:03:53 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@158960a4: defining beans [authenticationManager]; root of factory hierarchy
+Oct 12, 2016 3:03:54 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@3757c175: display name [Root WebApplicationContext]; startup date [Wed Oct 12 03:03:54 PDT 2016]; root of context hierarchy
+Oct 12, 2016 3:03:54 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@3757c175]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5f777177
+Oct 12, 2016 3:03:54 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5f777177: defining beans [filter,legacy]; root of factory hierarchy
+Oct 12, 2016 3:03:54 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 3:03:54 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 12, 2016 3:03:54 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 12, 2016 3:03:54 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 12, 2016 3:03:54 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 12, 2016 3:03:54 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Oct 12, 2016 3:12:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 3:18:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 3:24:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 3:30:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 3:47:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 4:14:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 4:40:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 5:04:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Temp Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 5:04:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 5:05:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 5:31:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 5:57:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 6:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 6:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 6:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 6:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 6:05:29 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Oct 12, 2016 6:05:29 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 18 ms
+Oct 12, 2016 6:25:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 6:51:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 7:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 7:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 7:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 7:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 7:15:04 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Oct 12, 2016 7:15:04 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 242 ms
+Oct 12, 2016 7:15:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 7:42:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 8:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 8:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 8:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 8:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 8:06:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 8:33:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 9:00:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 9:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 9:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 9:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 9:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 9:23:05 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel ase_test.
+java.util.concurrent.TimeoutException: Ping started on 1476289145131 hasn't completed at 1476289385169
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 12, 2016 9:28:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 9:34:31 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel ase_test
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2323)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2792)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:799)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+
+Oct 12, 2016 9:35:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 12, 2016 9:37:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 12, 2016 9:39:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 12, 2016 9:41:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 12, 2016 9:43:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 12, 2016 9:55:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 12, 2016 9:55:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 10:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 10:04:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 10:04:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Temp Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 10:05:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 10:05:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 10:05:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 10:18:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 12, 2016 10:22:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 10:41:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 12, 2016 10:41:53 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 10:41:53 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 10:41:53 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 10:41:53 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 10:49:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 11:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 11:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 11:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 11:03:51 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 11:15:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 11:38:20 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 12:03:54 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 12:04:21 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Temp Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 12:04:21 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 12:04:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 12:04:26 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 12:04:26 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor ase_test for Free Disk Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 12:04:26 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 12:04:26 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 12:31:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 12:59:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 1:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 1:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 1:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 1:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 1:24:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 1:50:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 2:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 2:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 2:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 2:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 2:18:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 2:46:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 3:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 3:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 3:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 3:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 3:12:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 3:38:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 4:00:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 4:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 4:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 4:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 4:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 4:27:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 4:54:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 4:59:40 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Oct 12, 2016 4:59:49 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Oct 12, 2016 4:59:51 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,417 ms
+Oct 12, 2016 5:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 5:04:21 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 5:04:21 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Temp Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 5:05:35 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 5:05:35 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 5:05:35 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 5:22:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 5:49:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 6:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 6:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 6:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 6:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 6:14:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 6:40:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 6:51:35 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #72 main build action completed: FAILURE
+Oct 12, 2016 7:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 7:04:21 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Temp Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 7:04:21 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 7:06:49 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 7:06:49 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 7:06:49 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 7:07:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 7:31:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 7:55:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 8:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 8:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 8:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 8:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 8:19:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 8:47:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 9:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 9:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 9:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 9:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 9:11:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 9:40:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 10:03:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 10:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 10:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 10:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 10:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 10:28:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 10:53:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 11:03:51 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 12, 2016 11:03:57 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 12, 2016 11:03:57 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 12, 2016 11:03:57 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 12, 2016 11:04:21 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor ase_test for Free Disk Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 12, 2016 11:17:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 12, 2016 11:44:20 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux

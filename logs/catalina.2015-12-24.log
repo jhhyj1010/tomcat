@@ -1,0 +1,18 @@
+Dec 24, 2015 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Dec 24, 2015 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 2 ms
+Dec 24, 2015 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Dec 24, 2015 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 34 ms
+Dec 24, 2015 12:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Dec 24, 2015 12:59:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 24, 2015 12:59:49 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,379 ms
+Dec 24, 2015 5:38:43 PM hudson.model.Run execute
+INFO: SP303_SRS_WEEKLY_BUILD #44 main build action completed: SUCCESS
+Dec 24, 2015 5:49:58 PM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #15 main build action completed: SUCCESS

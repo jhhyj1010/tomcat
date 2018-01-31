@@ -1,0 +1,237 @@
+May 12, 2016 12:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 1:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 2:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 3:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 4:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+May 12, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 2 ms
+May 12, 2016 5:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 6:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+May 12, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 156 ms
+May 12, 2016 7:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 8:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 9:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 10:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 11:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 11:35:06 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #78 main build action completed: FAILURE
+May 12, 2016 12:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 1:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+May 12, 2016 1:59:47 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+May 12, 2016 1:59:49 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,403 ms
+May 12, 2016 2:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 3:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 3:49:46 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #79 main build action completed: FAILURE
+May 12, 2016 4:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 5:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 6:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 7:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 7:52:27 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #80 main build action completed: FAILURE
+May 12, 2016 8:04:23 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #81 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:181)
+	at hudson.Proc$LocalProc.join(Proc.java:319)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+May 12, 2016 8:05:44 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #82 main build action completed: FAILURE
+May 12, 2016 8:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 8:37:32 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #83 main build action completed: SUCCESS
+May 12, 2016 8:51:12 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #84 main build action completed: SUCCESS
+May 12, 2016 9:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 10:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+May 12, 2016 11:08:24 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)

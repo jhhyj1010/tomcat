@@ -1,0 +1,118 @@
+Jul 23, 2017 12:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 1:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 2:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 3:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 4:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 5:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 6:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 7:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 8:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 9:19:10 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03 #218 main build action completed: SUCCESS
+Jul 23, 2017 9:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 10:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 11:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 12:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 1:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 1:46:38 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL01 #22 main build action completed: SUCCESS
+Jul 23, 2017 2:24:00 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 23, 2017 2:24:01 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,105 ms
+Jul 23, 2017 2:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 2:56:23 PM hudson.model.Run execute
+INFO: 160SP03_SRS_DAILY_BUILD #122 main build action completed: SUCCESS
+Jul 23, 2017 3:07:27 PM hudson.model.Run execute
+INFO: SRS_SP03_TEST #108 main build action completed: FAILURE
+Jul 23, 2017 3:07:38 PM hudson.model.Run execute
+INFO: CREATE_LINK_SP03 #104 main build action completed: SUCCESS
+Jul 23, 2017 3:07:40 PM hudson.model.Run execute
+INFO: SRS_160SP03_SERIAL #110 main build action completed: FAILURE
+Jul 23, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 23, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 6 ms
+Jul 23, 2017 3:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 4:12:51 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 23, 2017 4:13:01 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 23, 2017 4:13:03 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,359 ms
+Jul 23, 2017 4:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 5:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 5:58:14 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_INTEGRATION #9 main build action completed: SUCCESS
+Jul 23, 2017 5:58:37 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #7 main build action completed: SUCCESS
+Jul 23, 2017 5:58:37 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #9 main build action completed: SUCCESS
+Jul 23, 2017 6:10:06 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_INTEGRATION #10 main build action completed: SUCCESS
+Jul 23, 2017 6:10:26 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #8 main build action completed: SUCCESS
+Jul 23, 2017 6:10:27 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #10 main build action completed: SUCCESS
+Jul 23, 2017 6:16:05 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_INTEGRATION #11 main build action completed: SUCCESS
+Jul 23, 2017 6:16:21 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #9 main build action completed: SUCCESS
+Jul 23, 2017 6:16:23 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #11 main build action completed: SUCCESS
+Jul 23, 2017 6:23:50 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 23, 2017 6:23:50 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jul 23, 2017 6:23:50 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jul 23, 2017 6:23:50 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jul 23, 2017 6:29:55 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_INTEGRATION #12 main build action completed: SUCCESS
+Jul 23, 2017 6:30:11 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #10 main build action completed: SUCCESS
+Jul 23, 2017 6:30:13 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #12 main build action completed: SUCCESS
+Jul 23, 2017 6:36:19 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_INTEGRATION #13 main build action completed: SUCCESS
+Jul 23, 2017 6:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 6:54:07 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #11 main build action completed: SUCCESS
+Jul 23, 2017 6:54:09 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #13 main build action completed: SUCCESS
+Jul 23, 2017 7:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 8:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 9:35:46 PM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_INTEGRATION #135 main build action completed: SUCCESS
+Jul 23, 2017 9:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 9:47:19 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP307 #140 main build action completed: SUCCESS
+Jul 23, 2017 9:47:20 PM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_AND_DROP_TO_ASE #88 main build action completed: SUCCESS
+Jul 23, 2017 10:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 23, 2017 11:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding

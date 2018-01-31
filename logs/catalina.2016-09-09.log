@@ -1,0 +1,202 @@
+Sep 9, 2016 12:11:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 12:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 12:33:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 12:56:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 1:19:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 1:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 1:42:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 2:04:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 2:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 2:27:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 2:49:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 3:06:00 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #39 main build action completed: SUCCESS
+Sep 9, 2016 3:13:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 3:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 3:36:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 3:57:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 4:18:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 4:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 4:40:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 5:03:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 5:13:42 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Sep 9, 2016 5:13:50 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Sep 9, 2016 5:13:52 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 9,726 ms
+Sep 9, 2016 5:26:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 5:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 5:44:41 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Sep 9, 2016 5:44:42 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 714 ms
+Sep 9, 2016 5:48:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 6:11:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 6:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 6:34:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 6:57:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 7:19:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 7:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 7:41:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 8:04:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 8:13:23 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #40 main build action completed: SUCCESS
+Sep 9, 2016 8:26:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 8:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 8:49:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 9:11:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 9:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 9:33:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 9:55:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 10:17:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 10:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 10:40:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 11:01:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 11:23:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 11:26:52 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 11:46:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 12:08:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 12:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 12:28:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 12:51:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 1:13:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 1:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 1:35:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 1:57:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 2:19:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 2:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 2:32:03 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Sep 9, 2016 2:32:03 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 26 ms
+Sep 9, 2016 2:41:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 3:03:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 3:25:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 3:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 3:46:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 4:08:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 4:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 4:30:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 4:52:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 5:14:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 5:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 5:36:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 5:58:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 6:21:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 6:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 6:42:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 7:04:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 7:25:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 7:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 7:46:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 8:09:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 8:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 8:31:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 8:52:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 9:15:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 9:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 9:37:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 9:59:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 10:21:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 10:25:51 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #42 main build action completed: SUCCESS
+Sep 9, 2016 10:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 10:44:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 10:55:08 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #23 main build action completed: FAILURE
+Sep 9, 2016 10:55:09 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #22 main build action completed: FAILURE
+Sep 9, 2016 11:07:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 11:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 9, 2016 11:29:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 9, 2016 11:48:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux

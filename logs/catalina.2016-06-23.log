@@ -1,0 +1,92 @@
+Jun 23, 2016 5:28:56 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 23, 2016 5:29:06 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 23, 2016 5:29:09 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,970 ms
+Jun 23, 2016 7:19:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jun 23, 2016 7:19:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 9 ms
+Jun 23, 2016 12:33:20 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jun 23, 2016 12:33:21 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 286 ms
+Jun 23, 2016 5:10:35 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8088"]
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8109"]
+Jun 23, 2016 5:54:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 23, 2016 5:54:37 PM hudson.plugins.sshslaves.PluginImpl closeRegisteredConnections
+INFO: Forcing connection to replinuxb15.oak.sap.corp:22 closed.
+Jun 23, 2016 5:54:37 PM hudson.plugins.sshslaves.PluginImpl closeRegisteredConnections
+INFO: Forcing connection to replinuxb15.oak.sap.corp:22 closed.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [jenkins.util.Timer [#2]] but has failed to stop it. This is very likely to create a memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [FilePath.localPool [#151]] but has failed to stop it. This is very likely to create a memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#1060]] but has failed to stop it. This is very likely to create a memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [hudson.remoting.Channel$1] (value [hudson.remoting.Channel$1@4b164fbc]) and a value of type [int[]] (value [[I@25cce627]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@77c235a8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@3541dd07]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@771611e1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@49f007db]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: org.acegisecurity.providers.UsernamePasswordAuthenticationToken@1f: Username: SYSTEM; Password: [PROTECTED]; Authenticated: false; Details: null; Not granted any authorities]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@2d93e0c9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@478ac37f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@6728eb8a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@2f7fe5ef]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@75d0c645]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@5d891870]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@53a39109]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@49f007db]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8088"]
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8109"]
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8088"]
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8109"]

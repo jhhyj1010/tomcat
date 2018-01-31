@@ -1,0 +1,336 @@
+Jul 14, 2017 12:02:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 12:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 12:45:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 12:58:57 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 12:58:57 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 1:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 1:38:24 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 14, 2017 1:38:24 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Jul 14, 2017 1:38:24 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Jul 14, 2017 1:38:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 925 ms
+Jul 14, 2017 1:38:24 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 14, 2017 1:38:24 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Jul 14, 2017 1:38:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Jul 14, 2017 1:38:34 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jul 14, 2017 1:38:34 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,203] milliseconds.
+Jul 14, 2017 1:38:34 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 9,442 ms
+Jul 14, 2017 1:38:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Jul 14, 2017 1:38:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 68 ms
+Jul 14, 2017 1:38:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Jul 14, 2017 1:38:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 68 ms
+Jul 14, 2017 1:38:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Jul 14, 2017 1:38:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 2,173 ms
+Jul 14, 2017 1:38:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Jul 14, 2017 1:38:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 76 ms
+Jul 14, 2017 1:38:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Jul 14, 2017 1:38:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 75 ms
+Jul 14, 2017 1:38:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Jul 14, 2017 1:38:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 56 ms
+Jul 14, 2017 1:38:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Jul 14, 2017 1:38:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Jul 14, 2017 1:38:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12171 ms
+Jul 14, 2017 1:38:51 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jul 14, 2017 1:38:51 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jul 14, 2017 1:38:52 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jul 14, 2017 1:38:52 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jul 14, 2017 1:38:56 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jul 14, 2017 1:38:57 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 48933
+Jul 14, 2017 1:38:57 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jul 14, 2017 1:38:57 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@32d1882d: display name [Root WebApplicationContext]; startup date [Fri Jul 14 01:38:57 PDT 2017]; root of context hierarchy
+Jul 14, 2017 1:38:57 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@32d1882d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@60e8080c
+Jul 14, 2017 1:38:57 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@60e8080c: defining beans [authenticationManager]; root of factory hierarchy
+Jul 14, 2017 1:38:57 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@2043ba8b: display name [Root WebApplicationContext]; startup date [Fri Jul 14 01:38:57 PDT 2017]; root of context hierarchy
+Jul 14, 2017 1:38:57 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@2043ba8b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4c25d793
+Jul 14, 2017 1:38:57 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c25d793: defining beans [filter,legacy]; root of factory hierarchy
+Jul 14, 2017 1:38:57 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 1:38:57 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Jul 14, 2017 1:38:57 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jul 14, 2017 1:38:57 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Jul 14, 2017 1:38:57 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jul 14, 2017 1:38:57 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Jul 14, 2017 1:39:12 AM javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForAnnounced
+WARNING: Wait for announced timed out: DNS: rsng2.local. state: probing 1 task: Prober(rsng2.local.) state: probing 1
+Jul 14, 2017 1:39:18 AM javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForAnnounced
+WARNING: Wait for announced timed out: DNS: rsng2.local. state: probing 1 task: Prober(rsng2.local.) state: probing 1
+Jul 14, 2017 1:39:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 1:41:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 1:42:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 1:44:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 1:57:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 2:19:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 2:40:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 3:02:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 3:26:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 3:47:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 4:09:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 4:31:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 4:54:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 5:16:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 5:38:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 5:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 5:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 6:00:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 6:20:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 6:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 6:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 6:42:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 7:05:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 7:29:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 7:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 7:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 7:51:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 8:13:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 8:35:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 8:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 8:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 8:57:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 9:19:22 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03 #209 main build action completed: SUCCESS
+Jul 14, 2017 9:20:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 9:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 9:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 9:41:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 10:03:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 10:26:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 10:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 10:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 10:48:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 11:10:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 11:32:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 11:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 11:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 11:54:43 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 12:17:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 12:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 12:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 12:40:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 1:03:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 1:22:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 1:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 1:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 1:41:01 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL01 #10 main build action completed: SUCCESS
+Jul 14, 2017 1:44:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 2:07:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 2:24:01 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 14, 2017 2:24:02 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 832 ms
+Jul 14, 2017 2:30:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 2:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 2:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 2:51:40 PM hudson.model.Run execute
+INFO: 160SP03_SRS_DAILY_BUILD #112 main build action completed: SUCCESS
+Jul 14, 2017 2:52:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 3:03:11 PM hudson.model.Run execute
+INFO: SRS_SP03_TEST #98 main build action completed: SUCCESS
+Jul 14, 2017 3:03:27 PM hudson.model.Run execute
+INFO: CREATE_LINK_SP03 #94 main build action completed: SUCCESS
+Jul 14, 2017 3:03:30 PM hudson.model.Run execute
+INFO: SRS_160SP03_SERIAL #98 main build action completed: SUCCESS
+Jul 14, 2017 3:13:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 14, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 5 ms
+Jul 14, 2017 3:34:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 3:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 3:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 3:54:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 4:12:51 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 14, 2017 4:13:01 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 14, 2017 4:13:03 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,657 ms
+Jul 14, 2017 4:17:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 4:38:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 4:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 4:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 5:00:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 5:23:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 5:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 5:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 5:45:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 6:07:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 6:29:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 6:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 6:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 6:51:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 7:13:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 7:36:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 7:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 7:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 7:57:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 8:20:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 8:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 8:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 8:42:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 9:04:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 9:26:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 9:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 9:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 9:47:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 10:07:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 10:29:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 10:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 10:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 10:51:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 11:14:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 11:35:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jul 14, 2017 11:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jul 14, 2017 11:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jul 14, 2017 11:58:43 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux

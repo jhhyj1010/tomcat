@@ -1,0 +1,154 @@
+Aug 09, 2017 12:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 1:30:14 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #27 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy48.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Aug 09, 2017 1:30:17 AM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #29 main build action completed: ABORTED
+Aug 09, 2017 1:30:25 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 09, 2017 1:32:02 AM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL02 #20 main build action completed: SUCCESS
+Aug 09, 2017 1:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 1:42:47 AM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_INTEGRATION #30 main build action completed: SUCCESS
+Aug 09, 2017 1:43:45 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #28 main build action completed: SUCCESS
+Aug 09, 2017 1:43:48 AM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #30 main build action completed: SUCCESS
+Aug 09, 2017 2:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 3:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 4:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 5:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 6:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 7:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 8:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 9:11:43 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03 #235 main build action completed: FAILURE
+Aug 09, 2017 9:26:03 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_160SP03PL02 #28 main build action completed: SUCCESS
+Aug 09, 2017 9:33:37 AM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_INTEGRATION #150 main build action completed: SUCCESS
+Aug 09, 2017 9:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 10:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 11:38:55 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 12:22:08 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL01 #39 main build action completed: FAILURE
+Aug 09, 2017 12:22:22 PM hudson.model.Run execute
+INFO: 160SP03_SRS_DAILY_BUILD #139 main build action completed: FAILURE
+Aug 09, 2017 12:22:33 PM hudson.model.Run execute
+INFO: SRS_SP03_TEST #125 main build action completed: FAILURE
+Aug 09, 2017 12:22:46 PM hudson.model.Run execute
+INFO: CREATE_LINK_SP03 #121 main build action completed: FAILURE
+Aug 09, 2017 12:22:49 PM hudson.model.Run execute
+INFO: SRS_160SP03_SERIAL #127 main build action completed: FAILURE
+Aug 09, 2017 12:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 1:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 2:24:00 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Aug 09, 2017 2:24:01 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,017 ms
+Aug 09, 2017 2:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Aug 09, 2017 3:20:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 0 ms
+Aug 09, 2017 3:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 4:12:51 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Aug 09, 2017 4:13:02 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Aug 09, 2017 4:13:06 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 14,362 ms
+Aug 09, 2017 4:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 4:46:09 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL02 #21 main build action completed: FAILURE
+Aug 09, 2017 4:58:07 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_INTEGRATION #31 main build action completed: SUCCESS
+Aug 09, 2017 4:58:56 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #29 main build action completed: SUCCESS
+Aug 09, 2017 4:58:58 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #31 main build action completed: FAILURE
+Aug 09, 2017 5:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 6:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 7:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 7:53:12 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP307 #151 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at com.sun.proxy.$Proxy48.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+
+Aug 09, 2017 7:53:14 PM hudson.model.Run execute
+INFO: SP307_SRS_DAILY_BUILD_AND_DROP_TO_ASE #102 main build action completed: ABORTED
+Aug 09, 2017 7:53:21 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 09, 2017 8:31:55 PM hudson.model.Run execute
+INFO: GET_RMA_CHECKIN_SP03PL02 #22 main build action completed: FAILURE
+Aug 09, 2017 8:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 8:43:36 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_INTEGRATION #32 main build action completed: SUCCESS
+Aug 09, 2017 8:44:27 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL02 #30 main build action completed: SUCCESS
+Aug 09, 2017 8:44:29 PM hudson.model.Run execute
+INFO: 160SP03PL02_SRS_DAILY_BUILD_AND_DROP_TO_ASE #32 main build action completed: FAILURE
+Aug 09, 2017 9:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 10:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Aug 09, 2017 11:38:55 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding

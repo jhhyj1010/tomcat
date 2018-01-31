@@ -1,0 +1,32 @@
+Mar 23, 2016 2:23:35 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #9 main build action completed: SUCCESS
+Mar 23, 2016 3:18:45 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #10 main build action completed: SUCCESS
+Mar 23, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Mar 23, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 3 ms
+Mar 23, 2016 6:08:24 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Mar 23, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Mar 23, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 169 ms
+Mar 23, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Mar 23, 2016 1:59:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Mar 23, 2016 1:59:49 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,335 ms
+Mar 23, 2016 9:08:06 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #11 main build action completed: SUCCESS
+Mar 23, 2016 11:10:52 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #12 main build action completed: SUCCESS
+Mar 23, 2016 11:21:13 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #13 main build action completed: SUCCESS

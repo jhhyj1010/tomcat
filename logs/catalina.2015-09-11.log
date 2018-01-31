@@ -1,0 +1,1369 @@
+Sep 11, 2015 12:01:04 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_DA_PEORIOICALLY #113 main build action completed: SUCCESS
+Sep 11, 2015 12:09:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1354 main build action completed: SUCCESS
+Sep 11, 2015 12:15:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 12:17:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 12:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 12:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 12:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 12:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 12:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 12:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 12:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 12:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 12:36:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 12:38:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 12:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1355 main build action completed: SUCCESS
+Sep 11, 2015 12:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 12:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 12:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 12:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 1:00:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 1:02:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 1:02:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 1:02:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 1:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1356 main build action completed: SUCCESS
+Sep 11, 2015 1:14:47 AM hudson.model.Run execute
+INFO: huiji-rscorona_huiji5_vu-ocs-csi-check #1 main build action completed: SUCCESS
+Sep 11, 2015 1:19:25 AM hudson.model.Run execute
+INFO: RS-Dev-Build-rscorona_huiji5_vu-linuxamd64 #21 main build action completed: SUCCESS
+Sep 11, 2015 1:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 1:20:21 AM hudson.model.Run execute
+INFO: huiji-rscorona_huiji5_vu-quasr-test-pre-syncrep #1 main build action completed: SUCCESS
+Sep 11, 2015 1:21:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 1:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 1:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 1:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 1:39:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1357 main build action completed: SUCCESS
+Sep 11, 2015 1:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 1:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 1:45:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 1:45:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 1:45:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 1:50:06 AM hudson.model.Run execute
+INFO: SYNCREP-rscorona_huiji5_vu-huiji #1 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Sep 11, 2015 1:50:06 AM hudson.model.Run execute
+INFO: huiji-rscorona_huiji5_vu-serial-build-with-test-syncrep #1 aborted
+java.lang.InterruptedException
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuilder.perform(MultiJobBuilder.java:240)
+	at org.jenkinsci.plugins.conditionalbuildstep.BuilderChain.perform(BuilderChain.java:71)
+	at org.jenkins_ci.plugins.run_condition.BuildStepRunner$2.run(BuildStepRunner.java:110)
+	at org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail.conditionalRun(BuildStepRunner.java:154)
+	at org.jenkins_ci.plugins.run_condition.BuildStepRunner.perform(BuildStepRunner.java:105)
+	at org.jenkinsci.plugins.conditionalbuildstep.ConditionalBuilder.perform(ConditionalBuilder.java:133)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild$MultiJobRunnerImpl.run(MultiJobBuild.java:134)
+	at hudson.model.Run.execute(Run.java:1759)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild.run(MultiJobBuild.java:73)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Sep 11, 2015 1:50:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 11, 2015 1:50:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 11, 2015 1:50:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 11, 2015 1:50:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 11, 2015 1:51:23 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 11, 2015 1:51:23 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 11, 2015 1:51:23 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 11, 2015 1:51:23 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 11, 2015 1:51:45 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 11, 2015 1:51:45 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 11, 2015 1:51:45 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 11, 2015 1:51:45 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 11, 2015 1:52:16 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 11, 2015 1:52:16 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 11, 2015 1:52:16 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 11, 2015 1:52:16 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 11, 2015 1:52:53 AM hudson.model.Run execute
+INFO: huiji-rscorona_huiji5_vu-ocs-csi-check #2 main build action completed: SUCCESS
+Sep 11, 2015 1:57:50 AM hudson.model.Run execute
+INFO: RS-Dev-Build-rscorona_huiji5_vu-linuxamd64 #22 main build action completed: SUCCESS
+Sep 11, 2015 1:58:19 AM hudson.model.Run execute
+INFO: huiji-rscorona_huiji5_vu-quasr-test-pre-syncrep #2 main build action completed: SUCCESS
+Sep 11, 2015 1:58:28 AM hudson.model.Run execute
+INFO: SYNCREP-rscorona_huiji5_vu-huiji #2 main build action completed: SUCCESS
+Sep 11, 2015 1:58:55 AM hudson.model.Run execute
+INFO: huiji-rscorona_huiji5_vu-quasr-test-post-results #1 main build action completed: SUCCESS
+Sep 11, 2015 1:59:09 AM hudson.model.Run execute
+INFO: huiji-rscorona_huiji5_vu-report-test-results-syncrep #1 main build action completed: SUCCESS
+Sep 11, 2015 1:59:13 AM hudson.model.Run execute
+INFO: huiji-rscorona_huiji5_vu-serial-build-with-test-syncrep #2 main build action completed: SUCCESS
+Sep 11, 2015 2:02:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 2:04:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 2:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 2:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 2:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 2:09:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1358 main build action completed: SUCCESS
+Sep 11, 2015 2:09:33 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 11, 2015 2:09:33 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 11, 2015 2:09:33 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 11, 2015 2:09:33 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 11, 2015 2:13:03 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.ConditionalBuilder
+Sep 11, 2015 2:13:03 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.AlwaysRun
+Sep 11, 2015 2:13:03 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Sep 11, 2015 2:13:03 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Sep 11, 2015 2:13:03 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Sep 11, 2015 2:13:03 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Sep 11, 2015 2:13:03 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Sep 11, 2015 2:13:03 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Sep 11, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 2:23:42 AM hudson.model.Run execute
+INFO: RS-Dev-Build-rs1571sp302_huiji1_vu-linuxamd64 #1 main build action completed: SUCCESS
+Sep 11, 2015 2:24:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Out of order build detection
+Sep 11, 2015 2:25:27 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Linuxamd64/builds/1: /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Linuxamd64/builds/1/build.xml doesn't exist
+Sep 11, 2015 2:26:11 AM hudson.model.Run execute
+INFO: SYNCREP-rs1571sp302_huiji1_vu-huiji #1 main build action completed: SUCCESS
+Sep 11, 2015 2:26:24 AM hudson.model.Run execute
+INFO: huiji-rs1571sp302_huiji1_vu-quasr-test-post-results #1 main build action completed: SUCCESS
+Sep 11, 2015 2:26:35 AM hudson.model.Run execute
+INFO: huiji-rs1571sp302_huiji1_vu-report-test-results-syncrep #1 main build action completed: SUCCESS
+Sep 11, 2015 2:26:36 AM hudson.model.Run execute
+INFO: huiji-rs1571sp302_huiji1_vu-serial-build-with-test-syncrep #1 main build action completed: SUCCESS
+Sep 11, 2015 2:26:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 2:28:41 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-04-21_06-01-32: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-04-21_06-01-32/build.xml doesn't exist
+Sep 11, 2015 2:28:41 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/10: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/10/build.xml doesn't exist
+Sep 11, 2015 2:28:41 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-08-12_02-36-48: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-08-12_02-36-48/build.xml doesn't exist
+Sep 11, 2015 2:28:41 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/115: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/115/build.xml doesn't exist
+Sep 11, 2015 2:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 2:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 2:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 2:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 2:32:28 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/2015-04-21_06-01-52: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/2015-04-21_06-01-52/build.xml doesn't exist
+Sep 11, 2015 2:32:28 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/12: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/12/build.xml doesn't exist
+Sep 11, 2015 2:33:30 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/2015-04-21_06-01-52: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/2015-04-21_06-01-52/build.xml doesn't exist
+Sep 11, 2015 2:33:30 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/11: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/11/build.xml doesn't exist
+Sep 11, 2015 2:39:03 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1359 main build action completed: SUCCESS
+Sep 11, 2015 2:47:12 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/minz-rs1571sp301_minz_vu-rs_normal_short-only-test/builds/2015-09-11_01-17-26: /remote/repeng10/.jenkins/jobs/minz-rs1571sp301_minz_vu-rs_normal_short-only-test/builds/2015-09-11_01-17-26/build.xml doesn't exist
+Sep 11, 2015 2:47:12 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/minz-rs1571sp301_minz_vu-rs_normal_short-only-test/builds/1: /remote/repeng10/.jenkins/jobs/minz-rs1571sp301_minz_vu-rs_normal_short-only-test/builds/1/build.xml doesn't exist
+Sep 11, 2015 2:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 2:48:32 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/MyTest/builds/2015-04-22_00-55-20: /remote/repeng10/.jenkins/jobs/MyTest/builds/2015-04-22_00-55-20/build.xml doesn't exist
+Sep 11, 2015 2:48:32 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/MyTest/builds/4: /remote/repeng10/.jenkins/jobs/MyTest/builds/4/build.xml doesn't exist
+Sep 11, 2015 2:49:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 2:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 2:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 2:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 3:00:33 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/RS_NORMAL_SHORT-rs1571sp301_minz_vu-minz/builds/2: /remote/repeng10/.jenkins/jobs/RS_NORMAL_SHORT-rs1571sp301_minz_vu-minz/builds/2/build.xml doesn't exist
+Sep 11, 2015 3:00:33 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/RS_NORMAL_SHORT-rs1571sp301_minz_vu-minz/builds/2015-09-11_01-17-36: /remote/repeng10/.jenkins/jobs/RS_NORMAL_SHORT-rs1571sp301_minz_vu-minz/builds/2015-09-11_01-17-36/build.xml doesn't exist
+Sep 11, 2015 3:07:01 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Out of order build detection. 2,523,883 ms
+Sep 11, 2015 3:08:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 3:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1360 main build action completed: SUCCESS
+Sep 11, 2015 3:10:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 3:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 3:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 3:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 3:22:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 3:22:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 3:22:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 3:22:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 3:22:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 3:29:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 3:31:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 3:33:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 3:33:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 3:33:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 3:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1361 main build action completed: SUCCESS
+Sep 11, 2015 3:46:22 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Sep 11, 2015 3:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 3:52:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 3:54:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 3:54:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 3:54:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 3:58:46 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 744,494 ms
+Sep 11, 2015 4:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1362 main build action completed: SUCCESS
+Sep 11, 2015 4:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 4:13:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 4:15:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 4:15:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 4:15:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 4:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 4:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 4:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 4:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 4:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 4:32:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 4:34:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 4:35:54 AM hudson.model.Run execute
+INFO: 1_Sub_Nightly_RMA_Binary_Build_Linuxamd64 #158 main build action completed: SUCCESS
+Sep 11, 2015 4:36:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 4:36:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 4:36:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 4:39:08 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1363 main build action completed: SUCCESS
+Sep 11, 2015 4:53:18 AM hudson.model.Run execute
+INFO: RS_NORMAL_SHORT-rs1571sp301_minz_vu-minz #2 main build action completed: SUCCESS
+Sep 11, 2015 4:54:01 AM hudson.model.Run execute
+INFO: minz-rs1571sp301_minz_vu-rs_normal_short-report-test-results #1 main build action completed: SUCCESS
+Sep 11, 2015 4:54:42 AM hudson.model.Run execute
+INFO: minz-rs1571sp301_minz_vu-rs_normal_short-only-test #1 main build action completed: SUCCESS
+Sep 11, 2015 4:55:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 4:57:26 AM hudson.model.Run execute
+INFO: 1_Sub_Nightly_SRS_Build_Linuxamd64 #5 main build action completed: SUCCESS
+Sep 11, 2015 4:57:33 AM hudson.model.Run execute
+INFO: 1_Nightly_RS_Binary_Build_Parallel_Linuxamd64 #140 main build action completed: SUCCESS
+Sep 11, 2015 4:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 4:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 4:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 4:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 5:08:33 AM hudson.model.Run execute
+INFO: 2_Nightly_RS_Installer_Test_Linuxamd64 #170 main build action completed: SUCCESS
+Sep 11, 2015 5:09:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1364 main build action completed: SUCCESS
+Sep 11, 2015 5:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 5:20:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 5:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 5:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 5:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 5:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 5:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 5:22:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 5:22:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 5:22:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 5:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1365 main build action completed: SUCCESS
+Sep 11, 2015 5:39:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 5:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 5:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 5:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 5:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 5:56:16 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_auto_install #140 main build action completed: SUCCESS
+Sep 11, 2015 5:58:17 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_STANDBY_5 #14 main build action completed: SUCCESS
+Sep 11, 2015 6:00:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 6:01:05 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_DA_PEORIOICALLY #114 main build action completed: SUCCESS
+Sep 11, 2015 6:02:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 6:04:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 6:04:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 6:04:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 6:09:03 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1366 main build action completed: SUCCESS
+Sep 11, 2015 6:13:53 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Sep 11, 2015 6:13:53 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 20 ms
+Sep 11, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 6:22:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 6:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 6:25:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 6:25:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 6:25:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 6:33:27 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_2 #59 main build action completed: SUCCESS
+Sep 11, 2015 6:37:56 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT_5 #57 main build action completed: SUCCESS
+Sep 11, 2015 6:39:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1367 main build action completed: SUCCESS
+Sep 11, 2015 6:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 6:44:54 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_STANDBY_SHORT_2 #13 main build action completed: SUCCESS
+Sep 11, 2015 6:45:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 6:46:42 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_STANDBY_SHORT_1 #13 main build action completed: SUCCESS
+Sep 11, 2015 6:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 6:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 6:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 6:47:58 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_SYNCREP_CI #44 main build action completed: SUCCESS
+Sep 11, 2015 6:55:20 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT_1 #85 main build action completed: SUCCESS
+Sep 11, 2015 7:00:54 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_RS3_4 #85 main build action completed: SUCCESS
+Sep 11, 2015 7:01:51 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT_2 #57 main build action completed: SUCCESS
+Sep 11, 2015 7:02:12 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_STANDBY_SHORT_3 #13 main build action completed: SUCCESS
+Sep 11, 2015 7:05:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 7:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 7:08:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 7:08:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 7:08:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 7:09:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1368 main build action completed: SUCCESS
+Sep 11, 2015 7:13:05 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_RS3_3 #59 main build action completed: SUCCESS
+Sep 11, 2015 7:14:45 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_4 #85 main build action completed: SUCCESS
+Sep 11, 2015 7:16:00 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_STANDBY_1 #14 main build action completed: SUCCESS
+Sep 11, 2015 7:16:44 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_RS3_5 #58 main build action completed: SUCCESS
+Sep 11, 2015 7:21:48 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_RS3_2 #58 main build action completed: SUCCESS
+Sep 11, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 7:26:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 7:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 7:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 7:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 7:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 7:34:30 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_STANDBY_3 #14 main build action completed: SUCCESS
+Sep 11, 2015 7:34:32 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT_4 #85 main build action completed: SUCCESS
+Sep 11, 2015 7:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1369 main build action completed: SUCCESS
+Sep 11, 2015 7:40:51 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_RS3_1 #85 main build action completed: SUCCESS
+Sep 11, 2015 7:42:44 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT_3 #57 main build action completed: SUCCESS
+Sep 11, 2015 7:43:21 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_STANDBY_4 #14 main build action completed: SUCCESS
+Sep 11, 2015 7:48:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 7:49:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 7:51:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 7:51:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 7:51:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 8:09:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1370 main build action completed: SUCCESS
+Sep 11, 2015 8:09:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 8:11:28 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_1 #91 main build action completed: SUCCESS
+Sep 11, 2015 8:11:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 8:13:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 8:13:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 8:13:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 8:32:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 8:33:33 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_STANDBY_2 #14 main build action completed: SUCCESS
+Sep 11, 2015 8:33:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 8:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 8:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 8:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 8:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1371 main build action completed: SUCCESS
+Sep 11, 2015 8:54:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 8:55:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 8:56:49 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_6 #58 main build action completed: SUCCESS
+Sep 11, 2015 8:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 8:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 8:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 9:09:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1372 main build action completed: SUCCESS
+Sep 11, 2015 9:12:59 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_3 #58 main build action completed: SUCCESS
+Sep 11, 2015 9:15:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 9:17:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 9:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 9:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 9:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 9:30:58 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_5 #58 main build action completed: SUCCESS
+Sep 11, 2015 9:31:26 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_Publish_QA_Test_Report #138 main build action completed: SUCCESS
+Sep 11, 2015 9:31:27 AM hudson.model.Run execute
+INFO: 3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update #136 main build action completed: SUCCESS
+Sep 11, 2015 9:36:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 9:37:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 9:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1373 main build action completed: SUCCESS
+Sep 11, 2015 9:39:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 9:39:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 9:39:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 9:55:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 9:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 9:59:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 9:59:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 9:59:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 10:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1374 main build action completed: SUCCESS
+Sep 11, 2015 10:16:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 10:18:19 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel.
+java.util.concurrent.TimeoutException: Ping started on 1441991659148 hasn't completed at 1441991899186
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+Sep 11, 2015 10:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 10:19:35 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel RS_build_test_ibmaix64_p6vm1qb
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Sep 11, 2015 10:20:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 10:20:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 10:20:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 10:20:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 10:22:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 10:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 10:25:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 10:27:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 10:38:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 10:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1375 main build action completed: SUCCESS
+Sep 11, 2015 10:39:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 10:39:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 10:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 10:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 10:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 10:59:23 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Sep 11, 2015 10:59:23 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 18 ms
+Sep 11, 2015 10:59:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 11:01:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 11:01:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 11:02:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 11:02:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 11:02:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 11:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1376 main build action completed: SUCCESS
+Sep 11, 2015 11:21:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 11:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 11:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 11:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 11:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 11:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 11:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 11:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 11:24:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 11:24:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 11:24:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 11:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1377 main build action completed: SUCCESS
+Sep 11, 2015 11:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 11:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 11:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 11:44:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 11:44:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 11:44:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 12:01:03 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_DA_PEORIOICALLY #115 main build action completed: SUCCESS
+Sep 11, 2015 12:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 12:04:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 12:04:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 12:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 12:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 12:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 12:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1378 main build action completed: SUCCESS
+Sep 11, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 12:24:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 12:26:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 12:26:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 12:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 12:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 12:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 12:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1379 main build action completed: SUCCESS
+Sep 11, 2015 12:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 12:47:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 12:47:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 12:49:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 12:49:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 12:49:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 1:08:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 1:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1380 main build action completed: SUCCESS
+Sep 11, 2015 1:10:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 1:10:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 1:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 1:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 1:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 1:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 1:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 1:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 1:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 1:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 1:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 1:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1381 main build action completed: SUCCESS
+Sep 11, 2015 1:51:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 1:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 1:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 1:55:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 1:55:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 1:55:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 2:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1382 main build action completed: SUCCESS
+Sep 11, 2015 2:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 2:14:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 2:14:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 2:16:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 2:16:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 2:16:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 2:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 2:36:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 2:36:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 2:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 2:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 2:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 2:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1383 main build action completed: SUCCESS
+Sep 11, 2015 2:56:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 2:58:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 2:58:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 3:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 3:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 3:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 3:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1384 main build action completed: SUCCESS
+Sep 11, 2015 3:18:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 3:20:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 3:20:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 3:22:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 3:22:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 3:22:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 3:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1385 main build action completed: SUCCESS
+Sep 11, 2015 3:42:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 3:44:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 3:44:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 3:46:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 3:46:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 3:46:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 4:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 4:07:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 4:07:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 4:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1386 main build action completed: SUCCESS
+Sep 11, 2015 4:09:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 4:09:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 4:09:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 4:29:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 4:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 4:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 4:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 4:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 4:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 4:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1387 main build action completed: SUCCESS
+Sep 11, 2015 4:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 4:52:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 4:52:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 4:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 4:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 4:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 5:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1388 main build action completed: SUCCESS
+Sep 11, 2015 5:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 5:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 5:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 5:17:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 5:17:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 5:17:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 5:36:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 5:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 5:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 5:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1389 main build action completed: SUCCESS
+Sep 11, 2015 5:40:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 5:40:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 5:40:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 5:58:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 6:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 6:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 6:01:03 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_DA_PEORIOICALLY #116 main build action completed: SUCCESS
+Sep 11, 2015 6:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 6:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 6:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 6:09:02 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1390 main build action completed: SUCCESS
+Sep 11, 2015 6:20:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 6:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 6:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 6:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 6:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 6:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 6:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1391 main build action completed: SUCCESS
+Sep 11, 2015 6:42:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 6:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 6:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 6:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 6:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 6:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 7:03:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 7:05:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 7:05:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 7:07:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 7:07:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 7:07:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 7:09:02 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1392 main build action completed: SUCCESS
+Sep 11, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 7:25:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 7:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 7:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 7:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 7:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 7:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 7:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1393 main build action completed: SUCCESS
+Sep 11, 2015 7:47:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 7:49:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 7:49:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 7:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 7:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 7:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 8:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1394 main build action completed: SUCCESS
+Sep 11, 2015 8:09:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 8:11:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 8:11:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 8:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 8:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 8:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 8:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 8:35:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 8:35:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 8:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 8:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 8:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 8:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1395 main build action completed: SUCCESS
+Sep 11, 2015 8:56:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 8:58:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 8:58:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 9:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 9:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 9:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 9:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1396 main build action completed: SUCCESS
+Sep 11, 2015 9:17:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 9:19:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 9:19:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 9:20:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 9:20:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 9:20:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 9:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1397 main build action completed: SUCCESS
+Sep 11, 2015 9:39:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 9:41:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 9:41:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 9:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 9:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 9:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 10:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 10:04:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 10:04:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 10:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 10:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 10:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 10:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1398 main build action completed: SUCCESS
+Sep 11, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 10:25:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 10:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 10:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 10:29:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 10:29:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 10:29:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 10:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1399 main build action completed: SUCCESS
+Sep 11, 2015 10:47:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 10:49:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 10:49:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 10:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 10:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 10:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 11:08:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 11:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1400 main build action completed: SUCCESS
+Sep 11, 2015 11:10:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 11:10:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 11:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 11:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 11:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_ibmaix64_p6vm1qb offline because it’s not responding
+Sep 11, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Sep 11, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Sep 11, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Sep 11, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Sep 11, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_hpia64_hsdub0001_official offline because it’s not responding
+Sep 11, 2015 11:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 11:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 11:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 11:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 11:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 11:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Sep 11, 2015 11:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #1401 main build action completed: SUCCESS
+Sep 11, 2015 11:47:24 PM hudson.model.Run execute
+INFO: CHECK_DISK_ON_REMOTE_DIR #27 main build action completed: SUCCESS
+Sep 11, 2015 11:52:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_hpia64_hsdub0001_official
+Sep 11, 2015 11:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Sep 11, 2015 11:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_ibmaix64_p6vm1qb
+Sep 11, 2015 11:56:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Sep 11, 2015 11:56:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Sep 11, 2015 11:56:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5

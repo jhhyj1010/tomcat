@@ -1,0 +1,254 @@
+Aug 24, 2016 12:20:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 12:42:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 12:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 1:02:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 1:23:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 1:44:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 1:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 2:06:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 2:26:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 2:32:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 24, 2016 2:32:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 24, 2016 2:32:29 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 24, 2016 2:32:29 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 24, 2016 2:48:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 2:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 3:09:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 3:31:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 3:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 3:52:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 4:14:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 4:36:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 4:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 4:58:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 5:18:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 5:34:22 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Aug 24, 2016 5:34:31 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Aug 24, 2016 5:34:35 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,259 ms
+Aug 24, 2016 5:39:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 5:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 6:00:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 6:21:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 6:43:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 6:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 7:04:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 7:24:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 7:46:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 7:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 8:07:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 8:12:21 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #28 main build action completed: SUCCESS
+Aug 24, 2016 8:28:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 8:49:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 8:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 9:11:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 9:32:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 9:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 9:53:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 10:16:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 10:37:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 10:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 11:00:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 11:20:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 11:41:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 11:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 12:02:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 12:25:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 12:47:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 12:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 1:09:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 1:31:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 1:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 1:53:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 2:15:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 2:36:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 2:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 2:57:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 3:18:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 3:33:04 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Aug 24, 2016 3:33:04 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 19 ms
+Aug 24, 2016 3:40:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 3:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 4:02:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 4:04:53 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Aug 24, 2016 4:04:54 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 289 ms
+Aug 24, 2016 4:23:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 4:45:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 4:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 5:07:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 5:29:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 5:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 5:51:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 6:13:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 6:35:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 6:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 24, 2016 6:57:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 24, 2016 7:10:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Aug 24, 2016 7:10:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Aug 24, 2016 7:10:38 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Aug 24, 2016 7:10:38 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Aug 24, 2016 7:10:38 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Aug 24, 2016 7:11:01 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel installer_test_linux
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Aug 24, 2016 7:11:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Aug 24, 2016 7:11:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Aug 24, 2016 7:12:01 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Aug 24, 2016 7:12:01 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Aug 24, 2016 7:12:01 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Aug 24, 2016 7:12:22 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel installer_test_linux
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Aug 24, 2016 7:17:54 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 24, 2016 7:28:14 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 24, 2016 7:28:14 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 24, 2016 7:28:15 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 24, 2016 7:28:15 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 24, 2016 8:03:09 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #14 main build action completed: FAILURE
+Aug 24, 2016 9:20:35 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 24, 2016 9:20:56 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 24, 2016 9:20:56 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 24, 2016 9:20:56 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 24, 2016 9:20:56 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 24, 2016 9:23:26 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Aug 24, 2016 9:23:26 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Aug 24, 2016 9:42:39 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #15 main build action completed: SUCCESS
+Aug 24, 2016 9:55:13 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #1 main build action completed: SUCCESS
+Aug 24, 2016 9:55:13 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #1 main build action completed: SUCCESS
+Aug 24, 2016 10:00:38 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #16 main build action completed: SUCCESS
+Aug 24, 2016 11:04:57 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 24, 2016 11:39:18 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #17 main build action completed: SUCCESS
+Aug 24, 2016 11:53:17 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #2 main build action completed: SUCCESS
+Aug 24, 2016 11:53:18 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #2 main build action completed: SUCCESS

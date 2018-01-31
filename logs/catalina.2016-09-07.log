@@ -1,0 +1,711 @@
+Sep 7, 2016 12:02:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 12:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Sep 7, 2016 12:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it’s not responding
+Sep 7, 2016 12:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 7, 2016 12:24:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 12:47:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 1:09:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 1:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Sep 7, 2016 1:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it’s not responding
+Sep 7, 2016 1:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 7, 2016 1:30:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 1:52:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 2:12:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 2:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Sep 7, 2016 2:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it’s not responding
+Sep 7, 2016 2:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 7, 2016 2:33:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 2:55:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 3:18:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 3:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Sep 7, 2016 3:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it’s not responding
+Sep 7, 2016 3:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 7, 2016 3:37:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 4:00:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 4:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Sep 7, 2016 4:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it’s not responding
+Sep 7, 2016 4:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 7, 2016 4:22:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 4:44:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 4:47:00 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Sep 7, 2016 4:47:00 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 17 ms
+Sep 7, 2016 5:07:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 5:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Sep 7, 2016 5:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it’s not responding
+Sep 7, 2016 5:19:14 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 7, 2016 8:24:45 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 7, 2016 8:24:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Sep 7, 2016 8:24:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Sep 7, 2016 8:24:45 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1092 ms
+Sep 7, 2016 8:24:45 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 7, 2016 8:24:45 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Sep 7, 2016 8:24:45 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Sep 7, 2016 8:24:56 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Sep 7, 2016 8:24:57 PM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.AWTProblem: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:185)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4994)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5492)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1083)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1879)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+Caused by: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+	at sun.awt.X11GraphicsEnvironment.access$100(X11GraphicsEnvironment.java:62)
+	at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:166)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:142)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:82)
+	at sun.font.FontManager.initSGEnv(FontManager.java:1118)
+	at sun.font.FontManager.findFont2D(FontManager.java:1864)
+	at java.awt.Font.getFont2D(Font.java:473)
+	at java.awt.Font.getFamily(Font.java:1162)
+	at java.awt.Font.getFamily_NoClientCode(Font.java:1136)
+	at java.awt.Font.getFamily(Font.java:1128)
+	at java.awt.Font.toString(Font.java:1625)
+	at hudson.util.ChartUtil.<clinit>(ChartUtil.java:250)
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:184)
+	... 14 more
+Sep 7, 2016 8:24:57 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Sep 7, 2016 8:24:57 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/jenkins] startup failed due to previous errors
+Sep 7, 2016 8:24:58 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.codehaus.groovy.reflection.ClassInfo.ThreadLocalMapHandler] (value [org.codehaus.groovy.reflection.ClassInfo$ThreadLocalMapHandler@6d3d7254]) and a value of type [java.lang.ref.SoftReference] (value [java.lang.ref.SoftReference@5d1d20d3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Sep 7, 2016 8:24:58 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 12,651 ms
+Sep 7, 2016 8:24:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Sep 7, 2016 8:24:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 137 ms
+Sep 7, 2016 8:24:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Sep 7, 2016 8:24:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 99 ms
+Sep 7, 2016 8:24:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Sep 7, 2016 8:25:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 3,151 ms
+Sep 7, 2016 8:25:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Sep 7, 2016 8:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 132 ms
+Sep 7, 2016 8:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Sep 7, 2016 8:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 140 ms
+Sep 7, 2016 8:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Sep 7, 2016 8:25:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 80 ms
+Sep 7, 2016 8:25:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Sep 7, 2016 8:25:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Sep 7, 2016 8:25:02 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 16603 ms
+Sep 7, 2016 8:25:33 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 7, 2016 8:25:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Sep 7, 2016 8:25:34 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8088"]
+java.net.BindException: Address already in use <null>:8088
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:411)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:336)
+	at java.net.ServerSocket.bind(ServerSocket.java:336)
+	at java.net.ServerSocket.<init>(ServerSocket.java:202)
+	at java.net.ServerSocket.<init>(ServerSocket.java:158)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:398)
+	... 17 more
+Sep 7, 2016 8:25:34 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8088]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8088]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:8088
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:411)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:336)
+	at java.net.ServerSocket.bind(ServerSocket.java:336)
+	at java.net.ServerSocket.<init>(ServerSocket.java:202)
+	at java.net.ServerSocket.<init>(ServerSocket.java:158)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:398)
+	... 17 more
+Sep 7, 2016 8:25:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Sep 7, 2016 8:25:34 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8109"]
+java.net.BindException: Address already in use <null>:8109
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:411)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:336)
+	at java.net.ServerSocket.bind(ServerSocket.java:336)
+	at java.net.ServerSocket.<init>(ServerSocket.java:202)
+	at java.net.ServerSocket.<init>(ServerSocket.java:158)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:398)
+	... 16 more
+Sep 7, 2016 8:25:34 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8109]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8109]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:8109
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:411)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:646)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:336)
+	at java.net.ServerSocket.bind(ServerSocket.java:336)
+	at java.net.ServerSocket.<init>(ServerSocket.java:202)
+	at java.net.ServerSocket.<init>(ServerSocket.java:158)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:398)
+	... 16 more
+Sep 7, 2016 8:25:34 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 798 ms
+Sep 7, 2016 8:25:34 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 7, 2016 8:25:34 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Sep 7, 2016 8:25:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Sep 7, 2016 8:25:39 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Sep 7, 2016 8:25:40 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 7, 2016 8:25:43 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [3,551] milliseconds.
+Sep 7, 2016 8:25:43 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 9,747 ms
+Sep 7, 2016 8:25:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Sep 7, 2016 8:25:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 69 ms
+Sep 7, 2016 8:25:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Sep 7, 2016 8:25:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 79 ms
+Sep 7, 2016 8:25:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Sep 7, 2016 8:25:45 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 7, 2016 8:25:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 1,724 ms
+Sep 7, 2016 8:25:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Sep 7, 2016 8:25:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 122 ms
+Sep 7, 2016 8:25:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Sep 7, 2016 8:25:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 115 ms
+Sep 7, 2016 8:25:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Sep 7, 2016 8:25:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 56 ms
+Sep 7, 2016 8:25:46 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12005 ms
+Sep 7, 2016 8:25:46 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:336)
+	at java.net.ServerSocket.bind(ServerSocket.java:336)
+	at java.net.ServerSocket.<init>(ServerSocket.java:202)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:777)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:723)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Sep 7, 2016 8:25:46 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8088"]
+Sep 7, 2016 8:25:46 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8109"]
+Sep 7, 2016 8:25:46 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 7, 2016 8:25:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 7, 2016 8:25:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 7, 2016 8:25:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 7, 2016 8:25:47 PM jenkins.InitReactorRunner$1 onTaskFailed
+SEVERE: Failed Loading job SRS_SP305_SERIAL
+java.io.IOException: Unable to read /remote/repeng11/.jenkins/jobs/SRS_SP305_SERIAL/config.xml
+	at hudson.XmlFile.read(XmlFile.java:144)
+	at hudson.model.Items.load(Items.java:278)
+	at jenkins.model.Jenkins$17.run(Jenkins.java:2673)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at jenkins.model.Jenkins$7.runTask(Jenkins.java:903)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:636)
+Caused by: com.thoughtworks.xstream.mapper.CannotResolveClassException: com.tikal.jenkins.plugins.multijob.MultiJobProject
+	at com.thoughtworks.xstream.mapper.DefaultMapper.realClass(DefaultMapper.java:79)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.DynamicProxyMapper.realClass(DynamicProxyMapper.java:55)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.PackageAliasingMapper.realClass(PackageAliasingMapper.java:88)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(ClassAliasingMapper.java:79)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.ArrayMapper.realClass(ArrayMapper.java:74)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.SecurityMapper.realClass(SecurityMapper.java:71)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at hudson.util.XStream2$CompatibilityMapper.realClass(XStream2.java:280)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at hudson.util.xstream.MapperDelegate.realClass(MapperDelegate.java:43)
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30)
+	at com.thoughtworks.xstream.mapper.CachingMapper.realClass(CachingMapper.java:48)
+	at com.thoughtworks.xstream.core.util.HierarchicalStreams.readClassType(HierarchicalStreams.java:29)
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:133)
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1189)
+	at hudson.util.XStream2.unmarshal(XStream2.java:113)
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1173)
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1053)
+	at hudson.XmlFile.read(XmlFile.java:142)
+	... 10 more
+Sep 7, 2016 8:25:48 PM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.HudsonFailedToLoad: java.lang.InterruptedException
+	at hudson.WebAppMain$3.run(WebAppMain.java:237)
+Caused by: java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.jvnet.hudson.reactor.Reactor.execute(Reactor.java:267)
+	at jenkins.InitReactorRunner.run(InitReactorRunner.java:44)
+	at jenkins.model.Jenkins.executeReactor(Jenkins.java:914)
+	at jenkins.model.Jenkins.<init>(Jenkins.java:813)
+	at hudson.model.Hudson.<init>(Hudson.java:83)
+	at hudson.model.Hudson.<init>(Hudson.java:79)
+	at hudson.WebAppMain$3.run(WebAppMain.java:225)
+Sep 7, 2016 8:25:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Jenkins initialization thread] but has failed to stop it. This is very likely to create a memory leak.
+Sep 7, 2016 8:25:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [jenkins.util.Timer [#1]] but has failed to stop it. This is very likely to create a memory leak.
+Sep 7, 2016 8:25:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [jenkins.util.Timer [#2]] but has failed to stop it. This is very likely to create a memory leak.
+Sep 7, 2016 8:25:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [jenkins.util.Timer [#3]] but has failed to stop it. This is very likely to create a memory leak.
+Sep 7, 2016 8:25:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [jenkins.util.Timer [#4]] but has failed to stop it. This is very likely to create a memory leak.
+Sep 7, 2016 8:25:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [jenkins.util.Timer [#5]] but has failed to stop it. This is very likely to create a memory leak.
+Sep 7, 2016 8:25:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [jenkins.util.Timer [#6]] but has failed to stop it. This is very likely to create a memory leak.
+Sep 7, 2016 8:25:48 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.codehaus.groovy.runtime.InvokerHelper.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1571)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:332)
+	at groovy.lang.GroovyObjectSupport.<init>(GroovyObjectSupport.java:32)
+	at groovy.lang.Binding.<init>(Binding.java:34)
+	at jenkins.util.groovy.GroovyHookScript.<init>(GroovyHookScript.java:42)
+	at hudson.util.BootFailure.publish(BootFailure.java:43)
+	at hudson.WebAppMain$3.run(WebAppMain.java:237)
+Sep 7, 2016 8:25:48 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8088"]
+Sep 7, 2016 8:25:48 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8088"]
+Sep 7, 2016 8:25:48 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8109"]
+Sep 7, 2016 8:25:48 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8109"]
+Sep 7, 2016 8:26:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 7, 2016 8:26:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Sep 7, 2016 8:26:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Sep 7, 2016 8:26:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 717 ms
+Sep 7, 2016 8:26:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 7, 2016 8:26:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Sep 7, 2016 8:26:39 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Sep 7, 2016 8:26:45 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Sep 7, 2016 8:26:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 7, 2016 8:26:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 7, 2016 8:26:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 7, 2016 8:26:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 7, 2016 8:26:49 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 7, 2016 8:26:53 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [6,508] milliseconds.
+Sep 7, 2016 8:26:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 7, 2016 8:26:54 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@3803641: display name [Root WebApplicationContext]; startup date [Wed Sep 07 20:26:54 PDT 2016]; root of context hierarchy
+Sep 7, 2016 8:26:54 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@3803641]: org.springframework.beans.factory.support.DefaultListableBeanFactory@420e5167
+Sep 7, 2016 8:26:54 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@420e5167: defining beans [authenticationManager]; root of factory hierarchy
+Sep 7, 2016 8:26:55 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@31e0c0b6: display name [Root WebApplicationContext]; startup date [Wed Sep 07 20:26:55 PDT 2016]; root of context hierarchy
+Sep 7, 2016 8:26:55 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@5ef23a26: display name [Root WebApplicationContext]; startup date [Wed Sep 07 20:26:55 PDT 2016]; root of context hierarchy
+Sep 7, 2016 8:26:55 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@31e0c0b6]: org.springframework.beans.factory.support.DefaultListableBeanFactory@75392356
+Sep 7, 2016 8:26:55 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@5ef23a26]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7a3f1f39
+Sep 7, 2016 8:26:55 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7a3f1f39: defining beans [filter,legacy]; root of factory hierarchy
+Sep 7, 2016 8:26:55 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@75392356: defining beans [filter,legacy]; root of factory hierarchy
+Sep 7, 2016 8:26:55 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 15,294 ms
+Sep 7, 2016 8:26:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Sep 7, 2016 8:26:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 70 ms
+Sep 7, 2016 8:26:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Sep 7, 2016 8:26:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 71 ms
+Sep 7, 2016 8:26:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Sep 7, 2016 8:26:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 1,707 ms
+Sep 7, 2016 8:26:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Sep 7, 2016 8:26:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 107 ms
+Sep 7, 2016 8:26:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Sep 7, 2016 8:26:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 106 ms
+Sep 7, 2016 8:26:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Sep 7, 2016 8:26:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 56 ms
+Sep 7, 2016 8:26:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Sep 7, 2016 8:26:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Sep 7, 2016 8:26:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 17523 ms
+Sep 7, 2016 8:26:59 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 41331
+Sep 7, 2016 8:26:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 7, 2016 8:26:59 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 8:26:59 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Sep 7, 2016 8:26:59 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Sep 7, 2016 8:26:59 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Sep 7, 2016 8:26:59 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Sep 7, 2016 8:27:14 PM javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForAnnounced
+WARNING: Wait for announced timed out: DNS: rsng2.local. state: probing 3 task: Prober(rsng2.local.) state: probing 3
+Sep 7, 2016 8:27:20 PM javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForAnnounced
+WARNING: Wait for announced timed out: DNS: rsng2.local. state: probing 1 task: Prober(rsng2.local.) state: probing 1
+Sep 7, 2016 8:27:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 8:29:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 8:30:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 8:32:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 8:44:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 9:06:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 9:27:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 9:48:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 9:53:59 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #32 main build action completed: SUCCESS
+Sep 7, 2016 9:54:27 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #15 main build action completed: FAILURE
+Sep 7, 2016 9:54:29 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #14 main build action completed: FAILURE
+Sep 7, 2016 10:07:08 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #36 main build action completed: SUCCESS
+Sep 7, 2016 10:11:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 10:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 7, 2016 10:26:59 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #33 main build action completed: SUCCESS
+Sep 7, 2016 10:27:14 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #16 main build action completed: FAILURE
+Sep 7, 2016 10:27:17 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #15 main build action completed: FAILURE
+Sep 7, 2016 10:28:55 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 7, 2016 10:28:55 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 7, 2016 10:28:55 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 7, 2016 10:28:55 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 7, 2016 10:29:12 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #34 main build action completed: SUCCESS
+Sep 7, 2016 10:30:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 7, 2016 10:30:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 7, 2016 10:30:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 7, 2016 10:30:16 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 7, 2016 10:32:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 10:33:17 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #35 main build action completed: SUCCESS
+Sep 7, 2016 10:36:01 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 7, 2016 10:36:01 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 7, 2016 10:36:01 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 7, 2016 10:36:01 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 7, 2016 10:36:30 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #36 main build action completed: SUCCESS
+Sep 7, 2016 10:36:41 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #17 main build action completed: FAILURE
+Sep 7, 2016 10:36:42 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #16 main build action completed: FAILURE
+Sep 7, 2016 10:49:19 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #37 main build action completed: SUCCESS
+Sep 7, 2016 10:49:36 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #18 main build action completed: FAILURE
+Sep 7, 2016 10:49:37 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #17 main build action completed: FAILURE
+Sep 7, 2016 10:52:26 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 7, 2016 10:52:26 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 7, 2016 10:52:26 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 7, 2016 10:52:26 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 7, 2016 10:53:20 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #38 main build action completed: FAILURE
+Sep 7, 2016 10:53:34 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #19 main build action completed: FAILURE
+Sep 7, 2016 10:53:35 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #18 main build action completed: FAILURE
+Sep 7, 2016 10:55:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 11:11:26 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Sep 7, 2016 11:11:27 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Sep 7, 2016 11:11:27 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Sep 7, 2016 11:11:27 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Sep 7, 2016 11:11:30 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #39 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:181)
+	at hudson.Proc$LocalProc.join(Proc.java:319)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Sep 7, 2016 11:11:37 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #19 aborted
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuilder.perform(MultiJobBuilder.java:237)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild$MultiJobRunnerImpl.run(MultiJobBuild.java:134)
+	at hudson.model.Run.execute(Run.java:1718)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild.run(MultiJobBuild.java:73)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Sep 7, 2016 11:11:39 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #20 main build action completed: FAILURE
+Sep 7, 2016 11:18:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 11:26:52 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Sep 7, 2016 11:40:21 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Sep 7, 2016 11:56:36 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #40 main build action completed: SUCCESS

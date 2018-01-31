@@ -1,0 +1,4 @@
+10.58.180.73 - - [24/Feb/2017:01:31:16 -0800] "POST /jenkins/job/SP305_SRS_DAILY_BUILD/buildHistory/ajax HTTP/1.1" 200 51
+10.58.180.73 - - [24/Feb/2017:01:31:17 -0800] "GET /jenkins/adjuncts/34873230/lib/layout/menu_right_arrow.png HTTP/1.1" 200 2842
+10.173.161.34 - - [24/Feb/2017:08:08:32 -0800] "GET /jenkins/job/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305/build?token=INSTALLER HTTP/1.1" 201 -
+10.173.161.34 - - [24/Feb/2017:08:08:50 -0800] "GET /jenkins/job/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306/build?token=INSTALLER HTTP/1.1" 201 -

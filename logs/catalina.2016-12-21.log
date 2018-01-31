@@ -1,0 +1,182 @@
+Dec 21, 2016 12:00:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.JNLPLauncher
+Dec 21, 2016 12:00:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Dec 21, 2016 1:41:44 AM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #1 from /10.58.180.73:59744
+Dec 21, 2016 1:50:23 AM org.jenkinsci.remoting.nio.NioChannelHub run
+WARNING: Communication problem
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at org.jenkinsci.remoting.nio.FifoBuffer$Pointer.receive(FifoBuffer.java:136)
+	at org.jenkinsci.remoting.nio.FifoBuffer.receive(FifoBuffer.java:306)
+	at org.jenkinsci.remoting.nio.NioChannelHub.run(NioChannelHub.java:564)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+
+Dec 21, 2016 1:50:24 AM jenkins.slaves.JnlpSlaveAgentProtocol$Handler$1 onClosed
+WARNING: NioChannelHub keys=1 gen=3806: Computer.threadPoolForRemoting [#10508] for + NT_MONSOON terminated
+java.io.IOException: Connection aborted: org.jenkinsci.remoting.nio.NioChannelHub$MonoNioTransport@105eddd4[name=NT_MONSOON]
+	at org.jenkinsci.remoting.nio.NioChannelHub$NioTransport.abort(NioChannelHub.java:211)
+	at org.jenkinsci.remoting.nio.NioChannelHub.run(NioChannelHub.java:631)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at org.jenkinsci.remoting.nio.FifoBuffer$Pointer.receive(FifoBuffer.java:136)
+	at org.jenkinsci.remoting.nio.FifoBuffer.receive(FifoBuffer.java:306)
+	at org.jenkinsci.remoting.nio.NioChannelHub.run(NioChannelHub.java:564)
+	... 7 more
+
+Dec 21, 2016 1:56:57 AM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #2 from /10.173.78.163:49192
+Dec 21, 2016 2:06:03 AM org.jenkinsci.remoting.nio.NioChannelHub run
+WARNING: Communication problem
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at org.jenkinsci.remoting.nio.FifoBuffer$Pointer.receive(FifoBuffer.java:136)
+	at org.jenkinsci.remoting.nio.FifoBuffer.receive(FifoBuffer.java:306)
+	at org.jenkinsci.remoting.nio.NioChannelHub.run(NioChannelHub.java:564)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+
+Dec 21, 2016 2:06:03 AM jenkins.slaves.JnlpSlaveAgentProtocol$Handler$1 onClosed
+WARNING: NioChannelHub keys=1 gen=6124: Computer.threadPoolForRemoting [#10508] for + NT_MONSOON terminated
+java.io.IOException: Connection aborted: org.jenkinsci.remoting.nio.NioChannelHub$MonoNioTransport@50f51ff0[name=NT_MONSOON]
+	at org.jenkinsci.remoting.nio.NioChannelHub$NioTransport.abort(NioChannelHub.java:211)
+	at org.jenkinsci.remoting.nio.NioChannelHub.run(NioChannelHub.java:631)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at org.jenkinsci.remoting.nio.FifoBuffer$Pointer.receive(FifoBuffer.java:136)
+	at org.jenkinsci.remoting.nio.FifoBuffer.receive(FifoBuffer.java:306)
+	at org.jenkinsci.remoting.nio.NioChannelHub.run(NioChannelHub.java:564)
+	... 7 more
+
+Dec 21, 2016 3:48:29 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Dec 21, 2016 3:48:30 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 574 ms
+Dec 21, 2016 6:37:18 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 7:37:18 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 8:06:04 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #144 main build action completed: FAILURE
+Dec 21, 2016 8:13:03 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306 #30 main build action completed: SUCCESS
+Dec 21, 2016 8:37:18 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 9:21:02 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Dec 21, 2016 9:21:02 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 1 ms
+Dec 21, 2016 9:37:18 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 10:37:18 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 11:37:18 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 12:37:18 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 1:37:18 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 2:37:18 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 3:37:18 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 4:37:18 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 5:37:18 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 6:11:49 PM hudson.TcpSlaveAgentListener$ConnectionHandler run
+INFO: Accepted connection #3 from /10.173.78.163:49252
+Dec 21, 2016 6:14:12 PM org.jenkinsci.remoting.nio.NioChannelHub run
+WARNING: Communication problem
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at org.jenkinsci.remoting.nio.FifoBuffer$Pointer.receive(FifoBuffer.java:136)
+	at org.jenkinsci.remoting.nio.FifoBuffer.receive(FifoBuffer.java:306)
+	at org.jenkinsci.remoting.nio.NioChannelHub.run(NioChannelHub.java:564)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+
+Dec 21, 2016 6:14:12 PM jenkins.slaves.JnlpSlaveAgentProtocol$Handler$1 onClosed
+WARNING: NioChannelHub keys=1 gen=6547: Computer.threadPoolForRemoting [#10508] for + NT_MONSOON terminated
+java.io.IOException: Connection aborted: org.jenkinsci.remoting.nio.NioChannelHub$MonoNioTransport@65227099[name=NT_MONSOON]
+	at org.jenkinsci.remoting.nio.NioChannelHub$NioTransport.abort(NioChannelHub.java:211)
+	at org.jenkinsci.remoting.nio.NioChannelHub.run(NioChannelHub.java:631)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:375)
+	at org.jenkinsci.remoting.nio.FifoBuffer$Pointer.receive(FifoBuffer.java:136)
+	at org.jenkinsci.remoting.nio.FifoBuffer.receive(FifoBuffer.java:306)
+	at org.jenkinsci.remoting.nio.NioChannelHub.run(NioChannelHub.java:564)
+	... 7 more
+
+Dec 21, 2016 10:26:43 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Dec 21, 2016 10:26:53 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 21, 2016 10:26:55 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,453 ms
+Dec 21, 2016 10:37:18 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding
+Dec 21, 2016 11:37:18 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it’s not responding

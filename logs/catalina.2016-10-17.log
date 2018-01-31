@@ -1,0 +1,690 @@
+Oct 17, 2016 12:13:50 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 12:13:50 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 12:13:50 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 12:13:50 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 12:26:43 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it’s not responding
+Oct 17, 2016 12:26:43 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it’s not responding
+Oct 17, 2016 12:26:43 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it’s not responding
+Oct 17, 2016 12:26:43 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it’s not responding
+Oct 17, 2016 12:26:43 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it’s not responding
+Oct 17, 2016 12:26:50 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 12:33:50 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 12:33:50 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 12:33:50 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 12:33:50 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 2:48:44 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Oct 17, 2016 2:48:45 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Oct 17, 2016 2:48:45 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Oct 17, 2016 2:48:45 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1124 ms
+Oct 17, 2016 2:48:45 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 17, 2016 2:48:45 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Oct 17, 2016 2:48:45 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Oct 17, 2016 2:48:52 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 7,131 ms
+Oct 17, 2016 2:48:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Oct 17, 2016 2:48:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 70 ms
+Oct 17, 2016 2:48:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Oct 17, 2016 2:48:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 60 ms
+Oct 17, 2016 2:48:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Oct 17, 2016 2:48:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 550 ms
+Oct 17, 2016 2:48:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Oct 17, 2016 2:48:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 72 ms
+Oct 17, 2016 2:48:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Oct 17, 2016 2:48:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 72 ms
+Oct 17, 2016 2:48:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Oct 17, 2016 2:48:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 55 ms
+Oct 17, 2016 2:48:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Oct 17, 2016 2:48:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Oct 17, 2016 2:48:53 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8156 ms
+Oct 17, 2016 2:48:54 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Oct 17, 2016 2:48:55 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Oct 17, 2016 2:48:55 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Oct 17, 2016 2:48:55 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Oct 17, 2016 2:48:55 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Oct 17, 2016 2:49:00 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Oct 17, 2016 2:49:01 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 41838
+Oct 17, 2016 2:49:01 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Oct 17, 2016 2:49:01 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@78471504: display name [Root WebApplicationContext]; startup date [Mon Oct 17 02:49:01 PDT 2016]; root of context hierarchy
+Oct 17, 2016 2:49:01 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@78471504]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1fa57753
+Oct 17, 2016 2:49:01 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1fa57753: defining beans [authenticationManager]; root of factory hierarchy
+Oct 17, 2016 2:49:02 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@2d42b76d: display name [Root WebApplicationContext]; startup date [Mon Oct 17 02:49:02 PDT 2016]; root of context hierarchy
+Oct 17, 2016 2:49:02 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@2d42b76d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@8a9042a
+Oct 17, 2016 2:49:02 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8a9042a: defining beans [filter,legacy]; root of factory hierarchy
+Oct 17, 2016 2:49:02 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 2:49:02 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 2:49:02 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 2:49:02 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 2:49:02 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 2:49:02 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Oct 17, 2016 2:49:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 2:49:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 2:49:16 AM javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForAnnounced
+WARNING: Wait for announced timed out: DNS: rsng2.local. state: announcing 1 task: Announcer(rsng2.local.) state: announcing 1
+Oct 17, 2016 2:49:22 AM javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForAnnounced
+WARNING: Wait for announced timed out: DNS: rsng2.local. state: probing 1 task: Prober(rsng2.local.) state: probing 1
+Oct 17, 2016 2:50:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 2:50:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 2:50:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 2:51:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 2:51:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 2:51:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 2:53:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 2:53:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 2:53:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 2:53:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 2:55:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 2:55:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 2:55:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 2:57:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 2:58:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 3:02:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 3:06:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 3:06:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 3:08:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 3:08:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 3:11:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 3:14:11 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Oct 17, 2016 3:14:11 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Oct 17, 2016 3:14:11 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 3:15:46 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Oct 17, 2016 3:15:46 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Oct 17, 2016 3:17:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl
+Oct 17, 2016 3:17:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Oct 17, 2016 3:17:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Oct 17, 2016 3:19:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 3:20:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 3:22:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 3:22:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 17, 2016 3:22:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 3:27:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 3:30:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 3:43:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 3:43:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 3:48:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 3:53:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 4:01:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 4:01:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 4:07:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 4:17:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 4:20:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 4:20:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 4:25:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 4:42:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 4:42:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 4:44:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 4:47:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 5:02:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 5:02:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 5:08:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 5:10:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 5:23:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 5:23:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 5:28:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 5:36:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 5:44:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 5:44:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 5:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 5:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 5:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 5:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Oct 17, 2016 5:50:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 6:04:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 6:08:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 6:08:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 6:13:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 6:26:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 6:26:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 6:26:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 6:32:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 6:48:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 6:48:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 6:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 6:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 6:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 6:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_txue offline because it?s not responding
+Oct 17, 2016 6:52:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 6:53:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 7:01:35 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Oct 17, 2016 7:01:35 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 2 ms
+Oct 17, 2016 7:09:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 17, 2016 7:09:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 7:09:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 7:09:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 7:09:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 7:09:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 7:15:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 7:19:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 7:29:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 7:34:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 7:43:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 7:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 7:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 7:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 7:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 7:50:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 7:56:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 8:11:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 8:11:34 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #71 main build action completed: SUCCESS
+Oct 17, 2016 8:13:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 8:18:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 8:33:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 8:34:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 8:38:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 8:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 8:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 8:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 8:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 8:54:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 9:00:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 9:00:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 9:15:49 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Oct 17, 2016 9:15:49 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 199 ms
+Oct 17, 2016 9:17:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 9:22:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 9:24:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 9:37:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 9:42:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 9:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 9:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 9:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 9:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 9:50:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 10:00:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 10:05:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 10:15:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 10:21:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 10:27:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 10:42:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 10:44:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 10:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 10:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 10:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 10:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 10:50:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 11:08:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 11:10:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 11:13:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 11:30:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 11:35:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 11:37:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 11:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 11:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 11:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 11:48:59 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 11:51:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 11:56:05 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 12:01:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 12:12:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 12:18:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 12:27:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 12:32:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 12:38:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 12:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 12:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 12:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 12:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 12:53:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 12:53:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 12:58:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 1:14:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 1:19:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 1:19:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 1:34:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 1:40:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 1:45:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 1:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 1:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 1:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 1:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 1:55:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 2:01:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 2:11:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 2:15:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 2:21:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 2:37:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 2:37:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 2:42:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 2:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 2:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 2:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 2:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 2:58:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 3:04:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 3:04:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 3:18:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 3:23:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 3:23:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 3:37:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 3:43:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 3:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 3:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 3:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 3:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 3:50:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 3:58:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 4:03:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 4:16:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 4:20:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 4:26:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 4:41:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 4:41:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 4:45:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 4:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 4:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 4:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 4:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 4:58:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 5:04:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 5:04:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 5:16:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 5:22:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 5:29:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 5:38:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 5:44:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 5:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 5:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 5:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 5:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 5:57:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 6:00:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 6:05:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 6:18:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 6:20:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 6:24:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 6:40:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 6:45:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 6:47:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 6:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 17, 2016 6:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 6:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 6:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 6:55:06 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #76 main build action completed: SUCCESS
+Oct 17, 2016 7:02:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 7:06:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 7:11:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 7:22:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 7:27:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 7:39:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 7:45:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 17, 2016 7:45:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 7:45:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 7:45:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 7:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 7:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test offline because it?s not responding
+Oct 17, 2016 7:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 7:50:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 17, 2016 7:50:13 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 7:50:13 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 8:04:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 8:30:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 8:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 8:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 8:54:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 9:08:53 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Oct 17, 2016 9:09:02 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Oct 17, 2016 9:09:04 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,996 ms
+Oct 17, 2016 9:20:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 9:46:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 9:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 9:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 10:10:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 10:34:05 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 17, 2016 10:42:46 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Oct 17, 2016 10:42:46 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Oct 17, 2016 10:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 10:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 10:49:29 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux2 for Free Disk Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 17, 2016 10:50:54 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Oct 17, 2016 10:50:54 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Oct 17, 2016 11:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 17, 2016 11:48:59 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 17, 2016 11:49:29 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux2 for Free Disk Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+

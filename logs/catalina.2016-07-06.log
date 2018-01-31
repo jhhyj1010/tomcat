@@ -1,0 +1,24 @@
+Jul 6, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 6, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 889 ms
+Jul 6, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 6, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 52 ms
+Jul 6, 2016 3:26:09 PM hudson.model.Run execute
+INFO: SP304_SRS_WEEKLY_BUILD #19 main build action completed: SUCCESS
+Jul 6, 2016 7:53:51 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 6, 2016 7:53:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jul 6, 2016 7:53:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jul 6, 2016 7:53:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jul 6, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 6, 2016 9:18:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 6, 2016 9:18:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,889 ms

@@ -1,0 +1,14 @@
+Jul 16, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 16, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,026 ms
+Jul 16, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 16, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 16 ms
+Jul 16, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 16, 2016 9:18:43 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 16, 2016 9:18:45 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,037 ms

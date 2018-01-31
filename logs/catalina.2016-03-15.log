@@ -1,0 +1,66 @@
+Mar 15, 2016 2:32:29 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP303 #62 main build action completed: SUCCESS
+Mar 15, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Mar 15, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 2 ms
+Mar 15, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Mar 15, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 141 ms
+Mar 15, 2016 7:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 8:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 9:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 10:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 11:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 12:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 1:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Mar 15, 2016 1:59:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Mar 15, 2016 1:59:46 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 9,423 ms
+Mar 15, 2016 2:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 3:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 4:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 5:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 6:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Mar 15, 2016 8:01:38 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP303 #63 main build action completed: SUCCESS
+Mar 15, 2016 8:21:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.StatusColumn
+Mar 15, 2016 8:21:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.WeatherColumn
+Mar 15, 2016 8:21:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.JobColumn
+Mar 15, 2016 8:21:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastSuccessColumn
+Mar 15, 2016 8:21:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastFailureColumn
+Mar 15, 2016 8:21:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastDurationColumn
+Mar 15, 2016 8:21:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.BuildButtonColumn
+Mar 15, 2016 8:25:35 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Mar 15, 2016 8:36:27 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #1 main build action completed: SUCCESS
+Mar 15, 2016 9:31:44 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Mar 15, 2016 9:42:26 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #2 main build action completed: SUCCESS
+Mar 15, 2016 11:06:44 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #3 main build action completed: SUCCESS

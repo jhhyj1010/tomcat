@@ -1,0 +1,2438 @@
+Aug 17, 2015 12:00:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 12:01:04 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_DA_PEORIOICALLY #13 main build action completed: SUCCESS
+Aug 17, 2015 12:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 12:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 12:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 12:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 12:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 12:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 12:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #154 main build action completed: SUCCESS
+Aug 17, 2015 12:09:04 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 12:15:44 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 12:17:02 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #1 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 12:17:21 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel.
+java.util.concurrent.TimeoutException: Ping started on 1439795601800 hasn't completed at 1439795841844
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+Aug 17, 2015 12:18:17 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 12:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx_pbisunx001
+Aug 17, 2015 12:19:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 12:19:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 12:19:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 12:19:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 12:19:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 12:19:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 12:19:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 12:20:22 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #1 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 12:20:46 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #2 main build action completed: SUCCESS
+Aug 17, 2015 12:20:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 12:22:13 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #3 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Response Time
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Free Swap Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Free Temp Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Free Disk Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Clock Difference
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 12:22:42 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Architecture
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:23:30 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 12:23:39 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #1 main build action completed: FAILURE
+Aug 17, 2015 12:25:59 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_LINUXAMD64_SP300 #1 main build action completed: SUCCESS
+Aug 17, 2015 12:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 12:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 12:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 12:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 12:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 12:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 12:30:09 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Aug 17, 2015 12:30:09 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Aug 17, 2015 12:30:09 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect rs_test_repqaaix2
+Aug 17, 2015 12:30:28 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel rs_test_repqaaix2
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Clock Difference
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Free Disk Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Free Swap Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Free Temp Space
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Architecture
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_sunx_pbisunx001 for Response Time
+java.util.concurrent.TimeoutException
+	at hudson.remoting.Request$1.get(Request.java:271)
+	at hudson.remoting.Request$1.get(Request.java:206)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 12:30:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 12:32:37 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 12:32:58 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_HPIA64_SP300 #1 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 12:33:42 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.StatusColumn
+Aug 17, 2015 12:33:42 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.WeatherColumn
+Aug 17, 2015 12:33:42 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.JobColumn
+Aug 17, 2015 12:33:42 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastSuccessColumn
+Aug 17, 2015 12:33:42 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastFailureColumn
+Aug 17, 2015 12:33:42 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastDurationColumn
+Aug 17, 2015 12:33:42 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.BuildButtonColumn
+Aug 17, 2015 12:34:03 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 12:34:09 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #2 main build action completed: SUCCESS
+Aug 17, 2015 12:36:15 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 12:36:19 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #3 main build action completed: SUCCESS
+Aug 17, 2015 12:37:25 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Aug 17, 2015 12:37:25 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Aug 17, 2015 12:37:25 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 12:37:39 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #4 main build action completed: SUCCESS
+Aug 17, 2015 12:38:40 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 12:38:40 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 12:38:40 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 12:38:40 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 12:38:40 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 12:38:40 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 12:38:40 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 12:38:44 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #5 main build action completed: SUCCESS
+Aug 17, 2015 12:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #155 main build action completed: SUCCESS
+Aug 17, 2015 12:39:44 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #6 main build action completed: SUCCESS
+Aug 17, 2015 12:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 12:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 12:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 12:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 12:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 12:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 12:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 12:59:58 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.ConditionalBuilder
+Aug 17, 2015 12:59:58 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.AlwaysRun
+Aug 17, 2015 12:59:58 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Aug 17, 2015 12:59:58 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Aug 17, 2015 12:59:58 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.tikal.jenkins.plugins.multijob.MultiJobBuilder
+Aug 17, 2015 1:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 1:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 1:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 1:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 1:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 1:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 1:09:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #156 main build action completed: SUCCESS
+Aug 17, 2015 1:10:55 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 1:20:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 1:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 1:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 1:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 1:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 1:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 1:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 1:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 1:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #157 main build action completed: SUCCESS
+Aug 17, 2015 1:42:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 1:48:41 AM hudson.model.Run execute
+INFO: 1_SRS_SP300_INSTALLER_BUILD #1 main build action completed: SUCCESS
+Aug 17, 2015 1:49:40 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #4 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 1:49:40 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #2 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 1:49:41 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_HPIA64_SP300 #2 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 1:49:43 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_LINUXAMD64_SP300 #2 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:181)
+	at hudson.Proc$LocalProc.join(Proc.java:319)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 1:49:59 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu #1 aborted
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuilder.perform(MultiJobBuilder.java:237)
+	at org.jenkinsci.plugins.conditionalbuildstep.BuilderChain.perform(BuilderChain.java:71)
+	at org.jenkins_ci.plugins.run_condition.BuildStepRunner$2.run(BuildStepRunner.java:110)
+	at org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail.conditionalRun(BuildStepRunner.java:154)
+	at org.jenkins_ci.plugins.run_condition.BuildStepRunner.perform(BuildStepRunner.java:105)
+	at org.jenkinsci.plugins.conditionalbuildstep.ConditionalBuilder.perform(ConditionalBuilder.java:133)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild$MultiJobRunnerImpl.run(MultiJobBuild.java:134)
+	at hudson.model.Run.execute(Run.java:1759)
+	at com.tikal.jenkins.plugins.multijob.MultiJobBuild.run(MultiJobBuild.java:73)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 1:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 1:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 1:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 1:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 1:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 1:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 1:57:59 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #7 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 1:58:02 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #8 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 1:59:01 AM hudson.model.Run execute
+INFO: 1_SRS_SP300_INSTALLER_BUILD #2 main build action completed: SUCCESS
+Aug 17, 2015 2:00:58 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #3 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 2:01:00 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu #1 main build action completed: ABORTED
+Aug 17, 2015 2:05:53 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu #12 main build action completed: SUCCESS
+Aug 17, 2015 2:06:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 2:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #158 main build action completed: SUCCESS
+Aug 17, 2015 2:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 2:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 2:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 2:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 2:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 2:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 2:17:33 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu #13 main build action completed: SUCCESS
+Aug 17, 2015 2:18:50 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #5 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 2:18:53 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu #2 main build action completed: ABORTED
+Aug 17, 2015 2:21:58 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu #14 main build action completed: SUCCESS
+Aug 17, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 2:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 2:23:21 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #9 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 2:23:24 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu #3 main build action completed: ABORTED
+Aug 17, 2015 2:24:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Out of order build detection
+Aug 17, 2015 2:25:16 AM hudson.model.Run execute
+INFO: 1_Sub_Nightly_RS_Binary_Build_Linuxamd64 #124 main build action completed: SUCCESS
+Aug 17, 2015 2:25:27 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Linuxamd64/builds/1: /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Linuxamd64/builds/1/build.xml doesn't exist
+Aug 17, 2015 2:25:38 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Parallel_Linuxamd64/builds/122: /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Parallel_Linuxamd64/builds/122/build.xml doesn't exist
+Aug 17, 2015 2:25:38 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Parallel_Linuxamd64/builds/2015-08-17_02-22-00: /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Parallel_Linuxamd64/builds/2015-08-17_02-22-00/build.xml doesn't exist
+Aug 17, 2015 2:26:28 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/1_Sub_Nightly_RMA_Binary_Build_Linuxamd64/builds/2015-08-17_02-22-11: /remote/repeng10/.jenkins/jobs/1_Sub_Nightly_RMA_Binary_Build_Linuxamd64/builds/2015-08-17_02-22-11/build.xml doesn't exist
+Aug 17, 2015 2:26:28 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/1_Sub_Nightly_RMA_Binary_Build_Linuxamd64/builds/140: /remote/repeng10/.jenkins/jobs/1_Sub_Nightly_RMA_Binary_Build_Linuxamd64/builds/140/build.xml doesn't exist
+Aug 17, 2015 2:28:30 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-04-21_06-01-32: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-04-21_06-01-32/build.xml doesn't exist
+Aug 17, 2015 2:28:30 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/10: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/10/build.xml doesn't exist
+Aug 17, 2015 2:28:30 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-08-12_02-36-48: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-08-12_02-36-48/build.xml doesn't exist
+Aug 17, 2015 2:28:30 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/115: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/115/build.xml doesn't exist
+Aug 17, 2015 2:28:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 2:31:11 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 2:32:16 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/2015-04-21_06-01-52: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/2015-04-21_06-01-52/build.xml doesn't exist
+Aug 17, 2015 2:32:16 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/12: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/12/build.xml doesn't exist
+Aug 17, 2015 2:33:17 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/2015-04-21_06-01-52: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/2015-04-21_06-01-52/build.xml doesn't exist
+Aug 17, 2015 2:33:17 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/11: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/11/build.xml doesn't exist
+Aug 17, 2015 2:34:18 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/MyTest/builds/2015-04-22_00-55-20: /remote/repeng10/.jenkins/jobs/MyTest/builds/2015-04-22_00-55-20/build.xml doesn't exist
+Aug 17, 2015 2:34:18 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/MyTest/builds/4: /remote/repeng10/.jenkins/jobs/MyTest/builds/4/build.xml doesn't exist
+Aug 17, 2015 2:34:48 AM hudson.model.Run execute
+INFO: 1_Sub_Nightly_RMA_Binary_Build_Linuxamd64 #140 main build action completed: SUCCESS
+Aug 17, 2015 2:34:49 AM hudson.model.Run execute
+INFO: 1_Nightly_RS_Binary_Build_Parallel_Linuxamd64 #122 main build action completed: SUCCESS
+Aug 17, 2015 2:35:31 AM hudson.model.Run execute
+INFO: 2_Nightly_RS_Installer_Build_Test_Linuxamd64 #149 main build action completed: SUCCESS
+Aug 17, 2015 2:35:52 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_auto_install #124 main build action completed: FAILURE
+Aug 17, 2015 2:35:54 AM hudson.model.Run execute
+INFO: 3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update #120 main build action completed: FAILURE
+Aug 17, 2015 2:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 2:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 2:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 2:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 2:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 2:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 2:39:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #159 main build action completed: SUCCESS
+Aug 17, 2015 2:39:25 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu #15 main build action completed: SUCCESS
+Aug 17, 2015 2:42:50 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_HPIA64_SP300 #3 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 2:42:54 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #10 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 2:42:54 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_LINUXAMD64_SP300 #3 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 2:42:55 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #6 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 2:42:55 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #4 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 2:42:55 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu #4 main build action completed: ABORTED
+Aug 17, 2015 2:49:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 2:50:31 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu/builds/16: /remote/repeng10/.jenkins/jobs/SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu/builds/16/build.xml doesn't exist
+Aug 17, 2015 2:50:31 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu/builds/2015-08-17_02-44-31: /remote/repeng10/.jenkins/jobs/SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu/builds/2015-08-17_02-44-31/build.xml doesn't exist
+Aug 17, 2015 2:50:51 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu/builds/2015-08-17_02-44-25: /remote/repeng10/.jenkins/jobs/SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu/builds/2015-08-17_02-44-25/build.xml doesn't exist
+Aug 17, 2015 2:50:51 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu/builds/5: /remote/repeng10/.jenkins/jobs/SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu/builds/5/build.xml doesn't exist
+Aug 17, 2015 2:52:12 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Out of order build detection. 1,635,324 ms
+Aug 17, 2015 2:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 2:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 2:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 2:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 2:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 2:57:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 3:02:24 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu #16 main build action completed: SUCCESS
+Aug 17, 2015 3:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #160 main build action completed: SUCCESS
+Aug 17, 2015 3:10:19 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 3:10:19 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2015 3:10:19 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2015 3:10:19 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2015 3:12:39 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu #17 main build action completed: SUCCESS
+Aug 17, 2015 3:12:53 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_LINUXAMD64_SP300 #4 main build action completed: SUCCESS
+Aug 17, 2015 3:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 3:13:41 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 3:13:41 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2015 3:13:41 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2015 3:13:41 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2015 3:15:44 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_HPIA64_SP300 #4 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 3:15:46 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #7 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 3:15:46 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #5 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 3:15:48 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #11 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 3:15:48 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu #5 main build action completed: ABORTED
+Aug 17, 2015 3:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 3:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 3:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 3:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 3:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 3:19:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 3:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 3:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 3:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 3:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 3:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 3:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 3:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 3:25:54 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu #18 main build action completed: SUCCESS
+Aug 17, 2015 3:27:45 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #12 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 3:27:48 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_HPIA64_SP300 #5 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 3:27:50 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #8 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 3:27:50 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_LINUXAMD64_SP300 #5 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 3:27:50 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #6 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 3:27:50 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu #6 main build action completed: ABORTED
+Aug 17, 2015 3:33:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 3:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #161 main build action completed: SUCCESS
+Aug 17, 2015 3:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 3:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 3:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 3:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 3:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 3:41:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 3:46:22 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Aug 17, 2015 3:46:49 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 27,352 ms
+Aug 17, 2015 3:55:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 4:03:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 4:03:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 4:03:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 4:03:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 4:03:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 4:03:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 4:09:26 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #162 main build action completed: SUCCESS
+Aug 17, 2015 4:16:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 4:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 4:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 4:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 4:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 4:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 4:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 4:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 4:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 4:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 4:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 4:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 4:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 4:23:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 4:38:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 4:39:09 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #163 main build action completed: SUCCESS
+Aug 17, 2015 4:46:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 4:46:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 4:46:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 4:46:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 4:46:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 4:46:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 4:47:10 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel Installer_ibmplinux64_elevon
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Aug 17, 2015 4:59:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 5:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 5:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 5:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 5:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 5:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 5:07:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 5:09:18 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #164 main build action completed: SUCCESS
+Aug 17, 2015 5:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 5:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 5:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 5:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 5:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 5:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 5:22:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 5:22:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 5:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 5:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 5:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 5:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 5:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 5:30:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 5:39:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #165 main build action completed: SUCCESS
+Aug 17, 2015 5:44:44 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_BUILD_SP300-sybinstrs1571sp300_huiji_vu #19 main build action completed: SUCCESS
+Aug 17, 2015 5:44:57 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #13 main build action completed: SUCCESS
+Aug 17, 2015 5:45:02 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_HPIA64_SP300 #6 main build action completed: SUCCESS
+Aug 17, 2015 5:45:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 5:52:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 5:52:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 5:52:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 5:52:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 5:52:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 5:52:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 5:55:17 AM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_LINUXAMD64_SP300 #6 main build action completed: SUCCESS
+Aug 17, 2015 6:01:03 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_DA_PEORIOICALLY #14 main build action completed: SUCCESS
+Aug 17, 2015 6:08:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 6:09:02 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #166 main build action completed: SUCCESS
+Aug 17, 2015 6:13:53 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Aug 17, 2015 6:13:53 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 37 ms
+Aug 17, 2015 6:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 6:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 6:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 6:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 6:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 6:14:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 6:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 6:32:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 6:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 6:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 6:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 6:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 6:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 6:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 6:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #167 main build action completed: SUCCESS
+Aug 17, 2015 6:56:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 6:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 6:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 6:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 6:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 6:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 6:58:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 7:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #168 main build action completed: SUCCESS
+Aug 17, 2015 7:21:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 7:21:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 7:21:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 7:21:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 7:21:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 7:21:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 7:21:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 7:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 7:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #169 main build action completed: SUCCESS
+Aug 17, 2015 7:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 7:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 7:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 7:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 7:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 7:43:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 7:44:01 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel Installer_ibmplinux64_elevon
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Aug 17, 2015 7:44:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 8:05:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 8:05:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 8:05:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 8:05:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 8:05:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 8:05:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 8:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #170 main build action completed: SUCCESS
+Aug 17, 2015 8:09:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 8:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 8:27:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 8:27:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 8:27:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 8:27:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 8:27:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 8:27:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 8:32:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 8:39:20 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #171 main build action completed: SUCCESS
+Aug 17, 2015 8:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 8:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 8:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 8:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 8:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 8:47:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 8:55:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 9:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #172 main build action completed: SUCCESS
+Aug 17, 2015 9:09:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 9:09:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 9:09:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 9:09:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 9:09:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 9:09:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 9:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 9:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 9:31:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 9:31:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 9:31:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 9:31:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 9:31:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 9:31:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 9:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #173 main build action completed: SUCCESS
+Aug 17, 2015 9:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 9:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 9:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 9:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 9:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 9:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 9:50:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 10:03:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 10:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #174 main build action completed: SUCCESS
+Aug 17, 2015 10:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 10:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 10:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 10:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 10:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 10:12:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 10:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 10:27:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 10:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 10:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 10:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 10:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 10:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 10:35:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 10:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #175 main build action completed: SUCCESS
+Aug 17, 2015 10:51:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 10:56:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 10:56:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 10:56:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 10:56:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 10:56:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 10:56:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 10:59:23 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Aug 17, 2015 10:59:23 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 45 ms
+Aug 17, 2015 11:09:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #176 main build action completed: SUCCESS
+Aug 17, 2015 11:15:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 11:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 11:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 11:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 11:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 11:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 11:18:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 11:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 11:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 11:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 11:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 11:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 11:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 11:22:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 11:38:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 11:39:01 AM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #177 main build action completed: SUCCESS
+Aug 17, 2015 11:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 11:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 11:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 11:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 11:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 11:40:55 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 11:58:37 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Aug 17, 2015 12:00:29 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Aug 17, 2015 12:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 12:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 12:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 12:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 12:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 12:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 12:00:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 12:01:03 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_DA_PEORIOICALLY #15 main build action completed: SUCCESS
+Aug 17, 2015 12:09:02 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #178 main build action completed: SUCCESS
+Aug 17, 2015 12:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 12:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 12:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 12:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 12:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 12:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 12:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 12:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 12:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #179 main build action completed: SUCCESS
+Aug 17, 2015 12:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 12:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 12:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 12:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 12:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 12:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 12:47:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 1:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 1:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 1:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 1:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 1:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 1:06:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 1:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #180 main build action completed: SUCCESS
+Aug 17, 2015 1:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 1:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 1:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 1:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 1:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 1:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 1:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 1:27:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 1:35:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 1:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #181 main build action completed: SUCCESS
+Aug 17, 2015 1:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 1:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 1:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 1:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 1:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 1:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 1:59:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 2:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #182 main build action completed: SUCCESS
+Aug 17, 2015 2:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 2:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 2:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 2:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 2:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 2:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 2:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 2:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 2:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 2:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 2:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 2:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 2:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 2:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 2:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #183 main build action completed: SUCCESS
+Aug 17, 2015 2:46:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 2:55:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 2:55:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 2:55:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 2:55:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 2:55:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 2:55:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 3:03:05 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #7 main build action completed: SUCCESS
+Aug 17, 2015 3:09:16 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #184 main build action completed: SUCCESS
+Aug 17, 2015 3:09:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 3:16:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 3:16:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 3:16:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 3:16:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 3:16:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 3:16:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 3:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 3:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 3:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 3:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 3:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 3:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 3:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 3:38:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 3:39:46 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #185 main build action completed: SUCCESS
+Aug 17, 2015 3:57:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 4:01:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 4:01:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 4:01:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 4:01:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 4:01:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 4:01:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 4:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #186 main build action completed: SUCCESS
+Aug 17, 2015 4:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 4:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 4:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 4:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 4:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 4:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 4:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 4:23:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 4:24:00 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel Installer_ibmplinux64_elevon
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Aug 17, 2015 4:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #187 main build action completed: SUCCESS
+Aug 17, 2015 4:40:38 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #9 main build action completed: SUCCESS
+Aug 17, 2015 4:40:39 PM hudson.model.Run execute
+INFO: SRS_INSTALLER_SERIAL_PROCESS_SP300-sybinstrs1571sp300_huiji_vu #7 main build action completed: SUCCESS
+Aug 17, 2015 4:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 4:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 4:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 4:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 4:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 4:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 4:45:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 5:08:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 5:08:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 5:08:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 5:08:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 5:08:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 5:08:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 5:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #188 main build action completed: SUCCESS
+Aug 17, 2015 5:09:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 5:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 5:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 5:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 5:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 5:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 5:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 5:30:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 5:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 5:37:49 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 5:37:52 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #8 main build action completed: SUCCESS
+Aug 17, 2015 5:38:59 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 5:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #189 main build action completed: SUCCESS
+Aug 17, 2015 5:39:02 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #9 main build action completed: SUCCESS
+Aug 17, 2015 5:46:13 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 5:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 5:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 5:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 5:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 5:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 5:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 5:56:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 6:01:04 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_DA_PEORIOICALLY #16 main build action completed: SUCCESS
+Aug 17, 2015 6:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #190 main build action completed: SUCCESS
+Aug 17, 2015 6:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 6:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 6:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 6:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 6:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 6:12:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 6:20:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 6:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 6:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 6:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 6:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 6:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 6:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 6:34:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 6:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #191 main build action completed: SUCCESS
+Aug 17, 2015 6:41:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 6:46:31 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.StatusColumn
+Aug 17, 2015 6:46:31 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.WeatherColumn
+Aug 17, 2015 6:46:31 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.JobColumn
+Aug 17, 2015 6:46:31 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastSuccessColumn
+Aug 17, 2015 6:46:31 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastFailureColumn
+Aug 17, 2015 6:46:31 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastDurationColumn
+Aug 17, 2015 6:46:31 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.BuildButtonColumn
+Aug 17, 2015 6:46:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Aug 17, 2015 6:53:46 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 17, 2015 6:53:46 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 17, 2015 6:53:46 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 17, 2015 6:53:46 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 17, 2015 6:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 6:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 6:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 6:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 6:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 6:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 7:04:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 7:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #192 main build action completed: SUCCESS
+Aug 17, 2015 7:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 7:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 7:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 7:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 7:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 7:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 7:18:34 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP208 #1 main build action completed: SUCCESS
+Aug 17, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 7:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 7:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 7:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 7:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 7:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 7:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 7:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 7:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 7:39:04 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #193 main build action completed: SUCCESS
+Aug 17, 2015 7:51:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 7:59:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 7:59:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 7:59:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 7:59:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 7:59:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 7:59:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 8:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #194 main build action completed: SUCCESS
+Aug 17, 2015 8:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 8:20:23 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SPARC64_SP300 #10 main build action completed: SUCCESS
+Aug 17, 2015 8:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 8:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 8:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 8:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 8:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 8:21:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 8:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 8:39:36 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #195 main build action completed: SUCCESS
+Aug 17, 2015 8:39:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 8:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 8:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 8:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 8:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 8:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 8:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 9:04:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 9:05:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 9:05:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 9:05:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 9:05:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 9:05:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 9:05:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 9:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #196 main build action completed: SUCCESS
+Aug 17, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 9:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 9:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 9:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 9:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 9:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 9:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 9:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 9:28:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 9:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #197 main build action completed: SUCCESS
+Aug 17, 2015 9:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 9:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 9:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 9:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 9:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 9:50:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 9:52:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 10:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #198 main build action completed: SUCCESS
+Aug 17, 2015 10:11:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 10:11:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 10:11:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 10:11:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 10:11:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 10:11:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 10:15:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 10:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 10:29:25 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #10 main build action completed: SUCCESS
+Aug 17, 2015 10:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 10:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 10:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 10:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 10:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 10:32:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 10:37:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 10:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #199 main build action completed: SUCCESS
+Aug 17, 2015 10:41:15 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_SUNX64_SP300 #11 main build action completed: SUCCESS
+Aug 17, 2015 10:44:19 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_IBMAIX64_SP300 #14 main build action completed: SUCCESS
+Aug 17, 2015 10:50:32 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_LINUXAMD64_SP300 #7 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 10:50:55 PM hudson.model.Run execute
+INFO: 2_SRS_TESTRUN_HPIA64_SP300 #7 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:173)
+	at $Proxy50.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1759)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Aug 17, 2015 10:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 10:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 10:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 10:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 10:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 10:53:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 11:01:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 11:09:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #200 main build action completed: SUCCESS
+Aug 17, 2015 11:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 11:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 11:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 11:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 11:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 11:13:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 17, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 17, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 17, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_willow offline because it’s not responding
+Aug 17, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 17, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 17, 2015 11:22:12 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 17, 2015 11:22:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 11:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 11:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 11:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 11:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 11:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 11:33:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow
+Aug 17, 2015 11:39:01 PM hudson.model.Run execute
+INFO: SRS_SP300_STAGE_HRAX_PEORIOICALLY #201 main build action completed: SUCCESS
+Aug 17, 2015 11:43:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 17, 2015 11:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 17, 2015 11:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 17, 2015 11:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 17, 2015 11:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 17, 2015 11:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 17, 2015 11:54:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_willow

@@ -1,0 +1,98 @@
+Oct 24, 2016 12:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 1:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 2:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 3:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 4:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 5:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 6:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 7:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 8:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 8:43:53 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #83 main build action completed: SUCCESS
+Oct 24, 2016 8:45:23 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #85 main build action completed: SUCCESS
+Oct 24, 2016 8:56:59 AM hudson.model.Run execute
+INFO: SRS_SP305_TEST #57 main build action completed: FAILURE
+Oct 24, 2016 8:57:00 AM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #63 main build action completed: FAILURE
+Oct 24, 2016 9:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 10:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 11:26:24 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 11:48:28 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Oct 24, 2016 11:48:28 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 1 ms
+Oct 24, 2016 12:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 1:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 2:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 3:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 4:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 5:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 6:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 7:02:16 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #86 main build action completed: SUCCESS
+Oct 24, 2016 7:13:52 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #58 main build action completed: FAILURE
+Oct 24, 2016 7:13:53 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #64 main build action completed: FAILURE
+Oct 24, 2016 7:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 8:01:23 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Oct 24, 2016 8:01:39 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Oct 24, 2016 8:01:41 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 18,014 ms
+Oct 24, 2016 8:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 8:27:34 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Oct 24, 2016 8:27:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 487 ms
+Oct 24, 2016 9:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 10:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 10:48:04 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #87 main build action completed: SUCCESS
+Oct 24, 2016 11:02:18 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #59 main build action completed: FAILURE
+Oct 24, 2016 11:02:18 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #65 main build action completed: FAILURE
+Oct 24, 2016 11:12:29 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Oct 24, 2016 11:12:29 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Oct 24, 2016 11:12:29 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Oct 24, 2016 11:12:29 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Oct 24, 2016 11:12:54 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Oct 24, 2016 11:23:16 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #88 main build action completed: SUCCESS
+Oct 24, 2016 11:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 24, 2016 11:37:39 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #60 main build action completed: SUCCESS
+Oct 24, 2016 11:37:39 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #66 main build action completed: SUCCESS

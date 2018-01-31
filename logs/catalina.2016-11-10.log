@@ -1,0 +1,88 @@
+Nov 10, 2016 12:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 1:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 2:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 3:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 4:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 5:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 6:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 7:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 8:11:04 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #54 main build action completed: SUCCESS
+Nov 10, 2016 8:11:18 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #100 main build action completed: SUCCESS
+Nov 10, 2016 8:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 8:37:42 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #49 main build action completed: SUCCESS
+Nov 10, 2016 8:37:45 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_AND_DROP_TO_ASE #15 main build action completed: SUCCESS
+Nov 10, 2016 9:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 10:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 10:48:28 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Nov 10, 2016 10:48:28 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 1 ms
+Nov 10, 2016 11:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 12:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 1:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 2:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 3:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 4:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 5:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 6:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 7:00:59 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #130 main build action completed: SUCCESS
+Nov 10, 2016 7:01:23 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Nov 10, 2016 7:01:31 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Nov 10, 2016 7:01:34 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,119 ms
+Nov 10, 2016 7:15:47 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #75 main build action completed: SUCCESS
+Nov 10, 2016 7:15:56 PM hudson.model.Run execute
+INFO: CREATE_LINK #14 main build action completed: SUCCESS
+Nov 10, 2016 7:15:57 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #90 main build action completed: SUCCESS
+Nov 10, 2016 7:24:21 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Nov 10, 2016 7:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 7:27:34 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Nov 10, 2016 7:27:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 474 ms
+Nov 10, 2016 8:18:02 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #55 main build action completed: SUCCESS
+Nov 10, 2016 8:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 8:45:03 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #50 main build action completed: SUCCESS
+Nov 10, 2016 8:45:05 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_AND_DROP_TO_ASE #16 main build action completed: SUCCESS
+Nov 10, 2016 9:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 10:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Nov 10, 2016 10:45:15 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #34 main build action completed: SUCCESS
+Nov 10, 2016 11:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding

@@ -1,0 +1,96 @@
+Oct 02, 2016 1:38:39 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Oct 02, 2016 1:38:39 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 20 ms
+Oct 02, 2016 8:13:03 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #67 main build action completed: SUCCESS
+Oct 02, 2016 1:27:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Oct 02, 2016 1:27:59 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,671 ms
+Oct 02, 2016 6:56:28 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #68 main build action completed: SUCCESS
+Oct 02, 2016 7:13:42 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #43 main build action completed: SUCCESS
+Oct 02, 2016 7:13:42 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #49 main build action completed: SUCCESS
+Oct 02, 2016 10:38:32 PM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux.
+java.util.concurrent.TimeoutException: Ping started on 1475472872779 hasn't completed at 1475473112818
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 02, 2016 10:40:25 PM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux1.
+java.util.concurrent.TimeoutException: Ping started on 1475472985726 hasn't completed at 1475473225764
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 02, 2016 10:40:23 PM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel ase_test.
+java.util.concurrent.TimeoutException: Ping started on 1475472983727 hasn't completed at 1475473223765
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 02, 2016 10:40:16 PM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux2.
+java.util.concurrent.TimeoutException: Ping started on 1475472976562 hasn't completed at 1475473216601
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 02, 2016 10:40:15 PM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel ase_test_txue.
+java.util.concurrent.TimeoutException: Ping started on 1475472975607 hasn't completed at 1475473215646
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 02, 2016 10:42:01 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel ase_test
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2323)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2792)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:799)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+
+Oct 02, 2016 10:42:17 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel installer_test_linux2
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2323)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2792)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:799)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+
+Oct 02, 2016 10:43:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 02, 2016 10:43:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 02, 2016 10:43:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 02, 2016 10:43:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 02, 2016 10:43:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 02, 2016 11:02:51 PM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux2.
+java.util.concurrent.TimeoutException: Ping started on 1475474331397 hasn't completed at 1475474571436
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 02, 2016 11:04:22 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 02, 2016 11:39:09 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Oct 02, 2016 11:39:17 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Oct 02, 2016 11:39:19 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 9,776 ms

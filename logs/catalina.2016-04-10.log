@@ -1,0 +1,18 @@
+Apr 10, 2016 1:38:01 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Connection Activity monitoring to slaves
+Apr 10, 2016 1:38:01 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Connection Activity monitoring to slaves. 2 ms
+Apr 10, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Apr 10, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 3 ms
+Apr 10, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Apr 10, 2016 6:26:33 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 211 ms
+Apr 10, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Apr 10, 2016 1:59:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Apr 10, 2016 1:59:48 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,476 ms

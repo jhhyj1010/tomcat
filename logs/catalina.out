@@ -1,0 +1,846 @@
+Jun 21, 2016 10:09:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 21, 2016 10:09:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Jun 21, 2016 10:09:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Jun 21, 2016 10:09:32 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1117 ms
+Jun 21, 2016 10:09:32 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 21, 2016 10:09:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Jun 21, 2016 10:09:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Jun 21, 2016 10:09:48 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Jenkins home directory: /remote/repeng11/.jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Jun 21, 2016 10:09:49 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 17,059 ms
+Jun 21, 2016 10:09:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Jun 21, 2016 10:09:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 70 ms
+Jun 21, 2016 10:09:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Jun 21, 2016 10:09:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 64 ms
+Jun 21, 2016 10:09:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Jun 21, 2016 10:09:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jun 21, 2016 10:09:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 833 ms
+Jun 21, 2016 10:09:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Jun 21, 2016 10:09:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 130 ms
+Jun 21, 2016 10:09:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Jun 21, 2016 10:09:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 140 ms
+Jun 21, 2016 10:09:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Jun 21, 2016 10:09:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 61 ms
+Jun 21, 2016 10:09:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Jun 21, 2016 10:09:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Jun 21, 2016 10:09:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 18674 ms
+Jun 21, 2016 10:10:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jun 21, 2016 10:10:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jun 21, 2016 10:10:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jun 21, 2016 10:10:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jun 21, 2016 10:10:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jun 21, 2016 10:10:08 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 34943
+Jun 21, 2016 10:10:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jun 21, 2016 10:10:08 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@2cc5c76c: display name [Root WebApplicationContext]; startup date [Tue Jun 21 22:10:08 PDT 2016]; root of context hierarchy
+Jun 21, 2016 10:10:08 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@2cc5c76c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5f08cd64
+Jun 21, 2016 10:10:08 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5f08cd64: defining beans [authenticationManager]; root of factory hierarchy
+Jun 21, 2016 10:10:08 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@7b6bb7b1: display name [Root WebApplicationContext]; startup date [Tue Jun 21 22:10:08 PDT 2016]; root of context hierarchy
+Jun 21, 2016 10:10:08 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@7b6bb7b1]: org.springframework.beans.factory.support.DefaultListableBeanFactory@54405a01
+Jun 21, 2016 10:10:08 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@54405a01: defining beans [filter,legacy]; root of factory hierarchy
+Jun 21, 2016 10:10:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jun 21, 2016 10:10:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Jun 21, 2016 10:10:08 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+[06/21/16 22:10:12] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp failed in 4,011 ms
+Jun 21, 2016 10:10:18 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+[06/21/16 22:10:20] SSH Launch of ase_test_linux_lisa on replinuxb15.oak.sap.corp completed in 11,151 ms
+[06/21/16 22:10:21] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp failed in 2,460 ms
+Jun 21, 2016 10:11:18 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+[06/21/16 22:11:22] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp failed in 3,386 ms
+Jun 21, 2016 10:13:18 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+[06/21/16 22:13:22] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp failed in 3,516 ms
+Jun 21, 2016 10:15:18 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+[06/21/16 22:15:22] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp failed in 3,445 ms
+Jun 21, 2016 10:19:59 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jun 21, 2016 10:22:43 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Jun 21, 2016 10:22:43 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+[06/21/16 22:22:48] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp failed in 3,131 ms
+Jun 21, 2016 10:23:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Jun 21, 2016 10:23:22 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+[06/21/16 22:23:26] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp failed in 3,236 ms
+Jun 21, 2016 10:23:49 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl
+Jun 21, 2016 10:24:07 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Jun 21, 2016 10:24:07 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Jun 21, 2016 10:24:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+[06/21/16 22:24:15] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp completed in 7,910 ms
+[06/21/16 22:24:21] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp failed in 5,444 ms
+Jun 21, 2016 10:24:21 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel installer_test_linux
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Jun 21, 2016 11:14:10 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #11 main build action completed: SUCCESS
+Jun 22, 2016 2:44:11 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jun 22, 2016 2:44:32 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #12 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at $Proxy51.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Jun 22, 2016 3:32:07 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #13 main build action completed: SUCCESS
+Jun 22, 2016 5:28:56 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 22, 2016 5:29:06 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 22, 2016 5:29:08 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,483 ms
+Jun 22, 2016 7:19:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jun 22, 2016 7:19:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 20 ms
+Jun 22, 2016 12:33:20 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jun 22, 2016 12:33:21 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 287 ms
+Jun 22, 2016 3:19:03 PM hudson.model.Run execute
+INFO: SP304_SRS_WEEKLY_BUILD #17 main build action completed: SUCCESS
+Jun 23, 2016 5:28:56 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 23, 2016 5:29:06 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 23, 2016 5:29:09 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,970 ms
+Jun 23, 2016 7:19:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jun 23, 2016 7:19:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 9 ms
+Jun 23, 2016 12:33:20 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jun 23, 2016 12:33:21 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 286 ms
+Jun 23, 2016 5:10:35 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8088"]
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8109"]
+Jun 23, 2016 5:54:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 23, 2016 5:54:37 PM hudson.plugins.sshslaves.PluginImpl closeRegisteredConnections
+INFO: Forcing connection to replinuxb15.oak.sap.corp:22 closed.
+Jun 23, 2016 5:54:37 PM hudson.plugins.sshslaves.PluginImpl closeRegisteredConnections
+INFO: Forcing connection to replinuxb15.oak.sap.corp:22 closed.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [jenkins.util.Timer [#2]] but has failed to stop it. This is very likely to create a memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [FilePath.localPool [#151]] but has failed to stop it. This is very likely to create a memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#1060]] but has failed to stop it. This is very likely to create a memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [hudson.remoting.Channel$1] (value [hudson.remoting.Channel$1@4b164fbc]) and a value of type [int[]] (value [[I@25cce627]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@77c235a8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@3541dd07]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@771611e1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@49f007db]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: org.acegisecurity.providers.UsernamePasswordAuthenticationToken@1f: Username: SYSTEM; Password: [PROTECTED]; Authenticated: false; Details: null; Not granted any authorities]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@2d93e0c9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@478ac37f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@6728eb8a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@2f7fe5ef]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@75d0c645]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@5d891870]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.kohsuke.stapler.Stapler$3] (value [org.kohsuke.stapler.Stapler$3@2f1a1dd4]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@c4dc9900]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [com.google.inject.internal.InjectorImpl$1] (value [com.google.inject.internal.InjectorImpl$1@5b9c6174]) and a value of type [java.lang.Object[]] (value [[Ljava.lang.Object;@53a39109]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@49f007db]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8088"]
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8109"]
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8088"]
+Jun 23, 2016 5:54:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8109"]
+Jun 27, 2016 2:56:21 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 27, 2016 2:56:21 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Jun 27, 2016 2:56:21 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Jun 27, 2016 2:56:21 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1274 ms
+Jun 27, 2016 2:56:22 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 27, 2016 2:56:22 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Jun 27, 2016 2:56:22 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Jun 27, 2016 2:56:38 AM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Jenkins home directory: /remote/repeng11/.jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 16,771 ms
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 193 ms
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 173 ms
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Jun 27, 2016 2:56:41 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 4,666 ms
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 286 ms
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 308 ms
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 165 ms
+Jun 27, 2016 2:56:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Jun 27, 2016 2:56:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 22881 ms
+Jun 27, 2016 2:56:50 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jun 27, 2016 2:56:52 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jun 27, 2016 2:56:53 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jun 27, 2016 2:56:53 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jun 27, 2016 2:56:58 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jun 27, 2016 2:56:59 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 47921
+Jun 27, 2016 2:56:59 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jun 27, 2016 2:57:00 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@7c1f3f7: display name [Root WebApplicationContext]; startup date [Mon Jun 27 02:57:00 PDT 2016]; root of context hierarchy
+Jun 27, 2016 2:57:00 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@7c1f3f7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6a4d2262
+Jun 27, 2016 2:57:00 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6a4d2262: defining beans [authenticationManager]; root of factory hierarchy
+Jun 27, 2016 2:57:00 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@5b4c1313: display name [Root WebApplicationContext]; startup date [Mon Jun 27 02:57:00 PDT 2016]; root of context hierarchy
+Jun 27, 2016 2:57:00 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@5b4c1313]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1e0225f0
+Jun 27, 2016 2:57:00 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e0225f0: defining beans [filter,legacy]; root of factory hierarchy
+Jun 27, 2016 2:57:00 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jun 27, 2016 2:57:00 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Jun 27, 2016 2:57:00 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+[06/27/16 02:57:09] SSH Launch of ase_test_linux_lisa on replinuxb15.oak.sap.corp completed in 9,075 ms
+[06/27/16 02:57:10] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp completed in 9,222 ms
+Jun 27, 2016 3:17:43 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #99 main build action completed: SUCCESS
+Jun 27, 2016 11:09:39 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jun 27, 2016 11:09:39 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 52 ms
+Jun 27, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 27, 2016 9:18:47 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 27, 2016 9:18:49 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 13,895 ms
+Jun 28, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jun 28, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 897 ms
+Jun 28, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jun 28, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 48 ms
+Jun 28, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 28, 2016 9:18:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 28, 2016 9:18:48 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,408 ms
+Jun 29, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jun 29, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 811 ms
+Jun 29, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jun 29, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 48 ms
+Jun 29, 2016 3:26:44 PM hudson.model.Run execute
+INFO: SP304_SRS_WEEKLY_BUILD #18 main build action completed: SUCCESS
+Jun 29, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 29, 2016 9:18:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 29, 2016 9:18:49 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 13,651 ms
+Jun 30, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jun 30, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 825 ms
+Jun 30, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jun 30, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 48 ms
+Jun 30, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 30, 2016 9:18:43 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 30, 2016 9:18:46 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,330 ms
+Jul 1, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 1, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 800 ms
+Jul 1, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 1, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 56 ms
+Jul 1, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 1, 2016 9:18:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 1, 2016 9:18:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,699 ms
+Jul 2, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 2, 2016 1:42:59 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,653 ms
+Jul 2, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 2, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 47 ms
+Jul 2, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 2, 2016 9:18:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 2, 2016 9:18:46 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,874 ms
+Jul 3, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 3, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 772 ms
+Jul 3, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 3, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 47 ms
+Jul 3, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 3, 2016 9:18:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 3, 2016 9:18:46 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,816 ms
+Jul 4, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 4, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 848 ms
+Jul 4, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 4, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 76 ms
+Jul 4, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 4, 2016 9:18:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 4, 2016 9:18:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,146 ms
+Jul 5, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 5, 2016 1:42:59 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,932 ms
+Jul 5, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 5, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 50 ms
+Jul 5, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 5, 2016 9:18:42 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 5, 2016 9:18:46 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,187 ms
+Jul 6, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 6, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 889 ms
+Jul 6, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 6, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 52 ms
+Jul 6, 2016 3:26:09 PM hudson.model.Run execute
+INFO: SP304_SRS_WEEKLY_BUILD #19 main build action completed: SUCCESS
+Jul 6, 2016 7:53:51 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jul 6, 2016 7:53:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Jul 6, 2016 7:53:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Jul 6, 2016 7:53:52 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Jul 6, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 6, 2016 9:18:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 6, 2016 9:18:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,889 ms
+Jul 7, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 7, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 802 ms
+Jul 7, 2016 5:04:17 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Jul 7, 2016 6:04:17 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Jul 7, 2016 8:04:17 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Jul 7, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 7, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 46 ms
+Jul 7, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 7, 2016 9:18:42 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 7, 2016 9:18:45 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 9,712 ms
+Jul 8, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 8, 2016 1:42:59 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,923 ms
+Jul 8, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 8, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 46 ms
+Jul 8, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 8, 2016 9:18:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 8, 2016 9:18:50 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 14,314 ms
+Jul 9, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 9, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 762 ms
+Jul 9, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 9, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 46 ms
+Jul 9, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 9, 2016 9:18:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 9, 2016 9:18:49 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 13,615 ms
+Jul 10, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 10, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 781 ms
+Jul 10, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 10, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 46 ms
+Jul 10, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 10, 2016 9:18:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 10, 2016 9:18:46 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,078 ms
+Jul 11, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 11, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 892 ms
+Jul 11, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 11, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 48 ms
+Jul 11, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 11, 2016 9:18:43 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 11, 2016 9:18:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,729 ms
+Jul 12, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 12, 2016 1:42:59 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,647 ms
+Jul 12, 2016 5:24:33 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel ase_test_linux_lisa.
+java.util.concurrent.TimeoutException: Ping started on 1468326033846 hasn't completed at 1468326273884
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+Jul 12, 2016 5:24:34 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux.
+java.util.concurrent.TimeoutException: Ping started on 1468326034167 hasn't completed at 1468326274206
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+Jul 12, 2016 5:30:09 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel ase_test_linux_lisa
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Jul 12, 2016 5:30:10 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel installer_test_linux
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Jul 12, 2016 5:31:02 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Jul 12, 2016 5:31:02 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+[07/12/16 05:31:14] SSH Launch of installer_test_linux on replinuxb15.oak.sap.corp completed in 11,715 ms
+[07/12/16 05:31:15] SSH Launch of ase_test_linux_lisa on replinuxb15.oak.sap.corp completed in 12,241 ms
+Jul 12, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 12, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 46 ms
+Jul 12, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 12, 2016 9:18:43 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 12, 2016 9:18:49 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 13,592 ms
+Jul 13, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 13, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 701 ms
+Jul 13, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 13, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 14 ms
+Jul 13, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 13, 2016 9:18:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 13, 2016 9:18:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,211 ms
+Jul 14, 2016 12:58:08 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #14 main build action completed: SUCCESS
+Jul 14, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 14, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 628 ms
+Jul 14, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 14, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 17 ms
+Jul 14, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 14, 2016 9:18:52 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 14, 2016 9:18:54 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 18,780 ms
+Jul 15, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 15, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 604 ms
+Jul 15, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 15, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 16 ms
+Jul 15, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 15, 2016 9:18:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 15, 2016 9:18:48 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,996 ms
+Jul 16, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 16, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 1,026 ms
+Jul 16, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 16, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 16 ms
+Jul 16, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 16, 2016 9:18:43 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 16, 2016 9:18:45 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,037 ms
+Jul 17, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 17, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 539 ms
+Jul 17, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 17, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 14 ms
+Jul 17, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 17, 2016 9:18:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 17, 2016 9:18:48 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 12,282 ms
+Jul 18, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 18, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 836 ms
+Jul 18, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 18, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 15 ms
+Jul 18, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 18, 2016 9:18:56 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jul 18, 2016 9:18:58 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 22,501 ms
+Jul 19, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 19, 2016 1:42:58 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 808 ms
+Jul 19, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 19, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 18 ms
+Jul 19, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jul 19, 2016 9:18:39 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 3,837 ms
+Jul 20, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jul 20, 2016 1:42:57 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 420 ms
+Jul 20, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jul 20, 2016 11:09:37 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 11 ms
+Oct 12, 2016 3:01:08 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Oct 12, 2016 3:01:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Oct 12, 2016 3:01:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Oct 12, 2016 3:01:09 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1166 ms
+Oct 12, 2016 3:01:09 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 12, 2016 3:01:09 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Oct 12, 2016 3:01:09 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Jenkins home directory: /remote/repeng11/.jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Xlib: connection to "unix:0.0" refused by server
+Xlib: No protocol specified
+
+Oct 12, 2016 3:01:19 AM hudson.util.BootFailure publish
+SEVERE: Failed to initialize Jenkins
+hudson.util.AWTProblem: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:185)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4994)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5492)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1083)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1879)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.InternalError: Can't connect to X11 window server using 'unix:0.0' as the value of the DISPLAY variable.
+	at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+	at sun.awt.X11GraphicsEnvironment.access$200(X11GraphicsEnvironment.java:65)
+	at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:110)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:74)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:190)
+	at java.awt.GraphicsEnvironment.createGE(GraphicsEnvironment.java:102)
+	at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:81)
+	at sun.awt.X11FontManager.isHeadless(X11FontManager.java:487)
+	at sun.awt.X11FontManager.getFileNameFromPlatformName(X11FontManager.java:168)
+	at sun.font.SunFontManager.initCompositeFonts(SunFontManager.java:3486)
+	at sun.font.SunFontManager.access$700(SunFontManager.java:64)
+	at sun.font.SunFontManager$2.run(SunFontManager.java:544)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.font.SunFontManager.<init>(SunFontManager.java:375)
+	at sun.awt.X11FontManager.<init>(X11FontManager.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:374)
+	at sun.font.FontManagerFactory$1.run(FontManagerFactory.java:83)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.font.FontManagerFactory.getInstance(FontManagerFactory.java:74)
+	at java.awt.Font.getFont2D(Font.java:490)
+	at java.awt.Font.getFamily(Font.java:1219)
+	at java.awt.Font.getFamily_NoClientCode(Font.java:1193)
+	at java.awt.Font.getFamily(Font.java:1185)
+	at java.awt.Font.toString(Font.java:1682)
+	at hudson.util.ChartUtil.<clinit>(ChartUtil.java:250)
+	at hudson.WebAppMain.contextInitialized(WebAppMain.java:184)
+	... 14 more
+
+Oct 12, 2016 3:01:19 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Oct 12, 2016 3:01:19 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/jenkins] startup failed due to previous errors
+Oct 12, 2016 3:01:19 AM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [org.codehaus.groovy.reflection.ClassInfo.ThreadLocalMapHandler] (value [org.codehaus.groovy.reflection.ClassInfo$ThreadLocalMapHandler@757d0bff]) and a value of type [java.lang.ref.SoftReference] (value [java.lang.ref.SoftReference@649ece9b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 10,294 ms
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 79 ms
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 57 ms
+Oct 12, 2016 3:01:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 517 ms
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 72 ms
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 73 ms
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 54 ms
+Oct 12, 2016 3:01:20 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Oct 12, 2016 3:01:20 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Oct 12, 2016 3:01:20 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11335 ms

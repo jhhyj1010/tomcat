@@ -1,0 +1,67 @@
+May 5, 2016 12:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 1:45:34 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #71 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:181)
+	at hudson.Proc$LocalProc.join(Proc.java:319)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+May 5, 2016 1:57:54 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #72 main build action completed: SUCCESS
+May 5, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+May 5, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 15 ms
+May 5, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+May 5, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 158 ms
+May 5, 2016 7:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 8:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 9:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 10:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 11:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 12:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 1:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+May 5, 2016 1:59:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+May 5, 2016 1:59:45 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 8,723 ms
+May 5, 2016 2:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 3:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 4:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 5:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 8:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 9:25:03 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 10:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 5, 2016 11:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor

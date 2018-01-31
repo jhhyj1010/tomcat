@@ -1,0 +1,30 @@
+Mar 18, 2016 2:20:04 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304 #1 main build action completed: SUCCESS
+Mar 18, 2016 3:05:08 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Mar 18, 2016 3:25:37 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Mar 18, 2016 3:29:29 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304 #2 main build action completed: SUCCESS
+Mar 18, 2016 4:16:06 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #1 main build action completed: SUCCESS
+Mar 18, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Mar 18, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 2 ms
+Mar 18, 2016 6:21:20 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Mar 18, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Mar 18, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 154 ms
+Mar 18, 2016 7:11:15 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #2 main build action completed: SUCCESS
+Mar 18, 2016 7:40:07 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #6 main build action completed: SUCCESS
+Mar 18, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Mar 18, 2016 1:59:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Mar 18, 2016 1:59:48 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,697 ms

@@ -1,0 +1,244 @@
+Aug 19, 2016 12:04:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 12:11:34 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.model.StringParameterDefinition
+Aug 19, 2016 12:11:34 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 19, 2016 12:11:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 19, 2016 12:11:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 19, 2016 12:11:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 19, 2016 12:11:39 AM hudson.model.Run execute
+INFO: TEST #9 main build action completed: SUCCESS
+Aug 19, 2016 12:12:08 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.model.StringParameterDefinition
+Aug 19, 2016 12:12:08 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 19, 2016 12:12:08 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 19, 2016 12:12:08 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 19, 2016 12:12:08 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 19, 2016 12:12:12 AM hudson.model.Run execute
+INFO: TEST #10 main build action completed: SUCCESS
+Aug 19, 2016 12:12:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.model.StringParameterDefinition
+Aug 19, 2016 12:12:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 19, 2016 12:12:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 19, 2016 12:12:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 19, 2016 12:12:40 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 19, 2016 12:12:44 AM hudson.model.Run execute
+INFO: TEST #11 main build action completed: SUCCESS
+Aug 19, 2016 12:25:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 12:47:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 12:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 1:09:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 1:30:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 1:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 1:51:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 2:13:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 2:13:27 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Aug 19, 2016 2:13:27 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Aug 19, 2016 2:13:27 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Aug 19, 2016 2:13:27 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Aug 19, 2016 2:34:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 2:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 2:56:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 3:16:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 3:39:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 3:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 4:01:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 4:21:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 4:44:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 4:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 5:06:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 5:29:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 5:34:22 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Aug 19, 2016 5:34:31 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Aug 19, 2016 5:34:33 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,015 ms
+Aug 19, 2016 5:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 5:51:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 6:11:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 6:33:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 6:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 6:55:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 7:17:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 7:39:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 7:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 8:01:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 8:12:10 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #23 main build action completed: SUCCESS
+Aug 19, 2016 8:20:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 8:42:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 8:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 9:01:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 9:23:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 9:45:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 9:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 10:06:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 10:29:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 10:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 10:50:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 11:12:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 11:34:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 11:49:46 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 11:56:26 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 12:17:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 12:39:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 12:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 12:59:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 1:20:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 1:42:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 1:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 2:03:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 2:25:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 2:46:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 2:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 3:07:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 3:28:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 3:33:04 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Aug 19, 2016 3:33:04 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 16 ms
+Aug 19, 2016 3:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 3:50:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 4:04:53 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Aug 19, 2016 4:04:54 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 567 ms
+Aug 19, 2016 4:12:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 4:33:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 4:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 4:54:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 5:14:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 5:35:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 5:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 5:57:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 6:20:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 6:40:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 6:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 7:01:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 7:22:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 7:44:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 7:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 8:04:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 8:26:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 8:47:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 8:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 9:09:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 9:31:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 9:48:43 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #5 main build action completed: SUCCESS
+Aug 19, 2016 9:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 9:53:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 10:15:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 10:36:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 10:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding
+Aug 19, 2016 10:58:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 11:21:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 11:43:26 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Aug 19, 2016 11:49:46 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making ase_test_linux_lisa offline because it’s not responding

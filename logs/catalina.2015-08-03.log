@@ -1,0 +1,1588 @@
+Aug 3, 2015 12:01:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 12:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 12:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 12:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 12:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 12:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 12:07:18 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 12:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 12:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 12:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 12:11:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 12:18:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 12:23:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 12:30:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 12:30:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 12:30:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 12:32:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 12:40:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 12:46:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 12:54:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 12:54:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 12:54:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 12:55:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 1:03:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 1:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 1:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 1:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 1:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 1:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 1:07:17 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 1:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 1:17:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 1:17:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 1:17:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 1:19:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 1:27:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 1:32:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 1:39:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 1:39:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 1:39:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 1:40:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 1:48:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 1:54:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 2:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 2:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 2:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 2:04:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 2:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 2:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 2:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 2:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 2:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 2:07:14 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 2:12:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 2:18:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 2:26:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 2:26:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 2:26:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 2:26:10 AM hudson.model.Run execute
+INFO: 1_Sub_Nightly_RS_Binary_Build_Linuxamd64 #110 main build action completed: SUCCESS
+Aug 3, 2015 2:27:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 2:35:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 2:35:35 AM hudson.model.Run execute
+INFO: 1_Sub_Nightly_RMA_Binary_Build_Linuxamd64 #126 main build action completed: SUCCESS
+Aug 3, 2015 2:35:38 AM hudson.model.Run execute
+INFO: 1_Nightly_RS_Binary_Build_Parallel_Linuxamd64 #108 main build action completed: SUCCESS
+Aug 3, 2015 2:36:23 AM hudson.model.Run execute
+INFO: 2_Nightly_RS_Installer_Build_Test_Linuxamd64 #135 main build action completed: SUCCESS
+Aug 3, 2015 2:40:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 2:43:04 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Out of order build detection
+Aug 3, 2015 2:43:35 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Linuxamd64/builds/1: /remote/repeng10/.jenkins/jobs/1_Nightly_RS_Binary_Build_Linuxamd64/builds/1/build.xml doesn't exist
+Aug 3, 2015 2:45:37 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-04-21_06-01-32: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-04-21_06-01-32/build.xml doesn't exist
+Aug 3, 2015 2:45:37 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/10: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/10/build.xml doesn't exist
+Aug 3, 2015 2:45:38 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-08-03_02-36-32: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/2015-08-03_02-36-32/build.xml doesn't exist
+Aug 3, 2015 2:45:38 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/106: /remote/repeng10/.jenkins/jobs/3_Nightly_Trigger_QA_Barrier_Test_Linuxamd64_Update/builds/106/build.xml doesn't exist
+Aug 3, 2015 2:46:59 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_auto_install/builds/2015-08-03_02-36-42: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_auto_install/builds/2015-08-03_02-36-42/build.xml doesn't exist
+Aug 3, 2015 2:46:59 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_auto_install/builds/110: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_auto_install/builds/110/build.xml doesn't exist
+Aug 3, 2015 2:47:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 2:47:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 2:47:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 2:49:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 2:49:23 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/2015-04-21_06-01-52: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/2015-04-21_06-01-52/build.xml doesn't exist
+Aug 3, 2015 2:49:23 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/12: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT/builds/12/build.xml doesn't exist
+Aug 3, 2015 2:50:25 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/2015-04-21_06-01-52: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/2015-04-21_06-01-52/build.xml doesn't exist
+Aug 3, 2015 2:50:25 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/11: /remote/repeng10/.jenkins/jobs/3_Sub_Nightly_QA_Test_RS_STANDBY/builds/11/build.xml doesn't exist
+Aug 3, 2015 2:57:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 2:59:27 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/MyTest/builds/2015-04-22_00-55-20: /remote/repeng10/.jenkins/jobs/MyTest/builds/2015-04-22_00-55-20/build.xml doesn't exist
+Aug 3, 2015 2:59:27 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/MyTest/builds/4: /remote/repeng10/.jenkins/jobs/MyTest/builds/4/build.xml doesn't exist
+Aug 3, 2015 3:00:37 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/pwang4-rscorona_pwang4_vu-serial-build-only/builds/2015-06-19_03-39-30: /remote/repeng10/.jenkins/jobs/pwang4-rscorona_pwang4_vu-serial-build-only/builds/2015-06-19_03-39-30/build.xml doesn't exist
+Aug 3, 2015 3:00:37 AM jenkins.diagnostics.ooom.Problem$Inspector scan
+WARNING: Failed to inspect /remote/repeng10/.jenkins/jobs/pwang4-rscorona_pwang4_vu-serial-build-only/builds/1: /remote/repeng10/.jenkins/jobs/pwang4-rscorona_pwang4_vu-serial-build-only/builds/1/build.xml doesn't exist
+Aug 3, 2015 3:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 3:06:18 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_auto_install #110 main build action completed: SUCCESS
+Aug 3, 2015 3:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 3:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 3:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 3:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 3:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 3:07:13 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 3:10:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 3:10:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 3:10:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 3:12:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 3:20:00 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Out of order build detection. 2,216,011 ms
+Aug 3, 2015 3:20:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 3:25:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 3:27:58 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_1 #67 main build action completed: SUCCESS
+Aug 3, 2015 3:33:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 3:33:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 3:33:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 3:35:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 3:43:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 3:47:27 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_4 #62 main build action completed: SUCCESS
+Aug 3, 2015 3:49:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 3:55:30 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_SYNCREP_CI #23 main build action completed: SUCCESS
+Aug 3, 2015 3:56:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 3:56:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 3:56:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 3:58:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 4:05:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 4:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 4:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 4:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 4:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 4:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 4:07:13 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 4:11:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 4:17:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 4:17:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 4:17:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 4:19:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 4:27:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 4:33:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 4:41:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 4:41:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 4:41:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 4:43:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 4:50:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 4:55:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 5:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 5:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 5:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 5:04:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 5:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 5:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 5:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 5:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 5:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 5:07:14 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 5:11:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 5:16:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 5:23:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 5:23:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 5:23:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 5:23:50 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_RS3_4 #62 main build action completed: SUCCESS
+Aug 3, 2015 5:24:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 5:32:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 5:38:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 5:44:53 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT_1 #63 main build action completed: SUCCESS
+Aug 3, 2015 5:46:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 5:46:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 5:46:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 5:48:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 5:55:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 6:01:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 6:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 6:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 6:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 6:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 6:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 6:07:13 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 6:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 6:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 6:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 6:11:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 6:18:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 6:24:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 6:31:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 6:31:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 6:31:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 6:33:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 6:41:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 6:46:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 6:53:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 6:53:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 6:53:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 6:54:40 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_MATS_RS3_1 #62 main build action completed: SUCCESS
+Aug 3, 2015 6:54:42 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_NORMAL_SHORT_4 #63 main build action completed: SUCCESS
+Aug 3, 2015 6:55:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 7:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 7:07:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 7:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 7:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 7:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 7:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 7:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 7:07:13 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 7:14:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 7:14:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 7:14:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 7:16:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 7:17:13 AM hudson.model.Run execute
+INFO: 3_Sub_Nightly_QA_Test_RS_STANDBY_SHORT #64 main build action completed: SUCCESS
+Aug 3, 2015 7:23:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 7:28:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 7:36:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 7:36:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 7:36:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 7:38:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 7:46:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 7:51:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 7:58:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 7:58:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 7:58:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 8:00:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 8:06:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 8:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 8:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 8:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 8:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 8:07:10 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 8:07:13 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 8:12:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 8:19:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 8:19:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 8:19:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 8:21:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 8:28:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 8:33:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 8:41:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 8:41:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 8:41:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 8:43:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 8:50:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 8:56:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 9:01:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Aug 3, 2015 9:01:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 59 ms
+Aug 3, 2015 9:04:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 9:04:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 9:04:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 9:06:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 9:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 9:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 9:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 9:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 9:07:12 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 9:07:13 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 9:13:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 9:18:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 9:26:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 9:26:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 9:26:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 9:28:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 9:35:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 9:39:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 9:47:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 9:47:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 9:47:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 9:49:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 9:57:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 10:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 10:07:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 10:07:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 10:07:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 10:07:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 10:07:13 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 10:07:14 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 10:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 10:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 10:09:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 10:11:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 10:18:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 10:23:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 10:30:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 10:30:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 10:30:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 10:32:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 10:40:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 10:45:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 10:52:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 10:52:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 10:52:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 10:54:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 11:02:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 11:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 11:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 11:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 11:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 11:07:11 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 11:07:13 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 11:08:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 11:16:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 11:16:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 11:16:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 11:18:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 11:26:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 11:32:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 11:39:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 11:39:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 11:39:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 11:41:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 11:48:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 11:53:08 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 12:01:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 12:01:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 12:01:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 12:02:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 12:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 12:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 12:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 12:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 12:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 12:07:17 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 12:10:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 12:15:40 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Aug 3, 2015 12:16:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 12:17:22 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Aug 3, 2015 12:17:31 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Aug 3, 2015 12:23:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 12:23:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 12:23:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 12:25:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 12:32:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 12:38:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 12:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 12:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 12:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 12:47:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 12:54:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 1:00:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 1:07:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 1:07:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 1:07:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 1:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 1:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 1:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 1:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 1:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 1:07:14 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 1:09:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 1:17:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 1:22:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 1:30:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 1:30:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 1:30:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 1:32:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 1:39:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 1:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 1:53:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 1:53:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 1:53:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 1:55:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 2:03:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 2:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 2:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 2:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 2:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 2:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 2:07:13 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 2:09:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 2:17:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 2:17:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 2:17:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 2:19:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 2:27:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 2:33:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 2:40:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 2:40:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 2:40:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 2:42:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 2:50:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 2:56:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 3:03:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 3:03:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 3:03:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 3:05:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 3:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 3:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 3:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 3:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 3:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 3:07:13 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 3:13:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 3:18:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 3:25:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 3:25:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 3:25:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 3:27:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 3:33:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 3:38:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 3:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 3:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 3:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 3:47:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 3:54:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 3:59:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 4:07:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 4:07:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 4:07:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 4:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 4:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 4:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 4:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 4:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 4:07:14 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor RS_build_test_sunsparc64_whitney for Free Swap Space
+java.util.concurrent.ExecutionException: java.io.IOException: 'top' unavailable
+	at hudson.remoting.Channel$3.adapt(Channel.java:784)
+	at hudson.remoting.Channel$3.adapt(Channel.java:779)
+	at hudson.remoting.FutureAdapter.get(FutureAdapter.java:59)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: java.io.IOException: 'top' unavailable
+	at org.jvnet.hudson.Top.monitor(Top.java:78)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:113)
+	at hudson.node_monitors.SwapSpaceMonitor$MonitorTask.call(SwapSpaceMonitor.java:103)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:121)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:49)
+	at hudson.remoting.Request$2.run(Request.java:324)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:68)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+	at ......remote call to RS_build_test_sunsparc64_whitney(Native Method)
+	at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1356)
+	at hudson.remoting.UserResponse.retrieve(UserRequest.java:221)
+	at hudson.remoting.Channel$3.adapt(Channel.java:782)
+	... 4 more
+Aug 3, 2015 4:09:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 4:17:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 4:20:17 PM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel.
+java.util.concurrent.TimeoutException: Ping started on 1438643777784 hasn't completed at 1438644017823
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+Aug 3, 2015 4:22:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 4:23:58 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel RS_build_test_sunsparc64_whitney
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Aug 3, 2015 4:30:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 4:30:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 4:30:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 4:31:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 4:39:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 4:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 4:51:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 4:51:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 4:51:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 4:53:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 5:01:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 5:07:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 5:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 5:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 5:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 5:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 5:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 5:15:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 5:15:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 5:15:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 5:17:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 5:23:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 5:29:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 5:37:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 5:37:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 5:37:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 5:39:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 5:46:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 5:52:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 6:00:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 6:00:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 6:00:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 6:02:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 6:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 6:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 6:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 6:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 6:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 6:08:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 6:14:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 6:21:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 6:21:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 6:21:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 6:23:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 6:30:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 6:36:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 6:43:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 6:43:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 6:43:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 6:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 6:53:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 6:58:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 7:04:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 7:04:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 7:04:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 7:06:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 7:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 7:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 7:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 7:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 7:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 7:13:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 7:19:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 7:26:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 7:26:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 7:26:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 7:27:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 7:35:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 7:41:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 7:49:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 7:49:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 7:49:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 7:51:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 7:59:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 8:04:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 8:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 8:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 8:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 8:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 8:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 8:12:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 8:12:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 8:12:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 8:12:14 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel Installer_ibmplinux64_elevon
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Aug 3, 2015 8:14:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 8:21:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 8:27:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 8:35:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 8:35:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 8:35:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 8:37:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 8:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 8:50:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 8:57:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 8:57:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 8:57:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 8:59:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 9:07:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 9:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 9:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 3, 2015 9:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 9:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 9:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 9:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 9:12:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 9:20:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 9:20:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 9:20:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 9:22:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 9:30:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 9:35:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 9:43:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 9:43:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 9:43:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 9:45:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 9:52:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 9:58:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 10:05:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 10:05:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 10:05:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 10:05:14 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel Installer_ibmplinux64_elevon
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Aug 3, 2015 10:06:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 10:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 10:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 3, 2015 10:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 10:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 10:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 10:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 10:14:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 10:19:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 10:26:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 10:26:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 10:26:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 10:28:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 10:36:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 10:42:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 10:43:55 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Aug 3, 2015 10:44:24 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 29,537 ms
+Aug 3, 2015 10:49:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 10:49:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 10:49:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 10:51:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 10:54:54 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Aug 3, 2015 10:54:54 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11 ms
+Aug 3, 2015 10:58:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 11:03:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 11:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_augusta offline because it’s not responding
+Aug 3, 2015 11:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_sunsparc64_whitney offline because it’s not responding
+Aug 3, 2015 11:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia1 offline because it’s not responding
+Aug 3, 2015 11:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_test_hpia64_repqahpia5 offline because it’s not responding
+Aug 3, 2015 11:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making RS_build_sunx64_asekernal6 offline because it’s not responding
+Aug 3, 2015 11:07:10 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making Installer_ibmplinux64_elevon offline because it’s not responding
+Aug 3, 2015 11:11:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 11:11:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 11:11:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 11:13:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 11:21:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 11:27:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 11:34:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 11:34:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 11:34:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 11:36:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6
+Aug 3, 2015 11:48:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_augusta
+Aug 3, 2015 11:50:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_sunsparc64_whitney
+Aug 3, 2015 11:57:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect Installer_ibmplinux64_elevon
+Aug 3, 2015 11:57:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia1
+Aug 3, 2015 11:57:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_test_hpia64_repqahpia5
+Aug 3, 2015 11:59:08 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect RS_build_sunx64_asekernal6

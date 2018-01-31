@@ -1,0 +1,12 @@
+10.173.161.34 - - [05/Feb/2017:08:07:37 -0800] "GET /jenkins/job/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305/build?token=INSTALLER HTTP/1.1" 201 -
+10.173.161.34 - - [05/Feb/2017:08:08:14 -0800] "GET /jenkins/job/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306/build?token=INSTALLER HTTP/1.1" 201 -
+10.58.180.73 - - [05/Feb/2017:21:38:00 -0800] "GET /jenkins/ HTTP/1.1" 200 8324
+10.58.180.73 - - [05/Feb/2017:21:38:03 -0800] "GET /jenkins/static/3336a0b1/favicon.ico HTTP/1.1" 200 17542
+10.58.180.73 - - [05/Feb/2017:21:38:31 -0800] "POST /jenkins/ajaxBuildQueue HTTP/1.1" 200 338
+10.58.180.73 - - [05/Feb/2017:21:38:31 -0800] "POST /jenkins/ajaxExecutors HTTP/1.1" 200 992
+10.58.180.73 - - [05/Feb/2017:21:38:37 -0800] "POST /jenkins/ajaxBuildQueue HTTP/1.1" 200 338
+10.58.180.73 - - [05/Feb/2017:21:38:37 -0800] "POST /jenkins/ajaxExecutors HTTP/1.1" 200 992
+10.58.180.73 - - [05/Feb/2017:21:38:42 -0800] "POST /jenkins/ajaxBuildQueue HTTP/1.1" 200 338
+10.58.180.73 - - [05/Feb/2017:21:38:42 -0800] "POST /jenkins/ajaxExecutors HTTP/1.1" 200 992
+10.58.180.73 - - [05/Feb/2017:21:39:34 -0800] "POST /jenkins/ajaxBuildQueue HTTP/1.1" 200 338
+10.58.180.73 - - [05/Feb/2017:21:39:34 -0800] "POST /jenkins/ajaxExecutors HTTP/1.1" 200 992

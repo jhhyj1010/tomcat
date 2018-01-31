@@ -1,0 +1,34 @@
+Apr 27, 2016 12:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Apr 27, 2016 1:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+Apr 27, 2016 2:08:25 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #51 main build action completed: SUCCESS
+Apr 27, 2016 2:36:45 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Apr 27, 2016 2:46:30 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_CUSTOM #1 main build action completed: SUCCESS
+Apr 27, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Apr 27, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 3 ms
+Apr 27, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Apr 27, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 175 ms
+Apr 27, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Apr 27, 2016 1:59:46 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Apr 27, 2016 1:59:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,007 ms
+Apr 27, 2016 5:21:29 PM hudson.model.Run execute
+INFO: SP304_SRS_WEEKLY_BUILD #10 main build action completed: SUCCESS
+Apr 27, 2016 5:27:43 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #52 main build action completed: SUCCESS
+Apr 27, 2016 6:40:01 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #53 main build action completed: SUCCESS
+Apr 27, 2016 9:12:46 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #54 main build action completed: SUCCESS
+Apr 27, 2016 9:21:41 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #55 main build action completed: FAILURE

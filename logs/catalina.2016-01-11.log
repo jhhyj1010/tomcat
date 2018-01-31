@@ -1,0 +1,24 @@
+Jan 11, 2016 12:38:01 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Connection Activity monitoring to slaves
+Jan 11, 2016 12:38:01 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Connection Activity monitoring to slaves. 2 ms
+Jan 11, 2016 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jan 11, 2016 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 4 ms
+Jan 11, 2016 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jan 11, 2016 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 38 ms
+Jan 11, 2016 12:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jan 11, 2016 12:59:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jan 11, 2016 12:59:47 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,745 ms
+Jan 11, 2016 4:21:14 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP303 #11 main build action completed: SUCCESS
+Jan 11, 2016 7:32:35 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP303 #12 main build action completed: SUCCESS
+Jan 11, 2016 8:37:48 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP303 #13 main build action completed: SUCCESS

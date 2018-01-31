@@ -1,0 +1,2290 @@
+Oct 19, 2016 12:26:07 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Oct 19, 2016 12:26:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Oct 19, 2016 12:26:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Oct 19, 2016 12:26:07 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1132 ms
+Oct 19, 2016 12:26:07 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 19, 2016 12:26:07 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Oct 19, 2016 12:26:07 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Oct 19, 2016 12:26:17 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Oct 19, 2016 12:26:18 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Oct 19, 2016 12:26:18 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Oct 19, 2016 12:26:18 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Oct 19, 2016 12:26:18 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Oct 19, 2016 12:26:22 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [6,383] milliseconds.
+Oct 19, 2016 12:26:22 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Oct 19, 2016 12:26:24 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@2479aabc: display name [Root WebApplicationContext]; startup date [Wed Oct 19 00:26:24 PDT 2016]; root of context hierarchy
+Oct 19, 2016 12:26:24 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@2479aabc]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3fd0b5f
+Oct 19, 2016 12:26:24 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3fd0b5f: defining beans [authenticationManager]; root of factory hierarchy
+Oct 19, 2016 12:26:24 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@3615db68: display name [Root WebApplicationContext]; startup date [Wed Oct 19 00:26:24 PDT 2016]; root of context hierarchy
+Oct 19, 2016 12:26:24 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@4e565dc7: display name [Root WebApplicationContext]; startup date [Wed Oct 19 00:26:24 PDT 2016]; root of context hierarchy
+Oct 19, 2016 12:26:24 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@3615db68]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6e131d80
+Oct 19, 2016 12:26:24 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@4e565dc7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@28f5f6f5
+Oct 19, 2016 12:26:24 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@28f5f6f5: defining beans [filter,legacy]; root of factory hierarchy
+Oct 19, 2016 12:26:24 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6e131d80: defining beans [filter,legacy]; root of factory hierarchy
+Oct 19, 2016 12:26:24 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 16,758 ms
+Oct 19, 2016 12:26:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Oct 19, 2016 12:26:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 55 ms
+Oct 19, 2016 12:26:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Oct 19, 2016 12:26:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 53 ms
+Oct 19, 2016 12:26:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Oct 19, 2016 12:26:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 514 ms
+Oct 19, 2016 12:26:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Oct 19, 2016 12:26:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 67 ms
+Oct 19, 2016 12:26:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Oct 19, 2016 12:26:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 65 ms
+Oct 19, 2016 12:26:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Oct 19, 2016 12:26:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 50 ms
+Oct 19, 2016 12:26:25 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Oct 19, 2016 12:26:25 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Oct 19, 2016 12:26:25 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 17712 ms
+Oct 19, 2016 12:26:31 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 45116
+Oct 19, 2016 12:26:31 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Oct 19, 2016 12:26:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 19, 2016 12:26:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 12:26:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 19, 2016 12:26:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 19, 2016 12:26:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 12:26:31 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Oct 19, 2016 12:26:46 AM javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForAnnounced
+WARNING: Wait for announced timed out: DNS: rsng2.local. state: probing 1 task: Prober(rsng2.local.) state: probing 1
+Oct 19, 2016 12:26:52 AM javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForAnnounced
+WARNING: Wait for announced timed out: DNS: rsng2.local. state: probing 1 task: Prober(rsng2.local.) state: probing 1
+Oct 19, 2016 1:24:00 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux1.
+java.util.concurrent.TimeoutException: Ping started on 1476865200301 hasn't completed at 1476865440339
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 1:29:58 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl@23d8128 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:30)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 1:29:58 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl@93b2584 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:33)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 1:29:58 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl@674525e1 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 1:29:58 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl@40ef5472 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:28)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 1:30:03 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Architecture
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 1:30:03 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Clock Difference
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 1:30:03 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Response Time
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 1:30:03 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Swap Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 1:30:03 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Disk Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 1:30:03 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Temp Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Response Time
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Swap Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Clock Difference
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Disk Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Temp Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Architecture
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 3:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Response Time
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 3:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Swap Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 3:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Clock Difference
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 3:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Temp Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 3:26:21 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Disk Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 3:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 3:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 3:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 3:27:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 19, 2016 4:19:49 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux1.
+java.util.concurrent.TimeoutException: Ping started on 1476875749801 hasn't completed at 1476875989839
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 4:19:49 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl@23d8128 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:30)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:49 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl@93b2584 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:33)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:49 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl@674525e1 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:49 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl@40ef5472 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:28)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Architecture
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Disk Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Swap Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Temp Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Clock Difference
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:54 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Response Time
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 4:19:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 4:19:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 4:19:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 4:20:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 19, 2016 4:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 4:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 4:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 5:00:49 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux.
+java.util.concurrent.TimeoutException: Ping started on 1476878209871 hasn't completed at 1476878449909
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 5:00:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 5:00:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 5:00:54 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 5:01:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Oct 19, 2016 5:08:00 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux2.
+java.util.concurrent.TimeoutException: Ping started on 1476878640015 hasn't completed at 1476878880054
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 5:08:05 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 5:08:05 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 5:08:05 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 5:09:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Oct 19, 2016 5:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 5:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 5:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 5:55:18 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux1.
+java.util.concurrent.TimeoutException: Ping started on 1476881478861 hasn't completed at 1476881718899
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 6:02:57 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl@23d8128 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:30)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:02:57 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl@93b2584 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:33)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:02:57 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl@674525e1 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:02:57 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl@40ef5472 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:28)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:03:02 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Architecture
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:03:02 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Swap Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:03:02 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Response Time
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:03:02 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Clock Difference
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:03:02 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Temp Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:03:02 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Disk Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:03:02 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 6:03:02 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 6:03:02 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 6:04:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 19, 2016 6:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 6:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 6:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 6:40:28 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux1.
+java.util.concurrent.TimeoutException: Ping started on 1476884188409 hasn't completed at 1476884428448
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 6:40:28 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl@23d8128 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:30)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:28 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl@93b2584 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:33)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:28 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl@674525e1 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:28 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl@40ef5472 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:28)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:33 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Architecture
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:33 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Clock Difference
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:33 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Disk Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:33 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Response Time
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:33 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Temp Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:33 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Swap Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 6:40:33 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 6:40:33 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 6:40:33 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 6:42:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 19, 2016 7:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 7:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 7:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 7:55:39 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel ase_test_txue.
+java.util.concurrent.TimeoutException: Ping started on 1476888699270 hasn't completed at 1476888939308
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 7:55:39 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel ase_test.
+java.util.concurrent.TimeoutException: Ping started on 1476888699359 hasn't completed at 1476888939398
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 8:04:02 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel ase_test_txue
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2323)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2792)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:799)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+
+Oct 19, 2016 8:04:02 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel ase_test
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2323)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2792)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:799)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+
+Oct 19, 2016 8:04:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 8:04:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 8:07:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 8:07:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 8:09:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 8:09:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 8:11:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 8:11:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 8:13:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 8:13:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 8:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 8:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 8:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 8:26:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 8:26:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 8:26:51 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 19, 2016 8:48:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 8:48:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 9:08:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 9:08:32 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 9:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 9:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 9:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 9:26:51 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor master for Free Disk Space
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:258)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:119)
+	at hudson.remoting.LocalChannel$2.get(LocalChannel.java:81)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:97)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+
+Oct 19, 2016 9:30:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 9:30:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 9:52:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 9:52:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Oct 19, 2016 9:52:39 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 9:52:39 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 9:52:39 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 9:57:33 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #73 main build action completed: SUCCESS
+Oct 19, 2016 10:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 10:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 10:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 11:24:01 AM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux1.
+java.util.concurrent.TimeoutException: Ping started on 1476901201661 hasn't completed at 1476901441700
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 11:24:33 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl@23d8128 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:30)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:33 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl@93b2584 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:33)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:33 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl@674525e1 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:33 AM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl@40ef5472 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:28)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:38 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Architecture
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:38 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Disk Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:38 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Response Time
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:38 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Swap Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:38 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Temp Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:38 AM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Clock Difference
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 11:24:38 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 11:24:38 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 11:24:38 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 11:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 11:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 11:26:21 AM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 11:26:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 19, 2016 11:48:28 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Oct 19, 2016 11:48:28 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 2 ms
+Oct 19, 2016 12:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 12:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 12:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 1:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 1:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 1:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 1:59:28 PM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel installer_test_linux1.
+java.util.concurrent.TimeoutException: Ping started on 1476910528372 hasn't completed at 1476910768411
+	at hudson.remoting.PingThread.ping(PingThread.java:125)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+
+Oct 19, 2016 2:02:01 PM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl@23d8128 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.launchd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:30)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:01 PM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl@93b2584 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.systemd_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:33)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:01 PM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl@674525e1 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.upstart_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:01 PM org.jenkinsci.modules.slave_installer.SlaveInstallerFactory createFor
+WARNING: org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl@40ef5472 has failed on hudson.slaves.SlaveComputer@44e74409
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.call(Request.java:129)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at org.jenkinsci.modules.windows_slave_installer.SlaveInstallerFactoryImpl.createIfApplicable(SlaveInstallerFactoryImpl.java:28)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createIfApplicable(SlaveInstallerFactory.java:29)
+	at org.jenkinsci.modules.slave_installer.SlaveInstallerFactory.createFor(SlaveInstallerFactory.java:46)
+	at org.jenkinsci.modules.slave_installer.impl.ComputerListenerImpl.onOnline(ComputerListenerImpl.java:30)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:531)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:366)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:945)
+	at hudson.plugins.sshslaves.SSHLauncher.access$400(SSHLauncher.java:133)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:711)
+	at hudson.plugins.sshslaves.SSHLauncher$2.call(SSHLauncher.java:696)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:06 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Architecture
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:06 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Swap Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:06 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Clock Difference
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:06 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Disk Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:06 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Response Time
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.ResponseTimeMonitor$1.monitor(ResponseTimeMonitor.java:58)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:06 PM hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor monitor
+WARNING: Failed to monitor installer_test_linux1 for Free Temp Space
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:549)
+	at hudson.remoting.Request.callAsync(Request.java:204)
+	at hudson.remoting.Channel.callAsync(Channel.java:778)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:302)
+Caused by: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1029)
+	at hudson.remoting.Channel$2.handle(Channel.java:483)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:60)
+Caused by: Command close created at
+	at hudson.remoting.Command.<init>(Command.java:56)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1023)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1021)
+	at hudson.remoting.Channel.close(Channel.java:1104)
+	at hudson.remoting.Channel.close(Channel.java:1087)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1028)
+	... 2 more
+
+Oct 19, 2016 2:02:06 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 2:02:06 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 2:02:06 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 2:02:31 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Oct 19, 2016 2:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 2:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 2:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 3:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 3:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 3:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 4:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 4:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 4:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 5:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 5:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 5:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 6:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 6:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 6:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 7:10:47 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #78 main build action completed: SUCCESS
+Oct 19, 2016 7:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 7:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 7:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 8:01:23 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Oct 19, 2016 8:01:31 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Oct 19, 2016 8:01:33 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,777 ms
+Oct 19, 2016 8:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 8:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 8:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 8:27:34 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Oct 19, 2016 8:27:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 467 ms
+Oct 19, 2016 8:36:11 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #74 main build action completed: FAILURE
+Oct 19, 2016 9:00:54 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel ase_test
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2323)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2792)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:799)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+
+Oct 19, 2016 9:01:31 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 9:02:31 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 9:04:31 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 9:06:31 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Oct 19, 2016 9:06:45 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 9:06:45 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 9:06:45 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 9:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 9:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 9:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 10:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 10:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 10:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding
+Oct 19, 2016 11:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Oct 19, 2016 11:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Oct 19, 2016 11:26:21 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux2 offline because it?s not responding

@@ -1,0 +1,5 @@
+10.58.180.73 - - [26/Dec/2016:00:17:13 -0800] "GET /jenkins/job/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305/149/console HTTP/1.1" 200 11504
+10.58.180.73 - - [26/Dec/2016:00:17:14 -0800] "GET /jenkins/static/3336a0b1/images/48x48/blue.png HTTP/1.1" 200 2885
+10.58.180.73 - - [26/Dec/2016:00:17:14 -0800] "POST /jenkins/extensionList/hudson.console.ConsoleAnnotatorFactory/hudson.plugins.timestamper.annotator.TimestampAnnotatorFactory/usersettings HTTP/1.1" 200 236
+10.173.161.34 - - [26/Dec/2016:08:03:03 -0800] "GET /jenkins/job/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305/build?token=INSTALLER HTTP/1.1" 201 -
+10.173.161.34 - - [26/Dec/2016:08:03:30 -0800] "GET /jenkins/job/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306/build?token=INSTALLER HTTP/1.1" 201 -

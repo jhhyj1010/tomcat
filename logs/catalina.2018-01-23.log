@@ -1,0 +1,274 @@
+Jan 23, 2018 6:22:50 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jan 23, 2018 6:22:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Jan 23, 2018 6:22:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Jan 23, 2018 6:22:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1679 ms
+Jan 23, 2018 6:22:51 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 23, 2018 6:22:51 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Jan 23, 2018 6:22:51 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Jan 23, 2018 6:23:00 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 9,610 ms
+Jan 23, 2018 6:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Jan 23, 2018 6:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 78 ms
+Jan 23, 2018 6:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Jan 23, 2018 6:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 61 ms
+Jan 23, 2018 6:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Jan 23, 2018 6:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 674 ms
+Jan 23, 2018 6:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Jan 23, 2018 6:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 69 ms
+Jan 23, 2018 6:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Jan 23, 2018 6:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 68 ms
+Jan 23, 2018 6:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Jan 23, 2018 6:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 52 ms
+Jan 23, 2018 6:23:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Jan 23, 2018 6:23:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Jan 23, 2018 6:23:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10855 ms
+Jan 23, 2018 6:23:02 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 23, 2018 6:23:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 23, 2018 6:23:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 23, 2018 6:23:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 23, 2018 6:23:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 23, 2018 6:23:21 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 23, 2018 6:23:22 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 51535
+Jan 23, 2018 6:23:22 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jan 23, 2018 6:23:22 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@63fdde23: display name [Root WebApplicationContext]; startup date [Tue Jan 23 18:23:22 PST 2018]; root of context hierarchy
+Jan 23, 2018 6:23:22 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@63fdde23]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2007e926
+Jan 23, 2018 6:23:22 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2007e926: defining beans [authenticationManager]; root of factory hierarchy
+Jan 23, 2018 6:23:23 PM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@7079a92: display name [Root WebApplicationContext]; startup date [Tue Jan 23 18:23:23 PST 2018]; root of context hierarchy
+Jan 23, 2018 6:23:23 PM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@7079a92]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3acb43d8
+Jan 23, 2018 6:23:23 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3acb43d8: defining beans [filter,legacy]; root of factory hierarchy
+Jan 23, 2018 6:23:23 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 6:23:23 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Jan 23, 2018 6:23:23 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 6:23:23 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Jan 23, 2018 6:23:23 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jan 23, 2018 6:23:23 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux3
+Jan 23, 2018 6:23:23 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect monsoon_installer_build
+Jan 23, 2018 6:23:23 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Jan 23, 2018 6:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Jan 23, 2018 6:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jan 23, 2018 6:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 6:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 6:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Jan 23, 2018 6:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux3
+Jan 23, 2018 6:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect monsoon_installer_build
+Jan 23, 2018 6:24:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Jan 23, 2018 6:24:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jan 23, 2018 6:24:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 6:24:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 6:24:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Jan 23, 2018 6:24:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux3
+Jan 23, 2018 6:24:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect monsoon_installer_build
+Jan 23, 2018 6:26:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Jan 23, 2018 6:26:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jan 23, 2018 6:26:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 6:26:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 6:26:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Jan 23, 2018 6:26:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux3
+Jan 23, 2018 6:26:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect monsoon_installer_build
+Jan 23, 2018 6:28:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Jan 23, 2018 6:28:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jan 23, 2018 6:28:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 6:28:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 6:28:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Jan 23, 2018 6:28:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux3
+Jan 23, 2018 6:28:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect monsoon_installer_build
+Jan 23, 2018 6:41:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Jan 23, 2018 6:41:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jan 23, 2018 6:41:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 6:41:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 6:41:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Jan 23, 2018 6:41:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux3
+Jan 23, 2018 6:41:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect monsoon_installer_build
+Jan 23, 2018 6:58:22 PM hudson.model.Run execute
+INFO: 160SP03PL04_SRS_DAILY_BUILD_INTEGRATION #81 main build action completed: SUCCESS
+Jan 23, 2018 7:02:55 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Jan 23, 2018 7:02:55 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Jan 23, 2018 7:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 7:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test
+Jan 23, 2018 7:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 7:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Jan 23, 2018 7:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jan 23, 2018 7:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux3
+Jan 23, 2018 7:02:55 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect monsoon_installer_build
+Jan 23, 2018 7:03:27 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl
+Jan 23, 2018 7:04:55 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jan 23, 2018 7:07:29 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP03PL04 #74 main build action completed: SUCCESS
+Jan 23, 2018 7:07:30 PM hudson.model.Run execute
+INFO: 160SP03PL04_SRS_DAILY_BUILD_AND_DROP_TO_ASE #78 main build action completed: SUCCESS
+Jan 23, 2018 7:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_txue
+Jan 23, 2018 7:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 7:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux2
+Jan 23, 2018 7:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux3
+Jan 23, 2018 7:23:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect monsoon_installer_build
+Jan 23, 2018 7:24:16 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jan 23, 2018 7:24:16 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jan 23, 2018 7:24:16 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Jan 23, 2018 7:25:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 7:49:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 7:50:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 8:09:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 8:14:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 8:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jan 23, 2018 8:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jan 23, 2018 8:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Jan 23, 2018 8:31:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 8:41:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 8:53:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 9:07:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 9:16:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 9:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jan 23, 2018 9:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jan 23, 2018 9:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Jan 23, 2018 9:32:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 9:38:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 9:56:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 9:58:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 10:20:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 10:22:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 10:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jan 23, 2018 10:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jan 23, 2018 10:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Jan 23, 2018 10:42:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 10:47:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 11:04:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 11:13:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 11:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making NT_MONSOON offline because it?s not responding
+Jan 23, 2018 11:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux offline because it?s not responding
+Jan 23, 2018 11:23:20 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making installer_test_linux1 offline because it?s not responding
+Jan 23, 2018 11:25:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1
+Jan 23, 2018 11:37:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jan 23, 2018 11:46:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux1

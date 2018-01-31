@@ -1,0 +1,240 @@
+Dec 18, 2015 12:15:19 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 12:15:19 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Dec 18, 2015 12:15:19 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Dec 18, 2015 12:15:19 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Dec 18, 2015 12:15:50 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 12:15:50 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Dec 18, 2015 12:15:50 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Dec 18, 2015 12:15:50 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Dec 18, 2015 12:20:21 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Dec 18, 2015 12:20:21 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Dec 18, 2015 12:20:21 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Dec 18, 2015 12:20:38 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.sshslaves.SSHLauncher
+Dec 18, 2015 12:20:38 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.slaves.RetentionStrategy$Always
+Dec 18, 2015 12:20:38 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Dec 18, 2015 12:20:48 AM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel installer_test_linux
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:50)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2297)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2766)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:797)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:297)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:40)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:34)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:48)
+Dec 18, 2015 12:23:53 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 12:24:00 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #1 main build action completed: SUCCESS
+Dec 18, 2015 12:31:52 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #2 main build action completed: FAILURE
+Dec 18, 2015 12:45:21 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #3 main build action completed: SUCCESS
+Dec 18, 2015 1:01:53 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:01:53 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 1:01:53 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.BatchFile
+Dec 18, 2015 1:01:53 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.StatusCondition
+Dec 18, 2015 1:01:53 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 1:01:55 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #4 main build action completed: FAILURE
+Dec 18, 2015 1:02:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:02:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 1:02:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:02:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.StatusCondition
+Dec 18, 2015 1:02:39 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 1:02:42 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #5 main build action completed: SUCCESS
+Dec 18, 2015 1:03:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:03:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 1:03:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:03:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.StatusCondition
+Dec 18, 2015 1:03:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 1:03:10 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #6 main build action completed: FAILURE
+Dec 18, 2015 1:03:38 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:03:38 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 1:03:38 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:03:38 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.StatusCondition
+Dec 18, 2015 1:03:38 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 1:09:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.StatusColumn
+Dec 18, 2015 1:09:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.WeatherColumn
+Dec 18, 2015 1:09:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.JobColumn
+Dec 18, 2015 1:09:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastSuccessColumn
+Dec 18, 2015 1:09:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastFailureColumn
+Dec 18, 2015 1:09:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.LastDurationColumn
+Dec 18, 2015 1:09:06 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.views.BuildButtonColumn
+Dec 18, 2015 1:09:50 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:09:50 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Dec 18, 2015 1:09:50 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Dec 18, 2015 1:09:50 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Dec 18, 2015 1:12:24 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:12:24 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 1:12:24 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:12:24 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.StatusCondition
+Dec 18, 2015 1:12:24 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 1:14:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:14:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.parameterizedtrigger.TriggerBuilder
+Dec 18, 2015 1:14:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Dec 18, 2015 1:14:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Dec 18, 2015 1:14:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Dec 18, 2015 1:15:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:15:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.parameterizedtrigger.TriggerBuilder
+Dec 18, 2015 1:15:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Dec 18, 2015 1:15:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Dec 18, 2015 1:15:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Dec 18, 2015 1:18:18 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:18:18 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.parameterizedtrigger.TriggerBuilder
+Dec 18, 2015 1:18:18 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Dec 18, 2015 1:18:18 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Dec 18, 2015 1:18:18 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Dec 18, 2015 1:31:16 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:31:16 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 1:31:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:31:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.AlwaysRun
+Dec 18, 2015 1:31:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 1:35:35 AM hudson.model.Run execute
+INFO: SP303_SRS_WEEKLY_BUILD #37 main build action completed: SUCCESS
+Dec 18, 2015 1:46:53 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #7 main build action completed: SUCCESS
+Dec 18, 2015 1:58:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:58:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 1:58:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:58:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.AlwaysRun
+Dec 18, 2015 1:58:22 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 1:58:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:58:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 1:58:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 1:58:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.AlwaysRun
+Dec 18, 2015 1:58:35 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 1:58:39 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #8 main build action completed: SUCCESS
+Dec 18, 2015 2:02:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 2:02:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 2:02:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 2:02:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.AlwaysRun
+Dec 18, 2015 2:02:28 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 2:03:31 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 2:03:31 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 2:03:31 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 2:03:31 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.AlwaysRun
+Dec 18, 2015 2:03:31 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 2:09:17 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 2:09:17 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder
+Dec 18, 2015 2:09:17 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 18, 2015 2:09:17 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.core.AlwaysRun
+Dec 18, 2015 2:09:17 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail
+Dec 18, 2015 2:23:50 AM hudson.model.Run execute
+INFO: SP303_SRS_WEEKLY_BUILD #38 main build action completed: SUCCESS
+Dec 18, 2015 2:35:17 AM hudson.model.Run execute
+INFO: SRS_INSTALLER_TEST_LINUX #9 main build action completed: SUCCESS
+Dec 18, 2015 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Dec 18, 2015 3:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 4 ms
+Dec 18, 2015 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Dec 18, 2015 5:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 135 ms
+Dec 18, 2015 12:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Dec 18, 2015 12:59:45 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 18, 2015 12:59:48 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,693 ms

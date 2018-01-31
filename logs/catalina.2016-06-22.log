@@ -1,0 +1,41 @@
+Jun 22, 2016 2:44:11 AM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Jun 22, 2016 2:44:32 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #12 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:146)
+	at hudson.remoting.Channel.call(Channel.java:751)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:179)
+	at $Proxy51.join(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:979)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:137)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:97)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:770)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:160)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:533)
+	at hudson.model.Run.execute(Run.java:1718)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Jun 22, 2016 3:32:07 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP304_UPDATE #13 main build action completed: SUCCESS
+Jun 22, 2016 5:28:56 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 22, 2016 5:29:06 AM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 22, 2016 5:29:08 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,483 ms
+Jun 22, 2016 7:19:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jun 22, 2016 7:19:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 20 ms
+Jun 22, 2016 12:33:20 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Jun 22, 2016 12:33:21 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 287 ms
+Jun 22, 2016 3:19:03 PM hudson.model.Run execute
+INFO: SP304_SRS_WEEKLY_BUILD #17 main build action completed: SUCCESS

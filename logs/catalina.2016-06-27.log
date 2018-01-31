@@ -1,0 +1,94 @@
+Jun 27, 2016 2:56:21 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 27, 2016 2:56:21 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Jun 27, 2016 2:56:21 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8109"]
+Jun 27, 2016 2:56:21 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1274 ms
+Jun 27, 2016 2:56:22 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 27, 2016 2:56:22 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Jun 27, 2016 2:56:22 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war
+Jun 27, 2016 2:56:38 AM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.0) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /remote/repeng10/rs_web/tomcat/webapps/jenkins.war has finished in 16,771 ms
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/ROOT has finished in 193 ms
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/docs
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/docs has finished in 173 ms
+Jun 27, 2016 2:56:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/examples
+Jun 27, 2016 2:56:41 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/examples has finished in 4,666 ms
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/host-manager has finished in 286 ms
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/manager
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/manager has finished in 308 ms
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /remote/repeng10/rs_web/tomcat/webapps/jenkins_old has finished in 165 ms
+Jun 27, 2016 2:56:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Jun 27, 2016 2:56:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8109"]
+Jun 27, 2016 2:56:44 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 22881 ms
+Jun 27, 2016 2:56:50 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jun 27, 2016 2:56:52 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jun 27, 2016 2:56:53 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jun 27, 2016 2:56:53 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jun 27, 2016 2:56:58 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jun 27, 2016 2:56:59 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 47921
+Jun 27, 2016 2:56:59 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jun 27, 2016 2:57:00 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@7c1f3f7: display name [Root WebApplicationContext]; startup date [Mon Jun 27 02:57:00 PDT 2016]; root of context hierarchy
+Jun 27, 2016 2:57:00 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@7c1f3f7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6a4d2262
+Jun 27, 2016 2:57:00 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6a4d2262: defining beans [authenticationManager]; root of factory hierarchy
+Jun 27, 2016 2:57:00 AM org.springframework.web.context.support.StaticWebApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@5b4c1313: display name [Root WebApplicationContext]; startup date [Mon Jun 27 02:57:00 PDT 2016]; root of context hierarchy
+Jun 27, 2016 2:57:00 AM org.springframework.web.context.support.StaticWebApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@5b4c1313]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1e0225f0
+Jun 27, 2016 2:57:00 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e0225f0: defining beans [filter,legacy]; root of factory hierarchy
+Jun 27, 2016 2:57:00 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect installer_test_linux
+Jun 27, 2016 2:57:00 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect ase_test_linux_lisa
+Jun 27, 2016 2:57:00 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Jun 27, 2016 3:17:43 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #99 main build action completed: SUCCESS
+Jun 27, 2016 11:09:39 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Jun 27, 2016 11:09:39 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 52 ms
+Jun 27, 2016 9:18:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Jun 27, 2016 9:18:47 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Jun 27, 2016 9:18:49 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 13,895 ms

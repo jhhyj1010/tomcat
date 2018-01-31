@@ -1,0 +1,195 @@
+May 4, 2016 12:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 1:10:30 AM hudson.plugins.timestamper.TimestamperBuildWrapper decorateLogger
+WARNING: Unable to create parent directories of /remote/repeng11/.jenkins/jobs/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304/builds/64/timestamper/timestamps
+java.io.IOException: Unable to create parent directories of /remote/repeng11/.jenkins/jobs/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304/builds/64/timestamper/timestamps
+	at com.google.common.io.Files.createParentDirs(Files.java:471)
+	at hudson.plugins.timestamper.io.TimestampsWriter.<init>(TimestampsWriter.java:96)
+	at hudson.plugins.timestamper.TimestamperBuildWrapper.decorateLogger(TimestamperBuildWrapper.java:97)
+	at hudson.model.Run.execute(Run.java:1697)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+May 4, 2016 1:10:30 AM hudson.model.Run execute
+SEVERE: Failed to save build record
+java.io.IOException: Failed to create a temporary file in /remote/repeng11/.jenkins/jobs/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304/builds/64
+	at hudson.util.AtomicFileWriter.<init>(AtomicFileWriter.java:68)
+	at hudson.util.AtomicFileWriter.<init>(AtomicFileWriter.java:55)
+	at hudson.XmlFile.write(XmlFile.java:175)
+	at hudson.model.Run.save(Run.java:1886)
+	at hudson.model.Run.execute(Run.java:1775)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Caused by: java.io.IOException: No space left on device
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.checkAndCreate(File.java:1716)
+	at java.io.File.createTempFile(File.java:1804)
+	at hudson.util.AtomicFileWriter.<init>(AtomicFileWriter.java:66)
+	... 7 more
+May 4, 2016 1:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 2:43:57 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #65 main build action completed: SUCCESS
+May 4, 2016 2:54:38 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #66 main build action completed: SUCCESS
+May 4, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+May 4, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 6 ms
+May 4, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+May 4, 2016 6:26:33 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 223 ms
+May 4, 2016 7:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 8:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 9:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 10:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 11:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 12:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 1:25:05 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+May 4, 2016 1:59:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+May 4, 2016 1:59:44 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 7,651 ms
+May 4, 2016 2:25:05 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 3:19:00 PM hudson.model.Executor run
+SEVERE: Unexpected executor death
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.close0(Native Method)
+	at java.io.FileOutputStream.close(FileOutputStream.java:341)
+	at sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:319)
+	at sun.nio.cs.StreamEncoder.close(StreamEncoder.java:148)
+	at java.io.OutputStreamWriter.close(OutputStreamWriter.java:233)
+	at java.io.BufferedWriter.close(BufferedWriter.java:265)
+	at hudson.util.AtomicFileWriter.close(AtomicFileWriter.java:95)
+	at hudson.util.AtomicFileWriter.commit(AtomicFileWriter.java:110)
+	at hudson.util.TextFile.write(TextFile.java:121)
+	at hudson.model.Job.saveNextBuildNumber(Job.java:290)
+	at hudson.model.Job.assignBuildNumber(Job.java:348)
+	at hudson.model.Run.<init>(Run.java:279)
+	at hudson.model.AbstractBuild.<init>(AbstractBuild.java:167)
+	at hudson.model.Build.<init>(Build.java:92)
+	at hudson.model.FreeStyleBuild.<init>(FreeStyleBuild.java:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:532)
+	at jenkins.model.lazy.LazyBuildMixIn.newBuild(LazyBuildMixIn.java:177)
+	at hudson.model.AbstractProject.newBuild(AbstractProject.java:1001)
+	at hudson.model.AbstractProject.createExecutable(AbstractProject.java:1200)
+	at hudson.model.AbstractProject.createExecutable(AbstractProject.java:144)
+	at hudson.model.Executor.run(Executor.java:213)
+May 4, 2016 3:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 4:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 5:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 7:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 8:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 9:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 10:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 11:10:24 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #67 main build action completed: SUCCESS
+May 4, 2016 11:19:52 PM hudson.plugins.timestamper.TimestamperOutputStream writeTimestamps
+WARNING: Error writing timestamps for SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #68
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:297)
+	at java.security.DigestOutputStream.write(DigestOutputStream.java:148)
+	at hudson.plugins.timestamper.io.TimestampsWriter.writeVarintsTo(TimestampsWriter.java:157)
+	at hudson.plugins.timestamper.io.TimestampsWriter.write(TimestampsWriter.java:123)
+	at hudson.plugins.timestamper.TimestamperOutputStream.writeTimestamps(TimestamperOutputStream.java:136)
+	at hudson.plugins.timestamper.TimestamperOutputStream.write(TimestamperOutputStream.java:119)
+	at java.io.PrintStream.write(PrintStream.java:447)
+	at hudson.util.StreamCopyThread.run(StreamCopyThread.java:61)
+May 4, 2016 11:21:21 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #68 main build action completed: SUCCESS
+May 4, 2016 11:21:21 PM hudson.model.Run execute
+SEVERE: Failed to save build record
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.close0(Native Method)
+	at java.io.FileOutputStream.close(FileOutputStream.java:341)
+	at sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:319)
+	at sun.nio.cs.StreamEncoder.close(StreamEncoder.java:148)
+	at java.io.OutputStreamWriter.close(OutputStreamWriter.java:233)
+	at java.io.BufferedWriter.close(BufferedWriter.java:265)
+	at hudson.util.AtomicFileWriter.close(AtomicFileWriter.java:95)
+	at hudson.util.AtomicFileWriter.commit(AtomicFileWriter.java:110)
+	at hudson.XmlFile.write(XmlFile.java:179)
+	at hudson.model.Run.save(Run.java:1886)
+	at hudson.model.Run.execute(Run.java:1775)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+May 4, 2016 11:21:21 PM hudson.model.Executor run
+SEVERE: Unexpected executor death
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.close0(Native Method)
+	at java.io.FileOutputStream.close(FileOutputStream.java:341)
+	at sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:319)
+	at sun.nio.cs.StreamEncoder.close(StreamEncoder.java:148)
+	at java.io.OutputStreamWriter.close(OutputStreamWriter.java:233)
+	at java.io.BufferedWriter.close(BufferedWriter.java:265)
+	at hudson.util.AtomicFileWriter.close(AtomicFileWriter.java:95)
+	at hudson.util.AtomicFileWriter.commit(AtomicFileWriter.java:110)
+	at hudson.util.TextFile.write(TextFile.java:121)
+	at hudson.model.Job.saveNextBuildNumber(Job.java:290)
+	at hudson.model.Job.assignBuildNumber(Job.java:348)
+	at hudson.model.Run.<init>(Run.java:279)
+	at hudson.model.AbstractBuild.<init>(AbstractBuild.java:167)
+	at hudson.model.Build.<init>(Build.java:92)
+	at hudson.model.FreeStyleBuild.<init>(FreeStyleBuild.java:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:532)
+	at jenkins.model.lazy.LazyBuildMixIn.newBuild(LazyBuildMixIn.java:177)
+	at hudson.model.AbstractProject.newBuild(AbstractProject.java:1001)
+	at hudson.model.AbstractProject.createExecutable(AbstractProject.java:1200)
+	at hudson.model.AbstractProject.createExecutable(AbstractProject.java:144)
+	at hudson.model.Executor.run(Executor.java:213)
+May 4, 2016 11:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 4, 2016 11:35:57 PM hudson.model.Executor run
+SEVERE: Unexpected executor death
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.close0(Native Method)
+	at java.io.FileOutputStream.close(FileOutputStream.java:341)
+	at sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:319)
+	at sun.nio.cs.StreamEncoder.close(StreamEncoder.java:148)
+	at java.io.OutputStreamWriter.close(OutputStreamWriter.java:233)
+	at java.io.BufferedWriter.close(BufferedWriter.java:265)
+	at hudson.util.AtomicFileWriter.close(AtomicFileWriter.java:95)
+	at hudson.util.AtomicFileWriter.commit(AtomicFileWriter.java:110)
+	at hudson.util.TextFile.write(TextFile.java:121)
+	at hudson.model.Job.saveNextBuildNumber(Job.java:290)
+	at hudson.model.Job.assignBuildNumber(Job.java:348)
+	at hudson.model.Run.<init>(Run.java:279)
+	at hudson.model.AbstractBuild.<init>(AbstractBuild.java:167)
+	at hudson.model.Build.<init>(Build.java:92)
+	at hudson.model.FreeStyleBuild.<init>(FreeStyleBuild.java:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:532)
+	at jenkins.model.lazy.LazyBuildMixIn.newBuild(LazyBuildMixIn.java:177)
+	at hudson.model.AbstractProject.newBuild(AbstractProject.java:1001)
+	at hudson.model.AbstractProject.createExecutable(AbstractProject.java:1200)
+	at hudson.model.AbstractProject.createExecutable(AbstractProject.java:144)
+	at hudson.model.Executor.run(Executor.java:213)

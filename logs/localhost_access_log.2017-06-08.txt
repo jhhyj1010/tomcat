@@ -1,0 +1,6 @@
+10.58.180.73 - - [08/Jun/2017:00:43:15 -0700] "GET /jenkins/ HTTP/1.1" 200 8789
+10.58.180.73 - - [08/Jun/2017:02:46:20 -0700] "POST /jenkins/ajaxBuildQueue HTTP/1.1" 200 339
+10.58.180.73 - - [08/Jun/2017:02:46:20 -0700] "POST /jenkins/ajaxExecutors HTTP/1.1" 200 674
+10.58.180.73 - - [08/Jun/2017:02:46:25 -0700] "POST /jenkins/ajaxBuildQueue HTTP/1.1" 200 339
+10.58.180.73 - - [08/Jun/2017:02:46:25 -0700] "POST /jenkins/ajaxExecutors HTTP/1.1" 200 674
+10.173.72.24 - - [08/Jun/2017:18:19:16 -0700] "GET /jenkins/job/IPCS_MAIL/build?token=INSTALLER HTTP/1.1" 201 -

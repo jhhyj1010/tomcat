@@ -1,0 +1,103 @@
+May 3, 2016 2:58:44 AM hudson.plugins.timestamper.TimestamperBuildWrapper decorateLogger
+WARNING: Unable to create parent directories of /remote/repeng11/.jenkins/jobs/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304/builds/60/timestamper/timestamps
+java.io.IOException: Unable to create parent directories of /remote/repeng11/.jenkins/jobs/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304/builds/60/timestamper/timestamps
+	at com.google.common.io.Files.createParentDirs(Files.java:471)
+	at hudson.plugins.timestamper.io.TimestampsWriter.<init>(TimestampsWriter.java:96)
+	at hudson.plugins.timestamper.TimestamperBuildWrapper.decorateLogger(TimestamperBuildWrapper.java:97)
+	at hudson.model.Run.execute(Run.java:1697)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+May 3, 2016 2:58:44 AM hudson.model.Run execute
+SEVERE: Failed to save build record
+java.io.IOException: Failed to create a temporary file in /remote/repeng11/.jenkins/jobs/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304/builds/60
+	at hudson.util.AtomicFileWriter.<init>(AtomicFileWriter.java:68)
+	at hudson.util.AtomicFileWriter.<init>(AtomicFileWriter.java:55)
+	at hudson.XmlFile.write(XmlFile.java:175)
+	at hudson.model.Run.save(Run.java:1886)
+	at hudson.model.Run.execute(Run.java:1775)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)
+Caused by: java.io.IOException: No space left on device
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.checkAndCreate(File.java:1716)
+	at java.io.File.createTempFile(File.java:1804)
+	at hudson.util.AtomicFileWriter.<init>(AtomicFileWriter.java:66)
+	... 7 more
+May 3, 2016 3:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 4:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+May 3, 2016 4:41:50 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 3 ms
+May 3, 2016 5:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 6:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+May 3, 2016 6:26:32 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 158 ms
+May 3, 2016 7:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 8:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 9:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 10:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 11:25:02 AM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 12:25:05 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 1:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 1:59:36 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+May 3, 2016 1:59:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+May 3, 2016 1:59:44 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 7,992 ms
+May 3, 2016 2:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 3:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 4:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 5:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 6:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 7:25:02 PM hudson.diagnosis.HudsonHomeDiskUsageChecker doRun
+INFO: JENKINS_HOME disk usage information isn't available. aborting to monitor
+May 3, 2016 8:59:38 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #61 main build action completed: SUCCESS
+May 3, 2016 10:41:28 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #62 main build action completed: FAILURE
+May 3, 2016 10:52:04 PM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304 #63 main build action completed: SUCCESS
+May 3, 2016 10:52:04 PM hudson.plugins.timestamper.TimestamperOutputStream close
+WARNING: /remote/repeng11/.jenkins/jobs/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304/builds/63/timestamper/timestamps.SHA-1 (No space left on device)
+java.io.FileNotFoundException: /remote/repeng11/.jenkins/jobs/SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP304/builds/63/timestamper/timestamps.SHA-1 (No space left on device)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:209)
+	at com.google.common.io.Files$2.getOutput(Files.java:137)
+	at com.google.common.io.Files$2.getOutput(Files.java:134)
+	at com.google.common.io.CharStreams$3.getOutput(CharStreams.java:111)
+	at com.google.common.io.CharStreams$3.getOutput(CharStreams.java:108)
+	at com.google.common.io.CharStreams.write(CharStreams.java:128)
+	at com.google.common.io.Files.write(Files.java:343)
+	at com.google.common.io.Files.write(Files.java:314)
+	at hudson.plugins.timestamper.io.TimestampsWriter.writeDigest(TimestampsWriter.java:197)
+	at hudson.plugins.timestamper.io.TimestampsWriter.writeDigest(TimestampsWriter.java:185)
+	at hudson.plugins.timestamper.TimestamperOutputStream.close(TimestamperOutputStream.java:162)
+	at java.io.PrintStream.close(PrintStream.java:327)
+	at hudson.util.StreamTaskListener.close(StreamTaskListener.java:172)
+	at hudson.util.StreamTaskListener.closeQuietly(StreamTaskListener.java:182)
+	at hudson.model.Run.execute(Run.java:1771)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:89)
+	at hudson.model.Executor.run(Executor.java:240)

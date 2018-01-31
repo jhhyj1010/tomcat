@@ -1,0 +1,26 @@
+Dec 11, 2016 3:48:29 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Dec 11, 2016 3:48:30 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 681 ms
+Dec 11, 2016 8:04:17 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #134 main build action completed: FAILURE
+Dec 11, 2016 8:12:15 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306 #20 main build action completed: SUCCESS
+Dec 11, 2016 9:21:02 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Dec 11, 2016 9:21:02 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 0 ms
+Dec 11, 2016 7:12:42 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #168 main build action completed: SUCCESS
+Dec 11, 2016 7:24:51 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #110 main build action completed: FAILURE
+Dec 11, 2016 7:24:59 PM hudson.model.Run execute
+INFO: CREATE_LINK #32 main build action completed: SUCCESS
+Dec 11, 2016 7:25:01 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #124 main build action completed: FAILURE
+Dec 11, 2016 10:26:43 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Dec 11, 2016 10:26:53 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 11, 2016 10:26:55 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 11,602 ms

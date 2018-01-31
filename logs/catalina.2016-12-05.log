@@ -1,0 +1,50 @@
+Dec 05, 2016 3:48:29 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Workspace clean-up
+Dec 05, 2016 3:48:30 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Workspace clean-up. 707 ms
+Dec 05, 2016 8:05:15 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP306 #14 main build action completed: FAILURE
+Dec 05, 2016 8:06:56 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #94 main build action completed: SUCCESS
+Dec 05, 2016 8:13:14 AM hudson.model.Run execute
+INFO: SRS_RMA_BUILD_TRIGGER_BY_RMADEV_SP305 #128 main build action completed: SUCCESS
+Dec 05, 2016 8:33:16 AM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #84 main build action completed: SUCCESS
+Dec 05, 2016 8:33:18 AM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_AND_DROP_TO_ASE #47 main build action completed: SUCCESS
+Dec 05, 2016 9:21:02 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Dec 05, 2016 9:21:02 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 0 ms
+Dec 05, 2016 7:01:12 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #158 main build action completed: SUCCESS
+Dec 05, 2016 7:02:13 PM hudson.model.Run execute
+INFO: SRS_SP305_TEST #100 main build action completed: FAILURE
+Dec 05, 2016 7:02:23 PM hudson.model.Run execute
+INFO: CREATE_LINK #23 main build action completed: SUCCESS
+Dec 05, 2016 7:02:25 PM hudson.model.Run execute
+INFO: SRS_SP305_SERIAL #114 main build action completed: FAILURE
+Dec 05, 2016 8:06:17 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_INTEGRATION #95 main build action completed: SUCCESS
+Dec 05, 2016 8:33:14 PM hudson.model.Run execute
+INFO: SRS_DROP_TEST_FOR_ASE_SP305 #85 main build action completed: SUCCESS
+Dec 05, 2016 8:33:16 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD_AND_DROP_TO_ASE #48 main build action completed: SUCCESS
+Dec 05, 2016 10:09:30 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 05, 2016 10:12:08 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.tasks.Shell
+Dec 05, 2016 10:12:08 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.ExtendedEmailPublisher
+Dec 05, 2016 10:12:08 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.trigger.FailureTrigger
+Dec 05, 2016 10:12:08 PM org.kohsuke.stapler.RequestImpl$TypePair convertJSON
+WARNING: 'stapler-class' is deprecated: hudson.plugins.emailext.plugins.recipients.ListRecipientProvider
+Dec 05, 2016 10:26:43 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Dec 05, 2016 10:26:53 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 05, 2016 10:26:54 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 10,882 ms
+Dec 05, 2016 10:35:18 PM hudson.model.Run execute
+INFO: SP305_SRS_DAILY_BUILD #159 main build action completed: SUCCESS
